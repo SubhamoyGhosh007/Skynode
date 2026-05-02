@@ -1,0 +1,14 @@
+node_modules
+.env
+dist
+build
+coverage
+*.log
+*.tsbuildinfo
+.DS_Store
+ss
+.gemini
+.agents
+.claude
+GEMINI.md
+CLAUDE.md

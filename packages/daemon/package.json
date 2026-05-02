@@ -1,0 +1,24 @@
+{
+  "name": "@skynode/daemon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dockerode": "^5.0.0",
+    "ssh2": "^1.17.0",
+    "ws": "^8.20.0"
+  },
+  "devDependencies": {
+    "@types/dockerode": "^4.0.1",
+    "@types/ws": "^8.18.1"
+  }
+}
