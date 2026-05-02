@@ -12,3 +12,7 @@ ss
 .claude
 GEMINI.md
 CLAUDE.md
+package-lock.json
+yarn.lock
+pnpm-debug.log
+pnpm-lock.yaml
