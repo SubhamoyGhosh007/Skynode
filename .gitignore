@@ -15,5 +15,6 @@ pnpm-debug.log
 pnpm-lock.yaml
 claude.txt
 .env.*.local
+packages/**/*.env*
 **/.env.*.local
 **/.env*
