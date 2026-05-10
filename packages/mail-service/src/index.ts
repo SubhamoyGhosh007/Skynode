@@ -1,4 +1,15 @@
-export { initMailTransporter, getTransporter, getMailConfig, createTransporter } from "./nodemailer.js";
+export {
+  initMailTransporter,
+  initGmailTransporter,
+  initOutlookTransporter,
+  initSendGridTransporter,
+  initMailgunTransporter,
+  getTransporter,
+  getMailConfig,
+  getCurrentProvider,
+  createTransporter,
+  type MailProvider
+} from "./nodemailer.js";
 export { getWelcomeEmailTemplate } from "./templates/welcome.js";
 export type { EmailMessage, EmailPriority, EmailType, SendEmailOptions, MailConfig } from "./types/mail.types.js";
 

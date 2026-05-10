@@ -1,12 +1,22 @@
 import "dotenv/config";
+
+// Force Gmail settings before importing mail-service
+process.env.MAIL_PROVIDER = "gmail";
+process.env.GMAIL_USER = process.env.GMAIL_USER || "subhamoyghosh2017@gmail.com";
+process.env.GMAIL_APP_PASSWORD = process.env.GMAIL_APP_PASSWORD || "hmiu oyuh xqei vvls";
+process.env.FROM_EMAIL = process.env.FROM_EMAIL || "subhamoyghosh2017@gmail.com";
+
 import { subscribeToTopic, disconnectConsumer } from "./kafka/consumer.js";
 import { processEmailMessage } from "./services/email.service.js";
 import {
-  WorkerScheduler,
   DEFAULT_ALLOCATION,
   calculateWorkerAllocation,
   type PriorityQueueState,
 } from "./worker/priority.js";
+
+import {
+  WorkerScheduler
+} from "./worker/scheduler.js"
 
 const WORKER_COUNT = parseInt(process.env.WORKER_COUNT || "5", 10);
 
@@ -17,7 +27,7 @@ const scheduler = new WorkerScheduler(DEFAULT_ALLOCATION);
 
 // Register workers
 for (let i = 0; i < WORKER_COUNT; i++) {
-  scheduler.registerWorker(i, (workerId, partitions) => {
+  scheduler.registerWorker(i, (workerId:number, partitions: number[]) => {
     console.log(`Worker ${workerId} assigned to partitions:`, partitions);
   });
 }

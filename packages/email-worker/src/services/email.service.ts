@@ -1,5 +1,5 @@
-import { EmailService, getWelcomeEmailTemplate } from "@skynode/mail-service/index.js";
-import type { EmailMessage } from "@skynode/mail-service/types/mail.types.js";
+import { EmailService, getWelcomeEmailTemplate } from "@skynode/mail-service/src/index.js";
+import type { EmailMessage } from "@skynode/mail-service/src/types/mail.types.js";
 
 export const processEmailMessage = async (message: EmailMessage): Promise<void> => {
   console.log(`Processing ${message.type} email for ${message.email}`);
@@ -31,7 +31,14 @@ const sendWelcomeEmail = async (message: EmailMessage): Promise<void> => {
     email: message.email,
   });
 
-  await EmailService.sendEmail(message.email, "Welcome to SkyNode!", html, text);
+  try {
+    console.log(`Sending welcome email to ${message.email}...`);
+    const result = await EmailService.sendEmail(message.email, "Welcome to SkyNode!", html, text);
+    console.log(`Welcome email sent successfully! MessageId: ${result.messageId}`);
+  } catch (error) {
+    console.error(`Failed to send welcome email to ${message.email}:`, error);
+    throw error; // Re-throw to let the consumer handle retry
+  }
 };
 
 const sendPasswordResetEmail = async (message: EmailMessage): Promise<void> => {

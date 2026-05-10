@@ -1,4 +1,4 @@
-import type { EmailPriority } from "@skynode/mail-service/types/mail.types.js";
+import type { EmailPriority } from "@skynode/mail-service/src/types/mail.types.js";
 
 export interface PartitionAssignment {
   partition: number;

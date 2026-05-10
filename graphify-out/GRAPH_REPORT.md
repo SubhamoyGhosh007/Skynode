@@ -1,60 +1,71 @@
-# Graph Report - .  (2026-05-09)
+# Graph Report - Skynode  (2026-05-10)
 
 ## Corpus Check
-- Corpus is ~36,020 words - fits in a single context window. You may not need a graph.
+- 40 files · ~39,735 words
+- Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 106 nodes · 92 edges · 35 communities (20 shown, 15 thin omitted)
-- Extraction: 83% EXTRACTED · 17% INFERRED · 0% AMBIGUOUS · INFERRED: 16 edges (avg confidence: 0.78)
+- 173 nodes · 174 edges · 47 communities (30 shown, 17 thin omitted)
+- Extraction: 88% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 21 edges (avg confidence: 0.78)
 - Token cost: 0 input · 0 output
 
+## Graph Freshness
+- Built from commit: `5cde7cfb`
+- Run `git rev-parse HEAD` and compare to check if the graph is stale.
+- Run `graphify update .` after code changes (no API cost).
+
 ## Community Hubs (Navigation)
-- [[_COMMUNITY_Backend Services & Database|Backend Services & Database]]
-- [[_COMMUNITY_Auth Controllers & Routes|Auth Controllers & Routes]]
-- [[_COMMUNITY_API Utilities & Middleware|API Utilities & Middleware]]
-- [[_COMMUNITY_Multi-Tenancy & RBAC|Multi-Tenancy & RBAC]]
-- [[_COMMUNITY_Scaling & Microservices|Scaling & Microservices]]
-- [[_COMMUNITY_Project Structure & Monorepo|Project Structure & Monorepo]]
-- [[_COMMUNITY_Frontend & UI Stack|Frontend & UI Stack]]
-- [[_COMMUNITY_Database Connection|Database Connection]]
-- [[_COMMUNITY_Architecture Patterns|Architecture Patterns]]
+- [[_COMMUNITY_Community 0|Community 0]]
+- [[_COMMUNITY_Community 1|Community 1]]
+- [[_COMMUNITY_Community 2|Community 2]]
+- [[_COMMUNITY_Community 3|Community 3]]
+- [[_COMMUNITY_Community 4|Community 4]]
+- [[_COMMUNITY_Community 5|Community 5]]
+- [[_COMMUNITY_Community 6|Community 6]]
+- [[_COMMUNITY_Community 7|Community 7]]
+- [[_COMMUNITY_Community 8|Community 8]]
+- [[_COMMUNITY_Community 9|Community 9]]
 - [[_COMMUNITY_Community 10|Community 10]]
 - [[_COMMUNITY_Community 11|Community 11]]
-- [[_COMMUNITY_Community 12|Community 12]]
-- [[_COMMUNITY_Community 25|Community 25]]
-- [[_COMMUNITY_Community 26|Community 26]]
-- [[_COMMUNITY_Community 27|Community 27]]
-- [[_COMMUNITY_Community 28|Community 28]]
-- [[_COMMUNITY_Community 29|Community 29]]
-- [[_COMMUNITY_Community 30|Community 30]]
-- [[_COMMUNITY_Community 31|Community 31]]
-- [[_COMMUNITY_Community 32|Community 32]]
-- [[_COMMUNITY_Community 33|Community 33]]
-- [[_COMMUNITY_Community 34|Community 34]]
+- [[_COMMUNITY_Community 13|Community 13]]
+- [[_COMMUNITY_Community 14|Community 14]]
+- [[_COMMUNITY_Community 15|Community 15]]
+- [[_COMMUNITY_Community 16|Community 16]]
+- [[_COMMUNITY_Community 17|Community 17]]
+- [[_COMMUNITY_Community 37|Community 37]]
+- [[_COMMUNITY_Community 38|Community 38]]
+- [[_COMMUNITY_Community 39|Community 39]]
+- [[_COMMUNITY_Community 40|Community 40]]
+- [[_COMMUNITY_Community 41|Community 41]]
+- [[_COMMUNITY_Community 42|Community 42]]
+- [[_COMMUNITY_Community 43|Community 43]]
+- [[_COMMUNITY_Community 44|Community 44]]
+- [[_COMMUNITY_Community 45|Community 45]]
+- [[_COMMUNITY_Community 46|Community 46]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `Implementation Plan` - 14 edges
-2. `Scaling Roadmap` - 8 edges
-3. `User Sign Up Controller` - 7 edges
-4. `ApiResponse` - 5 edges
-5. `User Model` - 5 edges
-6. `Project Folder Structure` - 5 edges
-7. `ApiError` - 4 edges
-8. `Tenant Model` - 4 edges
-9. `Auth Routes` - 4 edges
-10. `Async Handler Middleware` - 4 edges
+2. `WorkerScheduler` - 10 edges
+3. `Scaling Roadmap` - 8 edges
+4. `processEmailMessage()` - 7 edges
+5. `User Sign Up Controller` - 7 edges
+6. `ApiError` - 6 edges
+7. `createTransporter()` - 5 edges
+8. `ApiResponse` - 5 edges
+9. `User Model` - 5 edges
+10. `Project Folder Structure` - 5 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Implementation Plan` --references--> `Tenant Isolation via tenantId`  [EXTRACTED]
   plans/implementation_plan.md → packages/panel-api/src/apps/auth/database/user.db.ts
+- `sendWelcomeEmail()` --calls--> `getWelcomeEmailTemplate()`  [INFERRED]
+  email-worker/src/services/email.service.ts → mail-service/src/templates/welcome.ts
 - `Dashboard Entry HTML` --conceptually_related_to--> `Dashboard Package`  [INFERRED]
   packages/dashboard/index.html → plans/folder_structure.md
 - `Dashboard README` --conceptually_related_to--> `React 19 + Vite 6 Frontend`  [INFERRED]
   packages/dashboard/README.md → plans/implementation_plan.md
 - `Tenant Model` --semantically_similar_to--> `User Model`  [INFERRED] [semantically similar]
   packages/panel-api/src/database/tenant.db.ts → packages/panel-api/src/apps/auth/database/user.db.ts
-- `User Model` --semantically_similar_to--> `User Zod Schema`  [INFERRED] [semantically similar]
-  packages/panel-api/src/apps/auth/database/user.db.ts → packages/panel-api/src/apps/auth/zod/user.zod.ts
 
 ## Hyperedges (group relationships)
 - **SkyNode Monorepo Structure** — pkg_panel_api, pkg_dashboard, pkg_daemon, pkg_shared [EXTRACTED 1.00]
@@ -68,53 +79,61 @@
 - **Auth and Billing Systems** — jwt_auth, razorpay_payments, commission_engine [EXTRACTED 1.00]
 - **Docker Compose Services** — mongodb_service, redis_cache [EXTRACTED 1.00]
 
-## Communities (35 total, 15 thin omitted)
+## Communities (47 total, 17 thin omitted)
 
-### Community 0 - "Backend Services & Database"
-Cohesion: 0.14
-Nodes (15): Commission Calculation Engine, Database Schema Design, Docker Compose Configuration, Drizzle ORM, Express 5 API Framework, Express Router Portability, Feature Build Checklist, Implementation Plan (+7 more)
-
-### Community 1 - "Auth Controllers & Routes"
+### Community 0 - "Community 0"
 Cohesion: 0.15
+Nodes (20): API Error Class, API Response Class, Async Handler Middleware, Auth Controller Index, Auth Routes, Database Connector, Express Application, IUser Interface (+12 more)
+
+### Community 1 - "Community 1"
+Cohesion: 0.11
+Nodes (20): Commission Calculation Engine, Dashboard README, Database Schema Design, Docker Compose Configuration, Drizzle ORM, Express 5 API Framework, Express Router Portability, Feature Build Checklist (+12 more)
+
+### Community 2 - "Community 2"
+Cohesion: 0.16
 Nodes (3): ApiError, ApiResponse, asyncHandler()
 
-### Community 2 - "API Utilities & Middleware"
-Cohesion: 0.25
-Nodes (11): API Error Class, API Response Class, Async Handler Middleware, Auth Controller Index, Auth Routes, Database Connector, Express Application, Panel API Server Entry (+3 more)
+### Community 3 - "Community 3"
+Cohesion: 0.23
+Nodes (6): createConsumer(), disconnectConsumer(), subscribeToTopic(), shutdown(), start(), calculateWorkerAllocation()
 
-### Community 3 - "Multi-Tenancy & RBAC"
-Cohesion: 0.33
-Nodes (9): IUser Interface, Multi-Tenancy Pattern, Role-Based Access Control, Tenant Branding Model, Tenant Isolation via tenantId, Tenant Model, User Model, User Sign Up Controller (+1 more)
+### Community 5 - "Community 5"
+Cohesion: 0.36
+Nodes (7): processEmailMessage(), sendBillingNotification(), sendEmailVerification(), sendPasswordResetEmail(), sendServerAlert(), sendWelcomeEmail(), getWelcomeEmailTemplate()
 
-### Community 4 - "Scaling & Microservices"
+### Community 6 - "Community 6"
 Cohesion: 0.36
 Nodes (9): Analytics Ingestion Service, Billing Service Extraction, Daemon Hub Service, Gateway Pattern for Service Extraction, Phase 1 Single VPS, Phase 2 Horizontal Scaling, Phase 3 Service Extraction, Phase 4 Kubernetes Orchestration (+1 more)
 
-### Community 5 - "Project Structure & Monorepo"
+### Community 7 - "Community 7"
+Cohesion: 0.46
+Nodes (4): sendEmail(), createTransporter(), getMailConfig(), initMailTransporter()
+
+### Community 8 - "Community 8"
 Cohesion: 0.29
 Nodes (7): Daemon Package (Wings), Dashboard Entry HTML, Dashboard Package, Project Folder Structure, npm Workspaces Monorepo, Panel API Package, Shared Package
 
-### Community 6 - "Frontend & UI Stack"
-Cohesion: 0.4
-Nodes (5): Dashboard README, UI Pages and Design Prompts, React Compiler, React 19 + Vite 6 Frontend, Vite React SWC Plugin
+### Community 9 - "Community 9"
+Cohesion: 0.53
+Nodes (4): connectProducer(), getPartitionForPriority(), publishEmailMessage(), publishWelcomeEmail()
+
+### Community 10 - "Community 10"
+Cohesion: 0.53
+Nodes (4): connectProducer(), getPartitionForPriority(), publishEmailMessage(), publishWelcomeEmail()
 
 ## Knowledge Gaps
 - **39 isolated node(s):** `SkyNode Project Root`, `Multi-Tenant RLS Strategy`, `API Routes Plan`, `Gateway-Ready Monorepo Architecture`, `Express 5` (+34 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **15 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **17 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Implementation Plan` connect `Backend Services & Database` to `Multi-Tenancy & RBAC`, `Project Structure & Monorepo`, `Frontend & UI Stack`?**
-  _High betweenness centrality (0.148) - this node is a cross-community bridge._
-- **Why does `Tenant Isolation via tenantId` connect `Multi-Tenancy & RBAC` to `Backend Services & Database`?**
-  _High betweenness centrality (0.095) - this node is a cross-community bridge._
-- **Why does `User Sign Up Controller` connect `Multi-Tenancy & RBAC` to `API Utilities & Middleware`?**
-  _High betweenness centrality (0.094) - this node is a cross-community bridge._
-- **Are the 3 inferred relationships involving `User Model` (e.g. with `User Sign Up Controller` and `Tenant Model`) actually correct?**
-  _`User Model` has 3 INFERRED edges - model-reasoned connections that need verification._
+- **Why does `Implementation Plan` connect `Community 1` to `Community 0`, `Community 8`?**
+  _High betweenness centrality (0.055) - this node is a cross-community bridge._
+- **Why does `Tenant Isolation via tenantId` connect `Community 0` to `Community 1`?**
+  _High betweenness centrality (0.035) - this node is a cross-community bridge._
 - **What connects `SkyNode Project Root`, `Multi-Tenant RLS Strategy`, `API Routes Plan` to the rest of the system?**
   _39 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Backend Services & Database` be split into smaller, more focused modules?**
-  _Cohesion score 0.14 - nodes in this community are weakly interconnected._
+- **Should `Community 1` be split into smaller, more focused modules?**
+  _Cohesion score 0.11 - nodes in this community are weakly interconnected._

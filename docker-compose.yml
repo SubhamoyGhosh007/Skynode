@@ -66,6 +66,15 @@ services:
     networks:
       - skynode-net
 
+  mailhog:
+    image: mailhog/mailhog:latest
+    container_name: skynode-mailhog
+    restart: always
+    ports:
+      - "1025:1025"
+      - "8025:8025"
+    networks:
+      - skynode-net
 
 networks:
   skynode-net:

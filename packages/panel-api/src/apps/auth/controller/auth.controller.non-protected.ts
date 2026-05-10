@@ -26,7 +26,6 @@ export const userSignUp =  asyncHandler(async(req: Request, res: Response) => {
         throw new ApiError(409, "User with this email already exists");
     }
 
-
     const user = await User.create({
         tenantId: tenantId,
         email: user_validated_data.email,

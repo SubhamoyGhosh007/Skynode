@@ -15,13 +15,53 @@
     "mtime": 1777985742.604535,
     "hash": "9b6202ef42b55bb6c92ed23e129dd38c"
   },
+  "/mnt/HDD/Projects/Skynode/packages/mail-service/src/nodemailer.ts": {
+    "mtime": 1778397921.6361866,
+    "hash": "5c1fbf7658a62efdff03ea492a820f08"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/mail-service/src/index.ts": {
+    "mtime": 1778397944.9424255,
+    "hash": "51a80faa1ff8a849bc753c764cf828df"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/mail-service/src/templates/welcome.ts": {
+    "mtime": 1778397930.16464,
+    "hash": "ec7d6788a1503fbe32281d317212520a"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/mail-service/src/types/mail.types.ts": {
+    "mtime": 1778397915.659869,
+    "hash": "15ea43090582b44671fe5fd91791d8a5"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/email-worker/src/index.ts": {
+    "mtime": 1778398069.3940413,
+    "hash": "6c0977d7d68225296a7facbd94304793"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/email-worker/src/kafka/consumer.ts": {
+    "mtime": 1778398010.5349123,
+    "hash": "404df38cc99ffd984105a9ce913a971f"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/email-worker/src/kafka/producer.ts": {
+    "mtime": 1778398092.4112647,
+    "hash": "d78b990027fa421d513a88c1db33ba0b"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/email-worker/src/services/email.service.ts": {
+    "mtime": 1778398025.6507158,
+    "hash": "b782695c1ace091560867feafd2e0935"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/email-worker/src/worker/priority.ts": {
+    "mtime": 1778398043.182648,
+    "hash": "c7ed4fb44b2697bcbb1a819f66ec066a"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/email-worker/src/worker/scheduler.ts": {
+    "mtime": 1778398060.2555554,
+    "hash": "47bd72319b082c99c0bbf1a3c1ddb5a4"
+  },
   "/mnt/HDD/Projects/Skynode/packages/daemon/src/index.ts": {
     "mtime": 1777991045.217542,
     "hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/app.ts": {
-    "mtime": 1778249480.8184254,
-    "hash": "df64e21a28ae51a37a4335e548585076"
+    "mtime": 1778385687.9205945,
+    "hash": "29699f9dbbe56798e99c05f855db5b62"
   },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/index.ts": {
     "mtime": 1778236951.9512284,
@@ -39,57 +79,93 @@
     "mtime": 1778250263.58708,
     "hash": "36b29fc4e481be6e6f1568e367aeaf16"
   },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/middlewares/auth.middleware.ts": {
+    "mtime": 1778385466.2108545,
+    "hash": "82aec36dbe183a2ff50e76e31e637b87"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/middlewares/index.ts": {
+    "mtime": 1778385542.6569026,
+    "hash": "d923c90d33aa3e53f4f3f15af26a63e6"
+  },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/zod/user.zod.ts": {
-    "mtime": 1778298419.7810802,
-    "hash": "c1b0eef59866a9945da03596ce8825c1"
+    "mtime": 1778387847.3350708,
+    "hash": "30e0d6f226bcb925e4a0a561af6206bd"
   },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/database/user.db.ts": {
-    "mtime": 1778301263.9195826,
-    "hash": "1a13f9164c12f0d828a072f6367762e6"
+    "mtime": 1778309325.4805176,
+    "hash": "9fd3efcc67ba1a926f8cbb1473768a7f"
   },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/controller/auth.controller.non-protected.ts": {
-    "mtime": 1778298904.2758644,
-    "hash": "55f603bcf0421932bcc133bf81e55172"
+    "mtime": 1778398210.9475868,
+    "hash": "9ed9020a3ce2761aa461ca13a30f78d9"
   },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/controller/index.ts": {
-    "mtime": 1778254814.3778672,
-    "hash": "da19cf6c686441b41a3e81b65f8af565"
+    "mtime": 1778385523.0598648,
+    "hash": "6f6eec7c82cf6db91989980afb1ea92f"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/configs/jwt.config.ts": {
+    "mtime": 1778385459.8905199,
+    "hash": "3f32c976e0181abebe5ee08fb4106993"
   },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/routes/auth.routes.ts": {
-    "mtime": 1778298407.6084325,
-    "hash": "9c278075fefc16ec6bd46d904bfd75d1"
+    "mtime": 1778385531.3303027,
+    "hash": "16ce19afbc73e6304a11c6a278815e47"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/types/request.types.ts": {
+    "mtime": 1778386282.1400554,
+    "hash": "7fa75d198bb6bb0a2358a063d0cf6dcc"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/types/response.types.ts": {
+    "mtime": 1778386286.5772903,
+    "hash": "f8095fcc9b7678f21bf7e44d683f2a04"
   },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/types/model.types.ts": {
-    "mtime": 1778300853.1926563,
-    "hash": "e9e0b4efd274c4e28e8a0f906b3d8c45"
+    "mtime": 1778315762.9423354,
+    "hash": "d8537b199d0fc4dc042d7afdbfedf5a5"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/types/middleware.types.ts": {
+    "mtime": 1778386293.5756607,
+    "hash": "6d2845943d65d80b23898e805d3fe67b"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/types/jwt.types.ts": {
+    "mtime": 1778386289.915467,
+    "hash": "e6496f346abc145c8d49a1fe1a1db6ec"
   },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/types/index.ts": {
-    "mtime": 1778300885.4353776,
-    "hash": "2166e21ac386f60a2e25d4543835c667"
+    "mtime": 1778386306.845363,
+    "hash": "063f06654c2dac406c39ede03f95b444"
   },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/utils/database.ts": {
     "mtime": 1778236358.2708993,
     "hash": "c54cac0e131eb3621c08f6f134b32fe3"
   },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/utils/zodValidate.ts": {
-    "mtime": 1778263473.6313128,
-    "hash": "8fcd6f9589f5260c0151efa82c587271"
+    "mtime": 1778313810.2213814,
+    "hash": "7ea1698c7373c8dc38997966f718cbf1"
   },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/utils/asyncHandler.ts": {
-    "mtime": 1778264476.332915,
-    "hash": "77eb485bf6db72ac07cef9c8806bad1e"
+    "mtime": 1778308012.07696,
+    "hash": "3bafeca66c7b8fd52058ab7bdfa28f2c"
   },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/utils/ApiResponse.ts": {
-    "mtime": 1778264131.1627355,
-    "hash": "a9ff6abf15c1766307a5f08a61258439"
+    "mtime": 1778307455.568064,
+    "hash": "2382777d9371be0c6014525217eb2382"
   },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/utils/ApiError.ts": {
-    "mtime": 1778262633.223636,
-    "hash": "977f2beaac93b79f8cb9f48eaf9406ff"
+    "mtime": 1778306713.014173,
+    "hash": "3b7c4c6fe53c84a9c3efc049259d678e"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/utils/kafka/email.producer.ts": {
+    "mtime": 1778398315.5181665,
+    "hash": "55ea041d05f94d6730d92bf8a4f00941"
   },
   "/mnt/HDD/Projects/Skynode/claude.txt": {
-    "mtime": 1778153977.6719673,
-    "hash": "0885408d8b2a5e7b76cad881578854c5"
+    "mtime": 1778383589.3139367,
+    "hash": "de48ab09934e3cb0fdcce736212f4f7d"
+  },
+  "/mnt/HDD/Projects/Skynode/CLAUDE.md": {
+    "mtime": 1778383757.9208117,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
   },
   "/mnt/HDD/Projects/Skynode/GEMINI.md": {
     "mtime": 1777986199.6327198,
@@ -100,8 +176,8 @@
     "hash": "7c19a7132ac112a45d71f3a93fb47485"
   },
   "/mnt/HDD/Projects/Skynode/docker-compose.yml": {
-    "mtime": 1778294995.247033,
-    "hash": "5cc0bd1f5f5b6636f37593a3fadcc4b2"
+    "mtime": 1778397286.5820234,
+    "hash": "544d343e14d85c748e49aa55e373e871"
   },
   "/mnt/HDD/Projects/Skynode/README.md": {
     "mtime": 1777985742.6018803,
@@ -115,39 +191,47 @@
     "mtime": 1777985742.603835,
     "hash": "987442a8c620e4b9d478748fe65a6a46"
   },
-  "/mnt/HDD/Projects/Skynode/plans/scaling_roadmap.md": {
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/CLAUDE.md": {
+    "mtime": 1778385196.6275797,
+    "hash": "6e055f832187904e013969fee7a8d4cf"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/CLAUDE.md": {
+    "mtime": 1778383780.9680245,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/mnt/HDD/Projects/Skynode/docs/scaling_roadmap.md": {
     "mtime": 1777985742.609881,
     "hash": "7ded882f0ca7e318f7c4cdd8a7d747a9"
   },
-  "/mnt/HDD/Projects/Skynode/plans/database_schema.md": {
+  "/mnt/HDD/Projects/Skynode/docs/database_schema.md": {
     "mtime": 1778236306.7770765,
     "hash": "9d92ac48e9ce6c96c4fd3ed18bece685"
   },
-  "/mnt/HDD/Projects/Skynode/plans/architecture_flow.md": {
+  "/mnt/HDD/Projects/Skynode/docs/architecture_flow.md": {
     "mtime": 1778236358.2438977,
     "hash": "641b78c16a03420acf8888b7386be5b3"
   },
-  "/mnt/HDD/Projects/Skynode/plans/api_routes.md": {
+  "/mnt/HDD/Projects/Skynode/docs/api_routes.md": {
     "mtime": 1777985742.6065068,
     "hash": "9197129e8bc40635a3f21652787790be"
   },
-  "/mnt/HDD/Projects/Skynode/plans/pages_and_prompts.md": {
+  "/mnt/HDD/Projects/Skynode/docs/pages_and_prompts.md": {
     "mtime": 1777985742.609881,
     "hash": "c3211180da2d5aa4ee68608d79e83617"
   },
-  "/mnt/HDD/Projects/Skynode/plans/implementation_plan.md": {
+  "/mnt/HDD/Projects/Skynode/docs/implementation_plan.md": {
     "mtime": 1777985742.6078806,
     "hash": "eee9538a67dee7719cd444e07ec5119c"
   },
-  "/mnt/HDD/Projects/Skynode/plans/feature_checklist.md": {
-    "mtime": 1777985742.6068954,
-    "hash": "4b51340cfaa62216f24375f84102f2e0"
+  "/mnt/HDD/Projects/Skynode/docs/feature_checklist.md": {
+    "mtime": 1778384970.2046196,
+    "hash": "5cb3d7b14ff87ce670f7805752cd3947"
   },
-  "/mnt/HDD/Projects/Skynode/plans/tech_stack.md": {
+  "/mnt/HDD/Projects/Skynode/docs/tech_stack.md": {
     "mtime": 1778236358.2438977,
     "hash": "4f6101d54f0b45f1bfa6c11b75785803"
   },
-  "/mnt/HDD/Projects/Skynode/plans/folder_structure.md": {
+  "/mnt/HDD/Projects/Skynode/docs/folder_structure.md": {
     "mtime": 1777985742.6068954,
     "hash": "fc64f5bcd680926d837463bbf7d15913"
   },

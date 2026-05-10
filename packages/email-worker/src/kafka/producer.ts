@@ -1,11 +1,11 @@
 import { Kafka, Producer } from "kafkajs";
-import type { EmailMessage } from "@skynode/mail-service/types/mail.types.js";
+import type { EmailMessage } from "@skynode/mail-service/src/types/mail.types.js";
 
 const KAFKA_BROKER = process.env.KAFKA_BROKER || "localhost:9092";
 const TOPIC = "email-notifications";
 
 export const kafka = new Kafka({
-  clientId: "panel-api",
+  clientId: "email-worker",
   brokers: [KAFKA_BROKER],
 });
 

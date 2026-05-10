@@ -1,5 +1,5 @@
 import { Kafka, Consumer, EachMessagePayload } from "kafkajs";
-import type { EmailMessage } from "@skynode/mail-service/types/mail.types.js";
+import type { EmailMessage } from "@skynode/mail-service/src/types/mail.types.js"
 
 const KAFKA_BROKER = process.env.KAFKA_BROKER || "localhost:9092";
 const TOPIC = "email-notifications";
@@ -26,7 +26,7 @@ export const subscribeToTopic = async (handler: MessageHandler): Promise<void> =
     await createConsumer();
   }
 
-  await consumer!.subscribe({ topic: TOPIC, fromBeginning: false });
+  await consumer!.subscribe({ topic: TOPIC, fromBeginning: true });
 
   await consumer!.run({
     eachMessage: async ({ topic, partition, message }: EachMessagePayload) => {

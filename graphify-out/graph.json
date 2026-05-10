@@ -150,47 +150,461 @@
     {
       "label": "eslint.config.js",
       "file_type": "code",
-      "source_file": "dashboard/eslint.config.js",
+      "source_file": "/run/media/subhamoy/HDD/Projects/Skynode/packages/dashboard/eslint.config.js",
       "source_location": "L1",
-      "id": "dashboard_eslint_config_js",
-      "community": 13,
+      "id": "run_media_subhamoy_hdd_projects_skynode_packages_dashboard_eslint_config_js",
+      "community": 18,
       "norm_label": "eslint.config.js"
     },
     {
       "label": "vite.config.ts",
       "file_type": "code",
-      "source_file": "dashboard/vite.config.ts",
+      "source_file": "/run/media/subhamoy/HDD/Projects/Skynode/packages/dashboard/vite.config.ts",
       "source_location": "L1",
-      "id": "dashboard_vite_config_ts",
-      "community": 14,
+      "id": "run_media_subhamoy_hdd_projects_skynode_packages_dashboard_vite_config_ts",
+      "community": 19,
       "norm_label": "vite.config.ts"
     },
     {
       "label": "main.tsx",
       "file_type": "code",
-      "source_file": "dashboard/src/main.tsx",
+      "source_file": "/run/media/subhamoy/HDD/Projects/Skynode/packages/dashboard/src/main.tsx",
       "source_location": "L1",
-      "id": "dashboard_src_main_tsx",
-      "community": 7,
+      "id": "run_media_subhamoy_hdd_projects_skynode_packages_dashboard_src_main_tsx",
+      "community": 11,
       "norm_label": "main.tsx"
     },
     {
       "label": "App.tsx",
       "file_type": "code",
-      "source_file": "dashboard/src/App.tsx",
+      "source_file": "/run/media/subhamoy/HDD/Projects/Skynode/packages/dashboard/src/App.tsx",
       "source_location": "L1",
-      "id": "dashboard_src_app_tsx",
-      "community": 7,
+      "id": "run_media_subhamoy_hdd_projects_skynode_packages_dashboard_src_app_tsx",
+      "community": 11,
       "norm_label": "app.tsx"
     },
     {
       "label": "App()",
       "file_type": "code",
-      "source_file": "dashboard/src/App.tsx",
+      "source_file": "/run/media/subhamoy/HDD/Projects/Skynode/packages/dashboard/src/App.tsx",
       "source_location": "L2",
       "id": "src_app_app",
-      "community": 7,
+      "community": 11,
       "norm_label": "app()"
+    },
+    {
+      "label": "nodemailer.ts",
+      "file_type": "code",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L1",
+      "id": "mail_service_src_nodemailer_ts",
+      "community": 7,
+      "norm_label": "nodemailer.ts"
+    },
+    {
+      "label": "initMailTransporter()",
+      "file_type": "code",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L6",
+      "id": "src_nodemailer_initmailtransporter",
+      "community": 7,
+      "norm_label": "initmailtransporter()"
+    },
+    {
+      "label": "getTransporter()",
+      "file_type": "code",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L17",
+      "id": "src_nodemailer_gettransporter",
+      "community": 7,
+      "norm_label": "gettransporter()"
+    },
+    {
+      "label": "getMailConfig()",
+      "file_type": "code",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L24",
+      "id": "src_nodemailer_getmailconfig",
+      "community": 7,
+      "norm_label": "getmailconfig()"
+    },
+    {
+      "label": "createTransporter()",
+      "file_type": "code",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L37",
+      "id": "src_nodemailer_createtransporter",
+      "community": 7,
+      "norm_label": "createtransporter()"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "mail-service/src/index.ts",
+      "source_location": "L1",
+      "id": "mail_service_src_index_ts",
+      "community": 7,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "sendEmail()",
+      "file_type": "code",
+      "source_file": "mail-service/src/index.ts",
+      "source_location": "L7",
+      "id": "src_index_sendemail",
+      "community": 7,
+      "norm_label": "sendemail()"
+    },
+    {
+      "label": "welcome.ts",
+      "file_type": "code",
+      "source_file": "mail-service/src/templates/welcome.ts",
+      "source_location": "L1",
+      "id": "mail_service_src_templates_welcome_ts",
+      "community": 5,
+      "norm_label": "welcome.ts"
+    },
+    {
+      "label": "getWelcomeEmailTemplate()",
+      "file_type": "code",
+      "source_file": "mail-service/src/templates/welcome.ts",
+      "source_location": "L6",
+      "id": "templates_welcome_getwelcomeemailtemplate",
+      "community": 5,
+      "norm_label": "getwelcomeemailtemplate()"
+    },
+    {
+      "label": "mail.types.ts",
+      "file_type": "code",
+      "source_file": "mail-service/src/types/mail.types.ts",
+      "source_location": "L1",
+      "id": "mail_service_src_types_mail_types_ts",
+      "community": 7,
+      "norm_label": "mail.types.ts"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L1",
+      "id": "email_worker_src_index_ts",
+      "community": 3,
+      "norm_label": "index.ts"
+    },
+    {
+      "label": "shutdown()",
+      "file_type": "code",
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L50",
+      "id": "src_index_shutdown",
+      "community": 3,
+      "norm_label": "shutdown()"
+    },
+    {
+      "label": "start()",
+      "file_type": "code",
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L61",
+      "id": "src_index_start",
+      "community": 3,
+      "norm_label": "start()"
+    },
+    {
+      "label": "consumer.ts",
+      "file_type": "code",
+      "source_file": "email-worker/src/kafka/consumer.ts",
+      "source_location": "L1",
+      "id": "email_worker_src_kafka_consumer_ts",
+      "community": 3,
+      "norm_label": "consumer.ts"
+    },
+    {
+      "label": "createConsumer()",
+      "file_type": "code",
+      "source_file": "email-worker/src/kafka/consumer.ts",
+      "source_location": "L17",
+      "id": "kafka_consumer_createconsumer",
+      "community": 3,
+      "norm_label": "createconsumer()"
+    },
+    {
+      "label": "subscribeToTopic()",
+      "file_type": "code",
+      "source_file": "email-worker/src/kafka/consumer.ts",
+      "source_location": "L24",
+      "id": "kafka_consumer_subscribetotopic",
+      "community": 3,
+      "norm_label": "subscribetotopic()"
+    },
+    {
+      "label": "disconnectConsumer()",
+      "file_type": "code",
+      "source_file": "email-worker/src/kafka/consumer.ts",
+      "source_location": "L51",
+      "id": "kafka_consumer_disconnectconsumer",
+      "community": 3,
+      "norm_label": "disconnectconsumer()"
+    },
+    {
+      "label": "getConsumer()",
+      "file_type": "code",
+      "source_file": "email-worker/src/kafka/consumer.ts",
+      "source_location": "L58",
+      "id": "kafka_consumer_getconsumer",
+      "community": 3,
+      "norm_label": "getconsumer()"
+    },
+    {
+      "label": "producer.ts",
+      "file_type": "code",
+      "source_file": "email-worker/src/kafka/producer.ts",
+      "source_location": "L1",
+      "id": "email_worker_src_kafka_producer_ts",
+      "community": 9,
+      "norm_label": "producer.ts"
+    },
+    {
+      "label": "connectProducer()",
+      "file_type": "code",
+      "source_file": "email-worker/src/kafka/producer.ts",
+      "source_location": "L14",
+      "id": "kafka_producer_connectproducer",
+      "community": 9,
+      "norm_label": "connectproducer()"
+    },
+    {
+      "label": "publishEmailMessage()",
+      "file_type": "code",
+      "source_file": "email-worker/src/kafka/producer.ts",
+      "source_location": "L23",
+      "id": "kafka_producer_publishemailmessage",
+      "community": 9,
+      "norm_label": "publishemailmessage()"
+    },
+    {
+      "label": "getPartitionForPriority()",
+      "file_type": "code",
+      "source_file": "email-worker/src/kafka/producer.ts",
+      "source_location": "L44",
+      "id": "kafka_producer_getpartitionforpriority",
+      "community": 9,
+      "norm_label": "getpartitionforpriority()"
+    },
+    {
+      "label": "disconnectProducer()",
+      "file_type": "code",
+      "source_file": "email-worker/src/kafka/producer.ts",
+      "source_location": "L56",
+      "id": "kafka_producer_disconnectproducer",
+      "community": 9,
+      "norm_label": "disconnectproducer()"
+    },
+    {
+      "label": "publishWelcomeEmail()",
+      "file_type": "code",
+      "source_file": "email-worker/src/kafka/producer.ts",
+      "source_location": "L63",
+      "id": "kafka_producer_publishwelcomeemail",
+      "community": 9,
+      "norm_label": "publishwelcomeemail()"
+    },
+    {
+      "label": "email.service.ts",
+      "file_type": "code",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L1",
+      "id": "email_worker_src_services_email_service_ts",
+      "community": 5,
+      "norm_label": "email.service.ts"
+    },
+    {
+      "label": "processEmailMessage()",
+      "file_type": "code",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L4",
+      "id": "services_email_service_processemailmessage",
+      "community": 5,
+      "norm_label": "processemailmessage()"
+    },
+    {
+      "label": "sendWelcomeEmail()",
+      "file_type": "code",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L28",
+      "id": "services_email_service_sendwelcomeemail",
+      "community": 5,
+      "norm_label": "sendwelcomeemail()"
+    },
+    {
+      "label": "sendPasswordResetEmail()",
+      "file_type": "code",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L37",
+      "id": "services_email_service_sendpasswordresetemail",
+      "community": 5,
+      "norm_label": "sendpasswordresetemail()"
+    },
+    {
+      "label": "sendEmailVerification()",
+      "file_type": "code",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L51",
+      "id": "services_email_service_sendemailverification",
+      "community": 5,
+      "norm_label": "sendemailverification()"
+    },
+    {
+      "label": "sendServerAlert()",
+      "file_type": "code",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L64",
+      "id": "services_email_service_sendserveralert",
+      "community": 5,
+      "norm_label": "sendserveralert()"
+    },
+    {
+      "label": "sendBillingNotification()",
+      "file_type": "code",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L76",
+      "id": "services_email_service_sendbillingnotification",
+      "community": 5,
+      "norm_label": "sendbillingnotification()"
+    },
+    {
+      "label": "priority.ts",
+      "file_type": "code",
+      "source_file": "email-worker/src/worker/priority.ts",
+      "source_location": "L1",
+      "id": "email_worker_src_worker_priority_ts",
+      "community": 3,
+      "norm_label": "priority.ts"
+    },
+    {
+      "label": "getPartitionForPriority()",
+      "file_type": "code",
+      "source_file": "email-worker/src/worker/priority.ts",
+      "source_location": "L14",
+      "id": "worker_priority_getpartitionforpriority",
+      "community": 3,
+      "norm_label": "getpartitionforpriority()"
+    },
+    {
+      "label": "calculateWorkerAllocation()",
+      "file_type": "code",
+      "source_file": "email-worker/src/worker/priority.ts",
+      "source_location": "L40",
+      "id": "worker_priority_calculateworkerallocation",
+      "community": 3,
+      "norm_label": "calculateworkerallocation()"
+    },
+    {
+      "label": "getPriorityLabel()",
+      "file_type": "code",
+      "source_file": "email-worker/src/worker/priority.ts",
+      "source_location": "L85",
+      "id": "worker_priority_getprioritylabel",
+      "community": 3,
+      "norm_label": "getprioritylabel()"
+    },
+    {
+      "label": "scheduler.ts",
+      "file_type": "code",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L1",
+      "id": "email_worker_src_worker_scheduler_ts",
+      "community": 3,
+      "norm_label": "scheduler.ts"
+    },
+    {
+      "label": "WorkerScheduler",
+      "file_type": "code",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L5",
+      "id": "worker_scheduler_workerscheduler",
+      "community": 4,
+      "norm_label": "workerscheduler"
+    },
+    {
+      "label": ".constructor()",
+      "file_type": "code",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L11",
+      "id": "worker_scheduler_workerscheduler_constructor",
+      "community": 4,
+      "norm_label": ".constructor()"
+    },
+    {
+      "label": ".registerWorker()",
+      "file_type": "code",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L15",
+      "id": "worker_scheduler_workerscheduler_registerworker",
+      "community": 4,
+      "norm_label": ".registerworker()"
+    },
+    {
+      "label": ".unregisterWorker()",
+      "file_type": "code",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L20",
+      "id": "worker_scheduler_workerscheduler_unregisterworker",
+      "community": 4,
+      "norm_label": ".unregisterworker()"
+    },
+    {
+      "label": ".setRebalanceCallback()",
+      "file_type": "code",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L24",
+      "id": "worker_scheduler_workerscheduler_setrebalancecallback",
+      "community": 4,
+      "norm_label": ".setrebalancecallback()"
+    },
+    {
+      "label": ".rebalance()",
+      "file_type": "code",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L28",
+      "id": "worker_scheduler_workerscheduler_rebalance",
+      "community": 4,
+      "norm_label": ".rebalance()"
+    },
+    {
+      "label": ".notifyWorker()",
+      "file_type": "code",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L41",
+      "id": "worker_scheduler_workerscheduler_notifyworker",
+      "community": 4,
+      "norm_label": ".notifyworker()"
+    },
+    {
+      "label": ".startMonitoring()",
+      "file_type": "code",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L50",
+      "id": "worker_scheduler_workerscheduler_startmonitoring",
+      "community": 4,
+      "norm_label": ".startmonitoring()"
+    },
+    {
+      "label": ".stopMonitoring()",
+      "file_type": "code",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L56",
+      "id": "worker_scheduler_workerscheduler_stopmonitoring",
+      "community": 4,
+      "norm_label": ".stopmonitoring()"
+    },
+    {
+      "label": ".getCurrentAllocation()",
+      "file_type": "code",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L63",
+      "id": "worker_scheduler_workerscheduler_getcurrentallocation",
+      "community": 4,
+      "norm_label": ".getcurrentallocation()"
     },
     {
       "label": "index.ts",
@@ -198,7 +612,7 @@
       "source_file": "daemon/src/index.ts",
       "source_location": "L1",
       "id": "daemon_src_index_ts",
-      "community": 15,
+      "community": 20,
       "norm_label": "index.ts"
     },
     {
@@ -207,7 +621,7 @@
       "source_file": "panel-api/src/app.ts",
       "source_location": "L1",
       "id": "panel_api_src_app_ts",
-      "community": 16,
+      "community": 21,
       "norm_label": "app.ts"
     },
     {
@@ -216,7 +630,7 @@
       "source_file": "panel-api/src/index.ts",
       "source_location": "L1",
       "id": "panel_api_src_index_ts",
-      "community": 8,
+      "community": 13,
       "norm_label": "index.ts"
     },
     {
@@ -225,7 +639,7 @@
       "source_file": "panel-api/src/config/env.ts",
       "source_location": "L1",
       "id": "panel_api_src_config_env_ts",
-      "community": 17,
+      "community": 22,
       "norm_label": "env.ts"
     },
     {
@@ -234,7 +648,7 @@
       "source_file": "panel-api/src/database/tenant.db.ts",
       "source_location": "L1",
       "id": "panel_api_src_database_tenant_db_ts",
-      "community": 18,
+      "community": 23,
       "norm_label": "tenant.db.ts"
     },
     {
@@ -243,8 +657,26 @@
       "source_file": "panel-api/src/database/tenantBranding.db.ts",
       "source_location": "L1",
       "id": "panel_api_src_database_tenantbranding_db_ts",
-      "community": 19,
+      "community": 24,
       "norm_label": "tenantbranding.db.ts"
+    },
+    {
+      "label": "auth.middleware.ts",
+      "file_type": "code",
+      "source_file": "panel-api/src/apps/auth/middlewares/auth.middleware.ts",
+      "source_location": "L1",
+      "id": "panel_api_src_apps_auth_middlewares_auth_middleware_ts",
+      "community": 2,
+      "norm_label": "auth.middleware.ts"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "panel-api/src/apps/auth/middlewares/index.ts",
+      "source_location": "L1",
+      "id": "panel_api_src_apps_auth_middlewares_index_ts",
+      "community": 25,
+      "norm_label": "index.ts"
     },
     {
       "label": "user.zod.ts",
@@ -252,7 +684,7 @@
       "source_file": "panel-api/src/apps/auth/zod/user.zod.ts",
       "source_location": "L1",
       "id": "panel_api_src_apps_auth_zod_user_zod_ts",
-      "community": 20,
+      "community": 26,
       "norm_label": "user.zod.ts"
     },
     {
@@ -261,7 +693,7 @@
       "source_file": "panel-api/src/apps/auth/database/user.db.ts",
       "source_location": "L1",
       "id": "panel_api_src_apps_auth_database_user_db_ts",
-      "community": 21,
+      "community": 27,
       "norm_label": "user.db.ts"
     },
     {
@@ -270,26 +702,8 @@
       "source_file": "panel-api/src/apps/auth/controller/auth.controller.non-protected.ts",
       "source_location": "L1",
       "id": "panel_api_src_apps_auth_controller_auth_controller_non_protected_ts",
-      "community": 1,
+      "community": 2,
       "norm_label": "auth.controller.non-protected.ts"
-    },
-    {
-      "label": "userSignIn()",
-      "file_type": "code",
-      "source_file": "panel-api/src/apps/auth/controller/auth.controller.non-protected.ts",
-      "source_location": "L37",
-      "id": "controller_auth_controller_non_protected_usersignin",
-      "community": 1,
-      "norm_label": "usersignin()"
-    },
-    {
-      "label": "userSignOut()",
-      "file_type": "code",
-      "source_file": "panel-api/src/apps/auth/controller/auth.controller.non-protected.ts",
-      "source_location": "L42",
-      "id": "controller_auth_controller_non_protected_usersignout",
-      "community": 1,
-      "norm_label": "usersignout()"
     },
     {
       "label": "index.ts",
@@ -297,8 +711,53 @@
       "source_file": "panel-api/src/apps/auth/controller/index.ts",
       "source_location": "L1",
       "id": "panel_api_src_apps_auth_controller_index_ts",
-      "community": 22,
+      "community": 28,
       "norm_label": "index.ts"
+    },
+    {
+      "label": "jwt.config.ts",
+      "file_type": "code",
+      "source_file": "panel-api/src/apps/auth/configs/jwt.config.ts",
+      "source_location": "L1",
+      "id": "panel_api_src_apps_auth_configs_jwt_config_ts",
+      "community": 12,
+      "norm_label": "jwt.config.ts"
+    },
+    {
+      "label": "generateAccessToken()",
+      "file_type": "code",
+      "source_file": "panel-api/src/apps/auth/configs/jwt.config.ts",
+      "source_location": "L21",
+      "id": "configs_jwt_config_generateaccesstoken",
+      "community": 12,
+      "norm_label": "generateaccesstoken()"
+    },
+    {
+      "label": "generateRefreshToken()",
+      "file_type": "code",
+      "source_file": "panel-api/src/apps/auth/configs/jwt.config.ts",
+      "source_location": "L27",
+      "id": "configs_jwt_config_generaterefreshtoken",
+      "community": 12,
+      "norm_label": "generaterefreshtoken()"
+    },
+    {
+      "label": "verifyAccessToken()",
+      "file_type": "code",
+      "source_file": "panel-api/src/apps/auth/configs/jwt.config.ts",
+      "source_location": "L33",
+      "id": "configs_jwt_config_verifyaccesstoken",
+      "community": 12,
+      "norm_label": "verifyaccesstoken()"
+    },
+    {
+      "label": "verifyRefreshToken()",
+      "file_type": "code",
+      "source_file": "panel-api/src/apps/auth/configs/jwt.config.ts",
+      "source_location": "L37",
+      "id": "configs_jwt_config_verifyrefreshtoken",
+      "community": 12,
+      "norm_label": "verifyrefreshtoken()"
     },
     {
       "label": "auth.routes.ts",
@@ -306,8 +765,26 @@
       "source_file": "panel-api/src/apps/auth/routes/auth.routes.ts",
       "source_location": "L1",
       "id": "panel_api_src_apps_auth_routes_auth_routes_ts",
-      "community": 1,
+      "community": 2,
       "norm_label": "auth.routes.ts"
+    },
+    {
+      "label": "request.types.ts",
+      "file_type": "code",
+      "source_file": "panel-api/src/apps/auth/types/request.types.ts",
+      "source_location": "L1",
+      "id": "panel_api_src_apps_auth_types_request_types_ts",
+      "community": 29,
+      "norm_label": "request.types.ts"
+    },
+    {
+      "label": "response.types.ts",
+      "file_type": "code",
+      "source_file": "panel-api/src/apps/auth/types/response.types.ts",
+      "source_location": "L1",
+      "id": "panel_api_src_apps_auth_types_response_types_ts",
+      "community": 30,
+      "norm_label": "response.types.ts"
     },
     {
       "label": "model.types.ts",
@@ -315,8 +792,26 @@
       "source_file": "panel-api/src/apps/auth/types/model.types.ts",
       "source_location": "L1",
       "id": "panel_api_src_apps_auth_types_model_types_ts",
-      "community": 23,
+      "community": 31,
       "norm_label": "model.types.ts"
+    },
+    {
+      "label": "middleware.types.ts",
+      "file_type": "code",
+      "source_file": "panel-api/src/apps/auth/types/middleware.types.ts",
+      "source_location": "L1",
+      "id": "panel_api_src_apps_auth_types_middleware_types_ts",
+      "community": 32,
+      "norm_label": "middleware.types.ts"
+    },
+    {
+      "label": "jwt.types.ts",
+      "file_type": "code",
+      "source_file": "panel-api/src/apps/auth/types/jwt.types.ts",
+      "source_location": "L1",
+      "id": "panel_api_src_apps_auth_types_jwt_types_ts",
+      "community": 33,
+      "norm_label": "jwt.types.ts"
     },
     {
       "label": "index.ts",
@@ -324,7 +819,7 @@
       "source_file": "panel-api/src/apps/auth/types/index.ts",
       "source_location": "L1",
       "id": "panel_api_src_apps_auth_types_index_ts",
-      "community": 24,
+      "community": 34,
       "norm_label": "index.ts"
     },
     {
@@ -333,7 +828,7 @@
       "source_file": "panel-api/src/utils/database.ts",
       "source_location": "L1",
       "id": "panel_api_src_utils_database_ts",
-      "community": 8,
+      "community": 13,
       "norm_label": "database.ts"
     },
     {
@@ -342,7 +837,7 @@
       "source_file": "panel-api/src/utils/database.ts",
       "source_location": "L4",
       "id": "utils_database_connecttodatabase",
-      "community": 8,
+      "community": 13,
       "norm_label": "connecttodatabase()"
     },
     {
@@ -351,7 +846,7 @@
       "source_file": "panel-api/src/utils/zodValidate.ts",
       "source_location": "L1",
       "id": "panel_api_src_utils_zodvalidate_ts",
-      "community": 1,
+      "community": 2,
       "norm_label": "zodvalidate.ts"
     },
     {
@@ -360,7 +855,7 @@
       "source_file": "panel-api/src/utils/zodValidate.ts",
       "source_location": "L5",
       "id": "utils_zodvalidate_validateschema",
-      "community": 1,
+      "community": 2,
       "norm_label": "validateschema()"
     },
     {
@@ -369,7 +864,7 @@
       "source_file": "panel-api/src/utils/asyncHandler.ts",
       "source_location": "L1",
       "id": "panel_api_src_utils_asynchandler_ts",
-      "community": 1,
+      "community": 2,
       "norm_label": "asynchandler.ts"
     },
     {
@@ -378,7 +873,7 @@
       "source_file": "panel-api/src/utils/asyncHandler.ts",
       "source_location": "L6",
       "id": "utils_asynchandler_asynchandler",
-      "community": 1,
+      "community": 2,
       "norm_label": "asynchandler()"
     },
     {
@@ -387,7 +882,7 @@
       "source_file": "panel-api/src/utils/ApiResponse.ts",
       "source_location": "L1",
       "id": "panel_api_src_utils_apiresponse_ts",
-      "community": 1,
+      "community": 2,
       "norm_label": "apiresponse.ts"
     },
     {
@@ -396,7 +891,7 @@
       "source_file": "panel-api/src/utils/ApiResponse.ts",
       "source_location": "L1",
       "id": "utils_apiresponse_apiresponse",
-      "community": 1,
+      "community": 2,
       "norm_label": "apiresponse"
     },
     {
@@ -405,7 +900,7 @@
       "source_file": "panel-api/src/utils/ApiResponse.ts",
       "source_location": "L6",
       "id": "utils_apiresponse_apiresponse_constructor",
-      "community": 1,
+      "community": 2,
       "norm_label": ".constructor()"
     },
     {
@@ -414,7 +909,7 @@
       "source_file": "panel-api/src/utils/ApiError.ts",
       "source_location": "L1",
       "id": "panel_api_src_utils_apierror_ts",
-      "community": 1,
+      "community": 2,
       "norm_label": "apierror.ts"
     },
     {
@@ -423,7 +918,7 @@
       "source_file": "panel-api/src/utils/ApiError.ts",
       "source_location": "L3",
       "id": "utils_apierror_apierror",
-      "community": 1,
+      "community": 2,
       "norm_label": "apierror"
     },
     {
@@ -432,8 +927,116 @@
       "source_file": "panel-api/src/utils/ApiError.ts",
       "source_location": "L11",
       "id": "utils_apierror_apierror_constructor",
-      "community": 1,
+      "community": 2,
       "norm_label": ".constructor()"
+    },
+    {
+      "label": "email.producer.ts",
+      "file_type": "code",
+      "source_file": "panel-api/src/utils/kafka/email.producer.ts",
+      "source_location": "L1",
+      "id": "panel_api_src_utils_kafka_email_producer_ts",
+      "community": 10,
+      "norm_label": "email.producer.ts"
+    },
+    {
+      "label": "connectProducer()",
+      "file_type": "code",
+      "source_file": "panel-api/src/utils/kafka/email.producer.ts",
+      "source_location": "L27",
+      "id": "kafka_email_producer_connectproducer",
+      "community": 10,
+      "norm_label": "connectproducer()"
+    },
+    {
+      "label": "publishEmailMessage()",
+      "file_type": "code",
+      "source_file": "panel-api/src/utils/kafka/email.producer.ts",
+      "source_location": "L42",
+      "id": "kafka_email_producer_publishemailmessage",
+      "community": 10,
+      "norm_label": "publishemailmessage()"
+    },
+    {
+      "label": "getPartitionForPriority()",
+      "file_type": "code",
+      "source_file": "panel-api/src/utils/kafka/email.producer.ts",
+      "source_location": "L73",
+      "id": "kafka_email_producer_getpartitionforpriority",
+      "community": 10,
+      "norm_label": "getpartitionforpriority()"
+    },
+    {
+      "label": "publishWelcomeEmail()",
+      "file_type": "code",
+      "source_file": "panel-api/src/utils/kafka/email.producer.ts",
+      "source_location": "L85",
+      "id": "kafka_email_producer_publishwelcomeemail",
+      "community": 10,
+      "norm_label": "publishwelcomeemail()"
+    },
+    {
+      "label": "disconnectProducer()",
+      "file_type": "code",
+      "source_file": "panel-api/src/utils/kafka/email.producer.ts",
+      "source_location": "L103",
+      "id": "kafka_email_producer_disconnectproducer",
+      "community": 10,
+      "norm_label": "disconnectproducer()"
+    },
+    {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "dashboard/eslint.config.js",
+      "source_location": "L1",
+      "community": 35,
+      "norm_label": "eslint.config.js",
+      "id": "dashboard_eslint_config_js"
+    },
+    {
+      "label": "vite.config.ts",
+      "file_type": "code",
+      "source_file": "dashboard/vite.config.ts",
+      "source_location": "L1",
+      "community": 36,
+      "norm_label": "vite.config.ts",
+      "id": "dashboard_vite_config_ts"
+    },
+    {
+      "label": "main.tsx",
+      "file_type": "code",
+      "source_file": "dashboard/src/main.tsx",
+      "source_location": "L1",
+      "community": 11,
+      "norm_label": "main.tsx",
+      "id": "dashboard_src_main_tsx"
+    },
+    {
+      "label": "App.tsx",
+      "file_type": "code",
+      "source_file": "dashboard/src/App.tsx",
+      "source_location": "L1",
+      "community": 11,
+      "norm_label": "app.tsx",
+      "id": "dashboard_src_app_tsx"
+    },
+    {
+      "label": "userSignIn()",
+      "file_type": "code",
+      "source_file": "panel-api/src/apps/auth/controller/auth.controller.non-protected.ts",
+      "source_location": "L37",
+      "community": 2,
+      "norm_label": "usersignin()",
+      "id": "controller_auth_controller_non_protected_usersignin"
+    },
+    {
+      "label": "userSignOut()",
+      "file_type": "code",
+      "source_file": "panel-api/src/apps/auth/controller/auth.controller.non-protected.ts",
+      "source_location": "L42",
+      "community": 2,
+      "norm_label": "usersignout()",
+      "id": "controller_auth_controller_non_protected_usersignout"
     },
     {
       "label": "SkyNode Project Root",
@@ -444,9 +1047,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skynode_root",
-      "community": 25,
-      "norm_label": "skynode project root"
+      "community": 37,
+      "norm_label": "skynode project root",
+      "id": "skynode_root"
     },
     {
       "label": "Multi-Tenant RLS Strategy",
@@ -458,9 +1061,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Shared database with tenant_id column and PostgreSQL Row-Level Security (RLS) policies for hard tenant boundaries and cost-effectiveness.",
-      "id": "arch_tenancy",
-      "community": 10,
-      "norm_label": "multi-tenant rls strategy"
+      "community": 15,
+      "norm_label": "multi-tenant rls strategy",
+      "id": "arch_tenancy"
     },
     {
       "label": "API Routes Plan",
@@ -471,9 +1074,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "doc_api_routes",
-      "community": 26,
-      "norm_label": "api routes plan"
+      "community": 38,
+      "norm_label": "api routes plan",
+      "id": "doc_api_routes"
     },
     {
       "label": "Gateway-Ready Monorepo Architecture",
@@ -485,9 +1088,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Every module is a self-contained Express router to allow future extraction into microservices behind an API Gateway with zero business logic changes.",
-      "id": "arch_gateway",
-      "community": 9,
-      "norm_label": "gateway-ready monorepo architecture"
+      "community": 14,
+      "norm_label": "gateway-ready monorepo architecture",
+      "id": "arch_gateway"
     },
     {
       "label": "Express 5",
@@ -499,9 +1102,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Chosen over Fastify for portability of routers; Express routers are self-contained and easily extractable into standalone services.",
-      "id": "tech_express",
-      "community": 9,
-      "norm_label": "express 5"
+      "community": 14,
+      "norm_label": "express 5",
+      "id": "tech_express"
     },
     {
       "label": "React 19 + Vite 6",
@@ -513,9 +1116,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Pure SPA architecture preferred over Next.js to avoid SSR complexity and maintain full decoupling from the API.",
-      "id": "tech_react",
-      "community": 27,
-      "norm_label": "react 19 + vite 6"
+      "community": 39,
+      "norm_label": "react 19 + vite 6",
+      "id": "tech_react"
     },
     {
       "label": "Drizzle ORM",
@@ -527,9 +1130,9 @@
       "author": null,
       "contributor": null,
       "rationale": "Lightweight TypeScript-native ORM that generates raw SQL without the bloat of Prisma.",
-      "id": "tech_drizzle",
-      "community": 28,
-      "norm_label": "drizzle orm"
+      "community": 40,
+      "norm_label": "drizzle orm",
+      "id": "tech_drizzle"
     },
     {
       "label": "Neon PostgreSQL",
@@ -540,9 +1143,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tech_neon",
-      "community": 10,
-      "norm_label": "neon postgresql"
+      "community": 15,
+      "norm_label": "neon postgresql",
+      "id": "tech_neon"
     },
     {
       "label": "Upstash Redis",
@@ -553,9 +1156,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tech_upstash",
-      "community": 29,
-      "norm_label": "upstash redis"
+      "community": 41,
+      "norm_label": "upstash redis",
+      "id": "tech_upstash"
     },
     {
       "label": "Razorpay Payments",
@@ -566,9 +1169,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tech_razorpay",
-      "community": 30,
-      "norm_label": "razorpay payments"
+      "community": 42,
+      "norm_label": "razorpay payments",
+      "id": "tech_razorpay"
     },
     {
       "label": "Resend Email",
@@ -579,9 +1182,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tech_resend",
-      "community": 31,
-      "norm_label": "resend email"
+      "community": 43,
+      "norm_label": "resend email",
+      "id": "tech_resend"
     },
     {
       "label": "Dashboard App Component",
@@ -592,9 +1195,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dashboard_app",
-      "community": 11,
-      "norm_label": "dashboard app component"
+      "community": 16,
+      "norm_label": "dashboard app component",
+      "id": "dashboard_app"
     },
     {
       "label": "Dashboard Main Entry",
@@ -605,9 +1208,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dashboard_main",
-      "community": 11,
-      "norm_label": "dashboard main entry"
+      "community": 16,
+      "norm_label": "dashboard main entry",
+      "id": "dashboard_main"
     },
     {
       "label": "Vite Configuration",
@@ -618,9 +1221,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "vite_config",
-      "community": 32,
-      "norm_label": "vite configuration"
+      "community": 44,
+      "norm_label": "vite configuration",
+      "id": "vite_config"
     },
     {
       "label": "Express Application",
@@ -631,9 +1234,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "express_app",
-      "community": 2,
-      "norm_label": "express application"
+      "community": 0,
+      "norm_label": "express application",
+      "id": "express_app"
     },
     {
       "label": "Panel API Server Entry",
@@ -644,9 +1247,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "panel_api_server",
-      "community": 2,
-      "norm_label": "panel api server entry"
+      "community": 0,
+      "norm_label": "panel api server entry",
+      "id": "panel_api_server"
     },
     {
       "label": "Environment Configuration",
@@ -657,9 +1260,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "env_config",
-      "community": 33,
-      "norm_label": "environment configuration"
+      "community": 45,
+      "norm_label": "environment configuration",
+      "id": "env_config"
     },
     {
       "label": "Tenant Model",
@@ -670,9 +1273,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tenant_model",
-      "community": 3,
-      "norm_label": "tenant model"
+      "community": 0,
+      "norm_label": "tenant model",
+      "id": "tenant_model"
     },
     {
       "label": "Tenant Branding Model",
@@ -683,9 +1286,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tenant_branding_model",
-      "community": 3,
-      "norm_label": "tenant branding model"
+      "community": 0,
+      "norm_label": "tenant branding model",
+      "id": "tenant_branding_model"
     },
     {
       "label": "User Model",
@@ -696,9 +1299,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "user_model",
-      "community": 3,
-      "norm_label": "user model"
+      "community": 0,
+      "norm_label": "user model",
+      "id": "user_model"
     },
     {
       "label": "IUser Interface",
@@ -709,9 +1312,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "iuser_interface",
-      "community": 3,
-      "norm_label": "iuser interface"
+      "community": 0,
+      "norm_label": "iuser interface",
+      "id": "iuser_interface"
     },
     {
       "label": "User Zod Schema",
@@ -722,9 +1325,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "user_zod_schema",
-      "community": 3,
-      "norm_label": "user zod schema"
+      "community": 0,
+      "norm_label": "user zod schema",
+      "id": "user_zod_schema"
     },
     {
       "label": "User Sign Up Controller",
@@ -735,9 +1338,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "user_signup",
-      "community": 3,
-      "norm_label": "user sign up controller"
+      "community": 0,
+      "norm_label": "user sign up controller",
+      "id": "user_signup"
     },
     {
       "label": "User Sign In Controller",
@@ -748,9 +1351,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "user_signin",
-      "community": 2,
-      "norm_label": "user sign in controller"
+      "community": 0,
+      "norm_label": "user sign in controller",
+      "id": "user_signin"
     },
     {
       "label": "User Sign Out Controller",
@@ -761,9 +1364,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "user_signout",
-      "community": 2,
-      "norm_label": "user sign out controller"
+      "community": 0,
+      "norm_label": "user sign out controller",
+      "id": "user_signout"
     },
     {
       "label": "Auth Routes",
@@ -774,9 +1377,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "auth_routes",
-      "community": 2,
-      "norm_label": "auth routes"
+      "community": 0,
+      "norm_label": "auth routes",
+      "id": "auth_routes"
     },
     {
       "label": "Auth Controller Index",
@@ -787,9 +1390,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "auth_controller_index",
-      "community": 2,
-      "norm_label": "auth controller index"
+      "community": 0,
+      "norm_label": "auth controller index",
+      "id": "auth_controller_index"
     },
     {
       "label": "Database Connector",
@@ -800,9 +1403,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "database_connector",
-      "community": 2,
-      "norm_label": "database connector"
+      "community": 0,
+      "norm_label": "database connector",
+      "id": "database_connector"
     },
     {
       "label": "Validate Schema Utility",
@@ -813,9 +1416,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "validate_schema",
-      "community": 2,
-      "norm_label": "validate schema utility"
+      "community": 0,
+      "norm_label": "validate schema utility",
+      "id": "validate_schema"
     },
     {
       "label": "Async Handler Middleware",
@@ -826,9 +1429,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "async_handler",
-      "community": 2,
-      "norm_label": "async handler middleware"
+      "community": 0,
+      "norm_label": "async handler middleware",
+      "id": "async_handler"
     },
     {
       "label": "API Response Class",
@@ -839,9 +1442,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "api_response",
-      "community": 2,
-      "norm_label": "api response class"
+      "community": 0,
+      "norm_label": "api response class",
+      "id": "api_response"
     },
     {
       "label": "API Error Class",
@@ -852,9 +1455,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "api_error",
-      "community": 2,
-      "norm_label": "api error class"
+      "community": 0,
+      "norm_label": "api error class",
+      "id": "api_error"
     },
     {
       "label": "Multi-Tenancy Pattern",
@@ -865,9 +1468,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "multi_tenancy_pattern",
-      "community": 3,
-      "norm_label": "multi-tenancy pattern"
+      "community": 0,
+      "norm_label": "multi-tenancy pattern",
+      "id": "multi_tenancy_pattern"
     },
     {
       "label": "Tenant Isolation via tenantId",
@@ -878,9 +1481,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "tenant_isolation",
-      "community": 3,
-      "norm_label": "tenant isolation via tenantid"
+      "community": 0,
+      "norm_label": "tenant isolation via tenantid",
+      "id": "tenant_isolation"
     },
     {
       "label": "Role-Based Access Control",
@@ -891,9 +1494,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "role_based_access",
-      "community": 3,
-      "norm_label": "role-based access control"
+      "community": 0,
+      "norm_label": "role-based access control",
+      "id": "role_based_access"
     },
     {
       "label": "Claude Configuration File",
@@ -904,9 +1507,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "claude_txt",
-      "community": 34,
-      "norm_label": "claude configuration file"
+      "community": 46,
+      "norm_label": "claude configuration file",
+      "id": "claude_txt"
     },
     {
       "label": "GEMINI Project Context",
@@ -917,9 +1520,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "gemini_md",
-      "community": 12,
-      "norm_label": "gemini project context"
+      "community": 17,
+      "norm_label": "gemini project context",
+      "id": "gemini_md"
     },
     {
       "label": "Docker Compose Configuration",
@@ -930,9 +1533,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "docker_compose_yml",
-      "community": 0,
-      "norm_label": "docker compose configuration"
+      "community": 1,
+      "norm_label": "docker compose configuration",
+      "id": "docker_compose_yml"
     },
     {
       "label": "Dashboard Entry HTML",
@@ -943,9 +1546,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dashboard_index_html",
-      "community": 5,
-      "norm_label": "dashboard entry html"
+      "community": 8,
+      "norm_label": "dashboard entry html",
+      "id": "dashboard_index_html"
     },
     {
       "label": "Dashboard README",
@@ -956,9 +1559,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dashboard_readme_md",
-      "community": 6,
-      "norm_label": "dashboard readme"
+      "community": 1,
+      "norm_label": "dashboard readme",
+      "id": "dashboard_readme_md"
     },
     {
       "label": "Scaling Roadmap",
@@ -969,9 +1572,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "scaling_roadmap_md",
-      "community": 4,
-      "norm_label": "scaling roadmap"
+      "community": 6,
+      "norm_label": "scaling roadmap",
+      "id": "scaling_roadmap_md"
     },
     {
       "label": "Database Schema Design",
@@ -982,9 +1585,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "database_schema_md",
-      "community": 0,
-      "norm_label": "database schema design"
+      "community": 1,
+      "norm_label": "database schema design",
+      "id": "database_schema_md"
     },
     {
       "label": "UI Pages and Design Prompts",
@@ -995,9 +1598,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "pages_and_prompts_md",
-      "community": 6,
-      "norm_label": "ui pages and design prompts"
+      "community": 1,
+      "norm_label": "ui pages and design prompts",
+      "id": "pages_and_prompts_md"
     },
     {
       "label": "Implementation Plan",
@@ -1008,9 +1611,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "implementation_plan_md",
-      "community": 0,
-      "norm_label": "implementation plan"
+      "community": 1,
+      "norm_label": "implementation plan",
+      "id": "implementation_plan_md"
     },
     {
       "label": "Feature Build Checklist",
@@ -1021,9 +1624,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "feature_checklist_md",
-      "community": 0,
-      "norm_label": "feature build checklist"
+      "community": 1,
+      "norm_label": "feature build checklist",
+      "id": "feature_checklist_md"
     },
     {
       "label": "Project Folder Structure",
@@ -1034,9 +1637,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "folder_structure_md",
-      "community": 5,
-      "norm_label": "project folder structure"
+      "community": 8,
+      "norm_label": "project folder structure",
+      "id": "folder_structure_md"
     },
     {
       "label": "Graphify Knowledge Graph",
@@ -1047,9 +1650,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "graphify_knowledge_graph",
-      "community": 12,
-      "norm_label": "graphify knowledge graph"
+      "community": 17,
+      "norm_label": "graphify knowledge graph",
+      "id": "graphify_knowledge_graph"
     },
     {
       "label": "SkyNode Multi-tenant SaaS Platform",
@@ -1060,9 +1663,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "skynode_project",
-      "community": 0,
-      "norm_label": "skynode multi-tenant saas platform"
+      "community": 1,
+      "norm_label": "skynode multi-tenant saas platform",
+      "id": "skynode_project"
     },
     {
       "label": "Express 5 API Framework",
@@ -1073,9 +1676,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "express_framework",
-      "community": 0,
-      "norm_label": "express 5 api framework"
+      "community": 1,
+      "norm_label": "express 5 api framework",
+      "id": "express_framework"
     },
     {
       "label": "Node.js 22 LTS Runtime",
@@ -1086,9 +1689,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "nodejs_runtime",
-      "community": 0,
-      "norm_label": "node.js 22 lts runtime"
+      "community": 1,
+      "norm_label": "node.js 22 lts runtime",
+      "id": "nodejs_runtime"
     },
     {
       "label": "React 19 + Vite 6 Frontend",
@@ -1099,9 +1702,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "react_frontend",
-      "community": 6,
-      "norm_label": "react 19 + vite 6 frontend"
+      "community": 1,
+      "norm_label": "react 19 + vite 6 frontend",
+      "id": "react_frontend"
     },
     {
       "label": "PostgreSQL 16 Database",
@@ -1112,9 +1715,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "postgresql_db",
-      "community": 0,
-      "norm_label": "postgresql 16 database"
+      "community": 1,
+      "norm_label": "postgresql 16 database",
+      "id": "postgresql_db"
     },
     {
       "label": "Redis 7 Cache and Pub-Sub",
@@ -1125,9 +1728,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "redis_cache",
-      "community": 0,
-      "norm_label": "redis 7 cache and pub-sub"
+      "community": 1,
+      "norm_label": "redis 7 cache and pub-sub",
+      "id": "redis_cache"
     },
     {
       "label": "MongoDB Database Service",
@@ -1138,9 +1741,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "mongodb_service",
-      "community": 0,
-      "norm_label": "mongodb database service"
+      "community": 1,
+      "norm_label": "mongodb database service",
+      "id": "mongodb_service"
     },
     {
       "label": "Drizzle ORM",
@@ -1151,9 +1754,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "drizzle_orm",
-      "community": 0,
-      "norm_label": "drizzle orm"
+      "community": 1,
+      "norm_label": "drizzle orm",
+      "id": "drizzle_orm"
     },
     {
       "label": "npm Workspaces Monorepo",
@@ -1164,9 +1767,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "monorepo_architecture",
-      "community": 5,
-      "norm_label": "npm workspaces monorepo"
+      "community": 8,
+      "norm_label": "npm workspaces monorepo",
+      "id": "monorepo_architecture"
     },
     {
       "label": "Gateway Pattern for Service Extraction",
@@ -1177,9 +1780,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "gateway_pattern",
-      "community": 4,
-      "norm_label": "gateway pattern for service extraction"
+      "community": 6,
+      "norm_label": "gateway pattern for service extraction",
+      "id": "gateway_pattern"
     },
     {
       "label": "Phase 1 Single VPS",
@@ -1190,9 +1793,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase1_scaling",
-      "community": 4,
-      "norm_label": "phase 1 single vps"
+      "community": 6,
+      "norm_label": "phase 1 single vps",
+      "id": "phase1_scaling"
     },
     {
       "label": "Phase 2 Horizontal Scaling",
@@ -1203,9 +1806,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase2_scaling",
-      "community": 4,
-      "norm_label": "phase 2 horizontal scaling"
+      "community": 6,
+      "norm_label": "phase 2 horizontal scaling",
+      "id": "phase2_scaling"
     },
     {
       "label": "Phase 3 Service Extraction",
@@ -1216,9 +1819,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase3_scaling",
-      "community": 4,
-      "norm_label": "phase 3 service extraction"
+      "community": 6,
+      "norm_label": "phase 3 service extraction",
+      "id": "phase3_scaling"
     },
     {
       "label": "Phase 4 Kubernetes Orchestration",
@@ -1229,9 +1832,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "phase4_scaling",
-      "community": 4,
-      "norm_label": "phase 4 kubernetes orchestration"
+      "community": 6,
+      "norm_label": "phase 4 kubernetes orchestration",
+      "id": "phase4_scaling"
     },
     {
       "label": "JWT Authentication with Refresh Tokens",
@@ -1242,9 +1845,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "jwt_auth",
-      "community": 0,
-      "norm_label": "jwt authentication with refresh tokens"
+      "community": 1,
+      "norm_label": "jwt authentication with refresh tokens",
+      "id": "jwt_auth"
     },
     {
       "label": "Razorpay Payment Gateway Integration",
@@ -1255,9 +1858,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "razorpay_payments",
-      "community": 0,
-      "norm_label": "razorpay payment gateway integration"
+      "community": 1,
+      "norm_label": "razorpay payment gateway integration",
+      "id": "razorpay_payments"
     },
     {
       "label": "Commission Calculation Engine",
@@ -1268,9 +1871,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "commission_engine",
-      "community": 0,
-      "norm_label": "commission calculation engine"
+      "community": 1,
+      "norm_label": "commission calculation engine",
+      "id": "commission_engine"
     },
     {
       "label": "Express Router Portability",
@@ -1281,9 +1884,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "express_router_portability",
-      "community": 0,
-      "norm_label": "express router portability"
+      "community": 1,
+      "norm_label": "express router portability",
+      "id": "express_router_portability"
     },
     {
       "label": "Billing Service Extraction",
@@ -1294,9 +1897,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "billing_service",
-      "community": 4,
-      "norm_label": "billing service extraction"
+      "community": 6,
+      "norm_label": "billing service extraction",
+      "id": "billing_service"
     },
     {
       "label": "Daemon Hub Service",
@@ -1307,9 +1910,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "daemon_hub",
-      "community": 4,
-      "norm_label": "daemon hub service"
+      "community": 6,
+      "norm_label": "daemon hub service",
+      "id": "daemon_hub"
     },
     {
       "label": "Analytics Ingestion Service",
@@ -1320,9 +1923,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "analytics_service",
-      "community": 4,
-      "norm_label": "analytics ingestion service"
+      "community": 6,
+      "norm_label": "analytics ingestion service",
+      "id": "analytics_service"
     },
     {
       "label": "React Compiler",
@@ -1333,9 +1936,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "react_compiler",
-      "community": 6,
-      "norm_label": "react compiler"
+      "community": 1,
+      "norm_label": "react compiler",
+      "id": "react_compiler"
     },
     {
       "label": "Vite React SWC Plugin",
@@ -1346,9 +1949,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "vite_swc",
-      "community": 6,
-      "norm_label": "vite react swc plugin"
+      "community": 1,
+      "norm_label": "vite react swc plugin",
+      "id": "vite_swc"
     },
     {
       "label": "Panel API Package",
@@ -1359,9 +1962,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "panel_api_package",
-      "community": 5,
-      "norm_label": "panel api package"
+      "community": 8,
+      "norm_label": "panel api package",
+      "id": "panel_api_package"
     },
     {
       "label": "Dashboard Package",
@@ -1372,9 +1975,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "dashboard_package",
-      "community": 5,
-      "norm_label": "dashboard package"
+      "community": 8,
+      "norm_label": "dashboard package",
+      "id": "dashboard_package"
     },
     {
       "label": "Daemon Package (Wings)",
@@ -1385,9 +1988,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "daemon_package",
-      "community": 5,
-      "norm_label": "daemon package (wings)"
+      "community": 8,
+      "norm_label": "daemon package (wings)",
+      "id": "daemon_package"
     },
     {
       "label": "Shared Package",
@@ -1398,9 +2001,9 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "id": "shared_package",
-      "community": 5,
-      "norm_label": "shared package"
+      "community": 8,
+      "norm_label": "shared package",
+      "id": "shared_package"
     }
   ],
   "links": [
@@ -1408,11 +2011,21 @@
       "relation": "imports_from",
       "context": "import",
       "confidence": "EXTRACTED",
-      "source_file": "dashboard/src/main.tsx",
+      "source_file": "/run/media/subhamoy/HDD/Projects/Skynode/packages/dashboard/src/main.tsx",
       "source_location": "L4",
       "weight": 1.0,
-      "source": "dashboard_src_main_tsx",
-      "target": "dashboard_src_app_tsx",
+      "source": "run_media_subhamoy_hdd_projects_skynode_packages_dashboard_src_main_tsx",
+      "target": "run_media_subhamoy_hdd_projects_skynode_packages_dashboard_src_app_tsx",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/run/media/subhamoy/HDD/Projects/Skynode/packages/dashboard/src/App.tsx",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "run_media_subhamoy_hdd_projects_skynode_packages_dashboard_src_app_tsx",
+      "target": "src_app_app",
       "confidence_score": 1.0
     },
     {
@@ -1421,8 +2034,687 @@
       "source_file": "dashboard/src/App.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "dashboard_src_app_tsx",
-      "target": "src_app_app",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "mail_service_src_nodemailer_ts",
+      "target": "mail_service_src_types_mail_types_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "mail_service_src_nodemailer_ts",
+      "target": "src_nodemailer_initmailtransporter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "mail_service_src_nodemailer_ts",
+      "target": "src_nodemailer_gettransporter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "mail_service_src_nodemailer_ts",
+      "target": "src_nodemailer_getmailconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "mail_service_src_nodemailer_ts",
+      "target": "src_nodemailer_createtransporter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/index.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "mail_service_src_index_ts",
+      "target": "mail_service_src_nodemailer_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L39",
+      "weight": 1.0,
+      "source": "src_nodemailer_createtransporter",
+      "target": "src_nodemailer_initmailtransporter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "src_nodemailer_createtransporter",
+      "target": "src_nodemailer_getmailconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/index.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "mail_service_src_index_ts",
+      "target": "src_nodemailer_getmailconfig",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "mail-service/src/index.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "src_index_sendemail",
+      "target": "src_nodemailer_getmailconfig"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/index.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "mail_service_src_index_ts",
+      "target": "src_nodemailer_createtransporter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "mail-service/src/index.ts",
+      "source_location": "L8",
+      "weight": 1.0,
+      "source": "src_index_sendemail",
+      "target": "src_nodemailer_createtransporter"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/index.ts",
+      "source_location": "L7",
+      "weight": 1.0,
+      "source": "mail_service_src_index_ts",
+      "target": "src_index_sendemail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/templates/welcome.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "mail_service_src_templates_welcome_ts",
+      "target": "templates_welcome_getwelcomeemailtemplate",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L29",
+      "weight": 1.0,
+      "source": "services_email_service_sendwelcomeemail",
+      "target": "templates_welcome_getwelcomeemailtemplate"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "email_worker_src_index_ts",
+      "target": "email_worker_src_kafka_consumer_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "email_worker_src_index_ts",
+      "target": "kafka_consumer_subscribetotopic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L2",
+      "weight": 1.0,
+      "source": "email_worker_src_index_ts",
+      "target": "kafka_consumer_disconnectconsumer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "email_worker_src_index_ts",
+      "target": "email_worker_src_services_email_service_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "email_worker_src_index_ts",
+      "target": "services_email_service_processemailmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "email_worker_src_index_ts",
+      "target": "email_worker_src_worker_priority_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "email_worker_src_index_ts",
+      "target": "worker_priority_calculateworkerallocation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "email_worker_src_index_ts",
+      "target": "src_index_shutdown",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L61",
+      "weight": 1.0,
+      "source": "email_worker_src_index_ts",
+      "target": "src_index_start",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L53",
+      "weight": 1.0,
+      "source": "src_index_shutdown",
+      "target": "kafka_consumer_disconnectconsumer"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "src_index_start",
+      "target": "kafka_consumer_subscribetotopic"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/kafka/consumer.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "email_worker_src_kafka_consumer_ts",
+      "target": "kafka_consumer_createconsumer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/kafka/consumer.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "email_worker_src_kafka_consumer_ts",
+      "target": "kafka_consumer_subscribetotopic",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/kafka/consumer.ts",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "email_worker_src_kafka_consumer_ts",
+      "target": "kafka_consumer_disconnectconsumer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/kafka/consumer.ts",
+      "source_location": "L58",
+      "weight": 1.0,
+      "source": "email_worker_src_kafka_consumer_ts",
+      "target": "kafka_consumer_getconsumer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/kafka/consumer.ts",
+      "source_location": "L26",
+      "weight": 1.0,
+      "source": "kafka_consumer_subscribetotopic",
+      "target": "kafka_consumer_createconsumer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/kafka/producer.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "email_worker_src_kafka_producer_ts",
+      "target": "kafka_producer_connectproducer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/kafka/producer.ts",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "email_worker_src_kafka_producer_ts",
+      "target": "kafka_producer_publishemailmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/kafka/producer.ts",
+      "source_location": "L44",
+      "weight": 1.0,
+      "source": "email_worker_src_kafka_producer_ts",
+      "target": "kafka_producer_getpartitionforpriority",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/kafka/producer.ts",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "email_worker_src_kafka_producer_ts",
+      "target": "kafka_producer_disconnectproducer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/kafka/producer.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "email_worker_src_kafka_producer_ts",
+      "target": "kafka_producer_publishwelcomeemail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/kafka/producer.ts",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "kafka_producer_publishemailmessage",
+      "target": "kafka_producer_connectproducer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/kafka/producer.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "kafka_producer_publishemailmessage",
+      "target": "kafka_producer_getpartitionforpriority",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/kafka/producer.ts",
+      "source_location": "L78",
+      "weight": 1.0,
+      "source": "kafka_producer_publishwelcomeemail",
+      "target": "kafka_producer_publishemailmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "email_worker_src_services_email_service_ts",
+      "target": "services_email_service_processemailmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "email_worker_src_services_email_service_ts",
+      "target": "services_email_service_sendwelcomeemail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "email_worker_src_services_email_service_ts",
+      "target": "services_email_service_sendpasswordresetemail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "email_worker_src_services_email_service_ts",
+      "target": "services_email_service_sendemailverification",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L64",
+      "weight": 1.0,
+      "source": "email_worker_src_services_email_service_ts",
+      "target": "services_email_service_sendserveralert",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L76",
+      "weight": 1.0,
+      "source": "email_worker_src_services_email_service_ts",
+      "target": "services_email_service_sendbillingnotification",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "source": "services_email_service_processemailmessage",
+      "target": "services_email_service_sendwelcomeemail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "services_email_service_processemailmessage",
+      "target": "services_email_service_sendpasswordresetemail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "services_email_service_processemailmessage",
+      "target": "services_email_service_sendemailverification",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "services_email_service_processemailmessage",
+      "target": "services_email_service_sendserveralert",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/services/email.service.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "services_email_service_processemailmessage",
+      "target": "services_email_service_sendbillingnotification",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/worker/priority.ts",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "email_worker_src_worker_priority_ts",
+      "target": "worker_priority_getpartitionforpriority",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/worker/priority.ts",
+      "source_location": "L40",
+      "weight": 1.0,
+      "source": "email_worker_src_worker_priority_ts",
+      "target": "worker_priority_calculateworkerallocation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/worker/priority.ts",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "email_worker_src_worker_priority_ts",
+      "target": "worker_priority_getprioritylabel",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "email_worker_src_worker_scheduler_ts",
+      "target": "email_worker_src_worker_priority_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L5",
+      "weight": 1.0,
+      "source": "email_worker_src_worker_scheduler_ts",
+      "target": "worker_scheduler_workerscheduler",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L11",
+      "weight": 1.0,
+      "source": "worker_scheduler_workerscheduler",
+      "target": "worker_scheduler_workerscheduler_constructor",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "worker_scheduler_workerscheduler",
+      "target": "worker_scheduler_workerscheduler_registerworker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "worker_scheduler_workerscheduler",
+      "target": "worker_scheduler_workerscheduler_unregisterworker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L24",
+      "weight": 1.0,
+      "source": "worker_scheduler_workerscheduler",
+      "target": "worker_scheduler_workerscheduler_setrebalancecallback",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L28",
+      "weight": 1.0,
+      "source": "worker_scheduler_workerscheduler",
+      "target": "worker_scheduler_workerscheduler_rebalance",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L41",
+      "weight": 1.0,
+      "source": "worker_scheduler_workerscheduler",
+      "target": "worker_scheduler_workerscheduler_notifyworker",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L50",
+      "weight": 1.0,
+      "source": "worker_scheduler_workerscheduler",
+      "target": "worker_scheduler_workerscheduler_startmonitoring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L56",
+      "weight": 1.0,
+      "source": "worker_scheduler_workerscheduler",
+      "target": "worker_scheduler_workerscheduler_stopmonitoring",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "method",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "worker_scheduler_workerscheduler",
+      "target": "worker_scheduler_workerscheduler_getcurrentallocation",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/worker/scheduler.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "worker_scheduler_workerscheduler_registerworker",
+      "target": "worker_scheduler_workerscheduler_notifyworker",
       "confidence_score": 1.0
     },
     {
@@ -1432,8 +2724,30 @@
       "source_file": "panel-api/src/index.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_index_ts",
-      "target": "utils_database_connecttodatabase",
+      "target": "utils_database_connecttodatabase"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "panel-api/src/apps/auth/middlewares/auth.middleware.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "panel_api_src_apps_auth_middlewares_auth_middleware_ts",
+      "target": "utils_apierror_apierror",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "panel-api/src/apps/auth/middlewares/auth.middleware.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "panel_api_src_apps_auth_middlewares_auth_middleware_ts",
+      "target": "utils_asynchandler_asynchandler",
       "confidence_score": 1.0
     },
     {
@@ -1443,9 +2757,20 @@
       "source_file": "panel-api/src/apps/auth/controller/auth.controller.non-protected.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_apps_auth_controller_auth_controller_non_protected_ts",
-      "target": "utils_apiresponse_apiresponse",
-      "confidence_score": 1.0
+      "target": "utils_apiresponse_apiresponse"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "panel-api/src/apps/auth/controller/auth.controller.non-protected.ts",
+      "source_location": "L9",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "panel_api_src_apps_auth_controller_auth_controller_non_protected_ts",
+      "target": "utils_asynchandler_asynchandler"
     },
     {
       "relation": "imports",
@@ -1455,7 +2780,7 @@
       "source_location": "L9",
       "weight": 1.0,
       "source": "panel_api_src_apps_auth_controller_auth_controller_non_protected_ts",
-      "target": "utils_asynchandler_asynchandler",
+      "target": "utils_apierror_apierror",
       "confidence_score": 1.0
     },
     {
@@ -1464,9 +2789,9 @@
       "source_file": "panel-api/src/apps/auth/controller/auth.controller.non-protected.ts",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_apps_auth_controller_auth_controller_non_protected_ts",
-      "target": "controller_auth_controller_non_protected_usersignin",
-      "confidence_score": 1.0
+      "target": "controller_auth_controller_non_protected_usersignin"
     },
     {
       "relation": "contains",
@@ -1474,8 +2799,48 @@
       "source_file": "panel-api/src/apps/auth/controller/auth.controller.non-protected.ts",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_apps_auth_controller_auth_controller_non_protected_ts",
-      "target": "controller_auth_controller_non_protected_usersignout",
+      "target": "controller_auth_controller_non_protected_usersignout"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "panel-api/src/apps/auth/configs/jwt.config.ts",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "panel_api_src_apps_auth_configs_jwt_config_ts",
+      "target": "configs_jwt_config_generateaccesstoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "panel-api/src/apps/auth/configs/jwt.config.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "panel_api_src_apps_auth_configs_jwt_config_ts",
+      "target": "configs_jwt_config_generaterefreshtoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "panel-api/src/apps/auth/configs/jwt.config.ts",
+      "source_location": "L33",
+      "weight": 1.0,
+      "source": "panel_api_src_apps_auth_configs_jwt_config_ts",
+      "target": "configs_jwt_config_verifyaccesstoken",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "panel-api/src/apps/auth/configs/jwt.config.ts",
+      "source_location": "L37",
+      "weight": 1.0,
+      "source": "panel_api_src_apps_auth_configs_jwt_config_ts",
+      "target": "configs_jwt_config_verifyrefreshtoken",
       "confidence_score": 1.0
     },
     {
@@ -1485,9 +2850,9 @@
       "source_file": "panel-api/src/apps/auth/routes/auth.routes.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_apps_auth_routes_auth_routes_ts",
-      "target": "utils_apiresponse_apiresponse",
-      "confidence_score": 1.0
+      "target": "utils_apiresponse_apiresponse"
     },
     {
       "relation": "contains",
@@ -1495,9 +2860,9 @@
       "source_file": "panel-api/src/utils/database.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_utils_database_ts",
-      "target": "utils_database_connecttodatabase",
-      "confidence_score": 1.0
+      "target": "utils_database_connecttodatabase"
     },
     {
       "relation": "imports",
@@ -1506,9 +2871,9 @@
       "source_file": "panel-api/src/utils/zodValidate.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_utils_zodvalidate_ts",
-      "target": "utils_apierror_apierror",
-      "confidence_score": 1.0
+      "target": "utils_apierror_apierror"
     },
     {
       "relation": "contains",
@@ -1516,9 +2881,9 @@
       "source_file": "panel-api/src/utils/zodValidate.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_utils_zodvalidate_ts",
-      "target": "utils_zodvalidate_validateschema",
-      "confidence_score": 1.0
+      "target": "utils_zodvalidate_validateschema"
     },
     {
       "relation": "imports",
@@ -1527,9 +2892,9 @@
       "source_file": "panel-api/src/utils/asyncHandler.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_utils_asynchandler_ts",
-      "target": "utils_apiresponse_apiresponse",
-      "confidence_score": 1.0
+      "target": "utils_apiresponse_apiresponse"
     },
     {
       "relation": "imports",
@@ -1538,9 +2903,9 @@
       "source_file": "panel-api/src/utils/asyncHandler.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_utils_asynchandler_ts",
-      "target": "utils_apierror_apierror",
-      "confidence_score": 1.0
+      "target": "utils_apierror_apierror"
     },
     {
       "relation": "contains",
@@ -1548,9 +2913,9 @@
       "source_file": "panel-api/src/utils/asyncHandler.ts",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_utils_asynchandler_ts",
-      "target": "utils_asynchandler_asynchandler",
-      "confidence_score": 1.0
+      "target": "utils_asynchandler_asynchandler"
     },
     {
       "relation": "contains",
@@ -1558,9 +2923,9 @@
       "source_file": "panel-api/src/utils/ApiResponse.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_utils_apiresponse_ts",
-      "target": "utils_apiresponse_apiresponse",
-      "confidence_score": 1.0
+      "target": "utils_apiresponse_apiresponse"
     },
     {
       "relation": "method",
@@ -1568,9 +2933,9 @@
       "source_file": "panel-api/src/utils/ApiResponse.ts",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_apiresponse_apiresponse",
-      "target": "utils_apiresponse_apiresponse_constructor",
-      "confidence_score": 1.0
+      "target": "utils_apiresponse_apiresponse_constructor"
     },
     {
       "relation": "contains",
@@ -1578,9 +2943,9 @@
       "source_file": "panel-api/src/utils/ApiError.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_utils_apierror_ts",
-      "target": "utils_apierror_apierror",
-      "confidence_score": 1.0
+      "target": "utils_apierror_apierror"
     },
     {
       "relation": "method",
@@ -1588,9 +2953,103 @@
       "source_file": "panel-api/src/utils/ApiError.ts",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "utils_apierror_apierror",
-      "target": "utils_apierror_apierror_constructor",
+      "target": "utils_apierror_apierror_constructor"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "panel-api/src/utils/kafka/email.producer.ts",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "panel_api_src_utils_kafka_email_producer_ts",
+      "target": "kafka_email_producer_connectproducer",
       "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "panel-api/src/utils/kafka/email.producer.ts",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "panel_api_src_utils_kafka_email_producer_ts",
+      "target": "kafka_email_producer_publishemailmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "panel-api/src/utils/kafka/email.producer.ts",
+      "source_location": "L73",
+      "weight": 1.0,
+      "source": "panel_api_src_utils_kafka_email_producer_ts",
+      "target": "kafka_email_producer_getpartitionforpriority",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "panel-api/src/utils/kafka/email.producer.ts",
+      "source_location": "L85",
+      "weight": 1.0,
+      "source": "panel_api_src_utils_kafka_email_producer_ts",
+      "target": "kafka_email_producer_publishwelcomeemail",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "panel-api/src/utils/kafka/email.producer.ts",
+      "source_location": "L103",
+      "weight": 1.0,
+      "source": "panel_api_src_utils_kafka_email_producer_ts",
+      "target": "kafka_email_producer_disconnectproducer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "panel-api/src/utils/kafka/email.producer.ts",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "kafka_email_producer_publishemailmessage",
+      "target": "kafka_email_producer_connectproducer",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "panel-api/src/utils/kafka/email.producer.ts",
+      "source_location": "L54",
+      "weight": 1.0,
+      "source": "kafka_email_producer_publishemailmessage",
+      "target": "kafka_email_producer_getpartitionforpriority",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "panel-api/src/utils/kafka/email.producer.ts",
+      "source_location": "L100",
+      "weight": 1.0,
+      "source": "kafka_email_producer_publishwelcomeemail",
+      "target": "kafka_email_producer_publishemailmessage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "dashboard/src/main.tsx",
+      "source_location": "L4",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "dashboard_src_main_tsx",
+      "target": "dashboard_src_app_tsx"
     },
     {
       "relation": "rationale_for",
@@ -2476,5 +3935,5 @@
       "source_file": "docker-compose.yml"
     }
   ],
-  "built_at_commit": "637f69be1768dc22dc8ab8a94e54917d0bd77ffa"
+  "built_at_commit": "5cde7cfb1344b3573185574977a83a17e5be10f4"
 }

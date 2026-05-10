@@ -4,6 +4,7 @@
   "description": "Email service using nodemailer",
   "type": "module",
   "main": "src/index.ts",
+  "moduleResolution": "Bundler",
   "scripts": {
     "build": "tsc",
     "dev": "tsx watch src/index.ts"
