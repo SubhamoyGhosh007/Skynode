@@ -25,24 +25,24 @@
 - [ ] Create utility: formatters (date, currency, byte sizes)
 
 ### Step 3 — Database Schema & Migrations
-- [ ] Setup Neon PostgreSQL connection via Drizzle
-- [ ] Create Drizzle schema: `tenants` table
-- [ ] Create Drizzle schema: `users` table
-- [ ] Create Drizzle schema: `tenant_branding` table
-- [ ] Create Drizzle schema: `nodes` table
-- [ ] Create Drizzle schema: `nests` table
-- [ ] Create Drizzle schema: `eggs` table
-- [ ] Create Drizzle schema: `tenant_enabled_eggs` table
-- [ ] Create Drizzle schema: `hosting_plans` table
-- [ ] Create Drizzle schema: `servers` table
-- [ ] Create Drizzle schema: `server_schedules` table
-- [ ] Create Drizzle schema: `server_logs` table
-- [ ] Create Drizzle schema: `api_keys` table
-- [ ] Create Drizzle schema: `subscriptions` table
-- [ ] Create Drizzle schema: `transactions` table
-- [ ] Create Drizzle schema: `regional_discounts` table
-- [ ] Create Drizzle schema: `analytics_events` table
-- [ ] Create Drizzle schema: `backup_configs` table
+- [ ] Setup Neon PostgreSQL connection via Mongoose
+- [ ] Create Mongoose schema: `tenants` table
+- [ ] Create Mongoose schema: `users` table
+- [ ] Create Mongoose schema: `tenant_branding` table
+- [ ] Create Mongoose schema: `nodes` table
+- [ ] Create Mongoose schema: `nests` table
+- [ ] Create Mongoose schema: `eggs` table
+- [ ] Create Mongoose schema: `tenant_enabled_eggs` table
+- [ ] Create Mongoose schema: `hosting_plans` table
+- [ ] Create Mongoose schema: `servers` table
+- [ ] Create Mongoose schema: `server_schedules` table
+- [ ] Create Mongoose schema: `server_logs` table
+- [ ] Create Mongoose schema: `api_keys` table
+- [ ] Create Mongoose schema: `subscriptions` table
+- [ ] Create Mongoose schema: `transactions` table
+- [ ] Create Mongoose schema: `regional_discounts` table
+- [ ] Create Mongoose schema: `analytics_events` table
+- [ ] Create Mongoose schema: `backup_configs` table
 - [ ] Setup Row-Level Security policies (users, nodes, servers, transactions)
 - [ ] Run initial migration
 - [ ] Create seed script (default admin user, default nests + eggs)
@@ -389,7 +389,7 @@
 - [ ] API rate limiting tested under load
 - [ ] JWT refresh token rotation working correctly
 - [ ] Input sanitization on all user inputs (Zod handles this)
-- [ ] SQL injection prevention verified (Drizzle ORM parameterized queries)
+- [ ] SQL injection prevention verified (Mongoose ORM parameterized queries)
 - [ ] Write unit tests: commission calculation, auth flows
 - [ ] Write integration tests: server lifecycle, daemon handshake
 - [ ] Write E2E test: full buyer → customer flow

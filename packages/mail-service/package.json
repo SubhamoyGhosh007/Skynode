@@ -1,0 +1,23 @@
+{
+  "name": "@skynode/mail-service",
+  "version": "1.0.0",
+  "description": "Email service using nodemailer",
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.9.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/nodemailer": "^6.4.14",
+    "tsx": "^4.21.0",
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "/mnt/HDD/Projects/Skynode/packages/dashboard/eslint.config.js": {
+    "mtime": 1777985742.603835,
+    "hash": "0355276bc79439afe3c53e3a2470ca1e"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/dashboard/vite.config.ts": {
+    "mtime": 1777985742.6052308,
+    "hash": "97f89646c01c30b30928b86b1e587349"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/dashboard/src/main.tsx": {
+    "mtime": 1777985742.6052308,
+    "hash": "787e5a07efeb2bf6209d5937195f2f68"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/dashboard/src/App.tsx": {
+    "mtime": 1777985742.604535,
+    "hash": "9b6202ef42b55bb6c92ed23e129dd38c"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/daemon/src/index.ts": {
+    "mtime": 1777991045.217542,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/app.ts": {
+    "mtime": 1778249480.8184254,
+    "hash": "df64e21a28ae51a37a4335e548585076"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/index.ts": {
+    "mtime": 1778236951.9512284,
+    "hash": "02b6ad2c59d440396d813f5ec56bc726"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/config/env.ts": {
+    "mtime": 1778236809.0346093,
+    "hash": "365da5a8df003dc09a5dda9aade2be98"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/database/tenant.db.ts": {
+    "mtime": 1778250210.5319357,
+    "hash": "d56b2509a2e428a8954b067c82a9eb41"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/database/tenantBranding.db.ts": {
+    "mtime": 1778250263.58708,
+    "hash": "36b29fc4e481be6e6f1568e367aeaf16"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/zod/user.zod.ts": {
+    "mtime": 1778298419.7810802,
+    "hash": "c1b0eef59866a9945da03596ce8825c1"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/database/user.db.ts": {
+    "mtime": 1778301263.9195826,
+    "hash": "1a13f9164c12f0d828a072f6367762e6"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/controller/auth.controller.non-protected.ts": {
+    "mtime": 1778298904.2758644,
+    "hash": "55f603bcf0421932bcc133bf81e55172"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/controller/index.ts": {
+    "mtime": 1778254814.3778672,
+    "hash": "da19cf6c686441b41a3e81b65f8af565"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/routes/auth.routes.ts": {
+    "mtime": 1778298407.6084325,
+    "hash": "9c278075fefc16ec6bd46d904bfd75d1"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/types/model.types.ts": {
+    "mtime": 1778300853.1926563,
+    "hash": "e9e0b4efd274c4e28e8a0f906b3d8c45"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/types/index.ts": {
+    "mtime": 1778300885.4353776,
+    "hash": "2166e21ac386f60a2e25d4543835c667"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/utils/database.ts": {
+    "mtime": 1778236358.2708993,
+    "hash": "c54cac0e131eb3621c08f6f134b32fe3"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/utils/zodValidate.ts": {
+    "mtime": 1778263473.6313128,
+    "hash": "8fcd6f9589f5260c0151efa82c587271"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/utils/asyncHandler.ts": {
+    "mtime": 1778264476.332915,
+    "hash": "77eb485bf6db72ac07cef9c8806bad1e"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/utils/ApiResponse.ts": {
+    "mtime": 1778264131.1627355,
+    "hash": "a9ff6abf15c1766307a5f08a61258439"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/panel-api/src/utils/ApiError.ts": {
+    "mtime": 1778262633.223636,
+    "hash": "977f2beaac93b79f8cb9f48eaf9406ff"
+  },
+  "/mnt/HDD/Projects/Skynode/claude.txt": {
+    "mtime": 1778153977.6719673,
+    "hash": "0885408d8b2a5e7b76cad881578854c5"
+  },
+  "/mnt/HDD/Projects/Skynode/GEMINI.md": {
+    "mtime": 1777986199.6327198,
+    "hash": "8ee39dcfe68a23b3797b02648930d699"
+  },
+  "/mnt/HDD/Projects/Skynode/pnpm-workspace.yaml": {
+    "mtime": 1777985742.611881,
+    "hash": "7c19a7132ac112a45d71f3a93fb47485"
+  },
+  "/mnt/HDD/Projects/Skynode/docker-compose.yml": {
+    "mtime": 1778294995.247033,
+    "hash": "5cc0bd1f5f5b6636f37593a3fadcc4b2"
+  },
+  "/mnt/HDD/Projects/Skynode/README.md": {
+    "mtime": 1777985742.6018803,
+    "hash": "d41d8cd98f00b204e9800998ecf8427e"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/dashboard/index.html": {
+    "mtime": 1777985742.603835,
+    "hash": "676ca5537d89a80f17e2fcc9ee90f910"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/dashboard/README.md": {
+    "mtime": 1777985742.603835,
+    "hash": "987442a8c620e4b9d478748fe65a6a46"
+  },
+  "/mnt/HDD/Projects/Skynode/plans/scaling_roadmap.md": {
+    "mtime": 1777985742.609881,
+    "hash": "7ded882f0ca7e318f7c4cdd8a7d747a9"
+  },
+  "/mnt/HDD/Projects/Skynode/plans/database_schema.md": {
+    "mtime": 1778236306.7770765,
+    "hash": "9d92ac48e9ce6c96c4fd3ed18bece685"
+  },
+  "/mnt/HDD/Projects/Skynode/plans/architecture_flow.md": {
+    "mtime": 1778236358.2438977,
+    "hash": "641b78c16a03420acf8888b7386be5b3"
+  },
+  "/mnt/HDD/Projects/Skynode/plans/api_routes.md": {
+    "mtime": 1777985742.6065068,
+    "hash": "9197129e8bc40635a3f21652787790be"
+  },
+  "/mnt/HDD/Projects/Skynode/plans/pages_and_prompts.md": {
+    "mtime": 1777985742.609881,
+    "hash": "c3211180da2d5aa4ee68608d79e83617"
+  },
+  "/mnt/HDD/Projects/Skynode/plans/implementation_plan.md": {
+    "mtime": 1777985742.6078806,
+    "hash": "eee9538a67dee7719cd444e07ec5119c"
+  },
+  "/mnt/HDD/Projects/Skynode/plans/feature_checklist.md": {
+    "mtime": 1777985742.6068954,
+    "hash": "4b51340cfaa62216f24375f84102f2e0"
+  },
+  "/mnt/HDD/Projects/Skynode/plans/tech_stack.md": {
+    "mtime": 1778236358.2438977,
+    "hash": "4f6101d54f0b45f1bfa6c11b75785803"
+  },
+  "/mnt/HDD/Projects/Skynode/plans/folder_structure.md": {
+    "mtime": 1777985742.6068954,
+    "hash": "fc64f5bcd680926d837463bbf7d15913"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/dashboard/src/assets/react.svg": {
+    "mtime": 1777985742.6052308,
+    "hash": "f0402b67b6ce880f65666bb49e841696"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/dashboard/src/assets/hero.png": {
+    "mtime": 1777985742.6050472,
+    "hash": "aead493361b27e7510691c5d7072dfc1"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/dashboard/src/assets/vite.svg": {
+    "mtime": 1777985742.6052308,
+    "hash": "9960a24288958394ac50e57ff638b036"
+  }
+}

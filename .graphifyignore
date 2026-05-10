@@ -1,0 +1,13 @@
+# .graphifyignore
+vendor/
+node_modules/
+dist/
+public/
+**/node_modules/
+**/**/node_modules/
+**/public/
+**/**/public/
+**/dist/
+**/**/dist/
+*.log
+.DS_Store

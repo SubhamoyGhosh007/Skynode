@@ -1,0 +1,1 @@
+{"nodes": [], "edges": [], "hyperedges": [{"id": "skynode_monorepo", "label": "SkyNode Monorepo Structure", "nodes": ["pkg_panel_api", "pkg_dashboard", "pkg_daemon", "pkg_shared"], "relation": "form", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "pnpm-workspace.yaml"}]}
