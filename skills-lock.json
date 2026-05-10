@@ -1,6 +1,12 @@
 {
   "version": 1,
   "skills": {
+    "dotenv": {
+      "source": "motdotla/dotenv",
+      "sourceType": "github",
+      "skillPath": "skills/dotenv/SKILL.md",
+      "computedHash": "7580a9737aebb75d98d174bed9b3545586db2d3a112f0fe69c8b79eecfd5ce99"
+    },
     "kafka-development": {
       "source": "mindrally/skills",
       "sourceType": "github",

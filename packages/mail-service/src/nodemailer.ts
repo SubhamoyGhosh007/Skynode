@@ -5,7 +5,20 @@ let transporter: Transporter | null = null;
 
 export type MailProvider = "gmail" | "smtp" | "outlook" | "sendgrid" | "mailgun" | "resend";
 
+export interface MailServiceConfig {
+  provider?: MailProvider;
+  host?: string;
+  port?: number;
+  secure?: boolean;
+  auth?: {
+    user?: string;
+    pass?: string;
+  };
+  from?: string;
+}
+
 export const initMailTransporter = (config: MailConfig): Transporter => {
+  console.log('Initializing SMTP transporter:', config.host, config.port);
   transporter = nodemailer.createTransport({
     host: config.host,
     port: config.port,
@@ -16,11 +29,8 @@ export const initMailTransporter = (config: MailConfig): Transporter => {
   return transporter;
 };
 
-export const initGmailTransporter = (): Transporter => {
-  const gmailUser = process.env.GMAIL_USER;
-  const gmailAppPassword = process.env.GMAIL_APP_PASSWORD;
-
-  if (!gmailUser || !gmailAppPassword) {
+export const initGmailTransporter = (user: string, appPassword: string): Transporter => {
+  if (!user || !appPassword) {
     throw new Error("GMAIL_USER and GMAIL_APP_PASSWORD environment variables are required");
   }
 
@@ -29,21 +39,18 @@ export const initGmailTransporter = (): Transporter => {
     port: 587,
     secure: false,
     auth: {
-      user: gmailUser,
-      pass: gmailAppPassword,
+      user: user,
+      pass: appPassword,
     },
   });
 
-  console.log(`Gmail transporter initialized for: ${gmailUser}`);
+  console.log(`Gmail transporter initialized for: ${user}`);
 
   return transporter;
 };
 
-export const initOutlookTransporter = (): Transporter => {
-  const outlookUser = process.env.OUTLOOK_USER;
-  const outlookPassword = process.env.OUTLOOK_PASSWORD;
-
-  if (!outlookUser || !outlookPassword) {
+export const initOutlookTransporter = (user: string, password: string): Transporter => {
+  if (!user || !password) {
     throw new Error("OUTLOOK_USER and OUTLOOK_PASSWORD environment variables are required");
   }
 
@@ -52,18 +59,16 @@ export const initOutlookTransporter = (): Transporter => {
     port: 587,
     secure: false,
     auth: {
-      user: outlookUser,
-      pass: outlookPassword,
+      user: user,
+      pass: password,
     },
   });
 
   return transporter;
 };
 
-export const initSendGridTransporter = (): Transporter => {
-  const sendGridApiKey = process.env.SENDGRID_API_KEY;
-
-  if (!sendGridApiKey) {
+export const initSendGridTransporter = (apiKey: string): Transporter => {
+  if (!apiKey) {
     throw new Error("SENDGRID_API_KEY environment variable is required");
   }
 
@@ -73,28 +78,25 @@ export const initSendGridTransporter = (): Transporter => {
     secure: false,
     auth: {
       user: "apikey",
-      pass: sendGridApiKey,
+      pass: apiKey,
     },
   });
 
   return transporter;
 };
 
-export const initMailgunTransporter = (): Transporter => {
-  const mailgunDomain = process.env.MAILGUN_DOMAIN;
-  const mailgunApiKey = process.env.MAILGUN_API_KEY;
-
-  if (!mailgunDomain || !mailgunApiKey) {
+export const initMailgunTransporter = (domain: string, apiKey: string): Transporter => {
+  if (!domain || !apiKey) {
     throw new Error("MAILGUN_DOMAIN and MAILGUN_API_KEY environment variables are required");
   }
 
   transporter = nodemailer.createTransport({
-    host: `smtp.${mailgunDomain}`,
+    host: `smtp.${domain}`,
     port: 587,
     secure: false,
     auth: {
       user: "api",
-      pass: mailgunApiKey,
+      pass: apiKey,
     },
   });
 
@@ -125,21 +127,45 @@ export const getCurrentProvider = (): MailProvider => {
   return (process.env.MAIL_PROVIDER as MailProvider) || "smtp";
 };
 
-export const createTransporter = (): Transporter => {
-  const provider = getCurrentProvider();
+export const createTransporter = (config?: MailServiceConfig): Transporter => {
+  // If config is provided, use its provider; otherwise read from env
+  const provider = config?.provider || getCurrentProvider();
   console.log(`Initializing mail provider: ${provider}`);
 
   switch (provider) {
     case "gmail":
-      return initGmailTransporter();
+      // Use config values or fall back to env
+      const gmailUser = config?.auth?.user || process.env.GMAIL_USER || "";
+      const gmailPass = config?.auth?.pass || process.env.GMAIL_APP_PASSWORD || "";
+      return initGmailTransporter(gmailUser, gmailPass);
+
     case "outlook":
-      return initOutlookTransporter();
+      const outlookUser = config?.auth?.user || process.env.OUTLOOK_USER || "";
+      const outlookPass = config?.auth?.pass || process.env.OUTLOOK_PASSWORD || "";
+      return initOutlookTransporter(outlookUser, outlookPass);
+
     case "sendgrid":
-      return initSendGridTransporter();
+      const sendgridKey = process.env.SENDGRID_API_KEY || "";
+      return initSendGridTransporter(sendgridKey);
+
     case "mailgun":
-      return initMailgunTransporter();
+      const mailgunDomain = process.env.MAILGUN_DOMAIN || "";
+      const mailgunKey = process.env.MAILGUN_API_KEY || "";
+      return initMailgunTransporter(mailgunDomain, mailgunKey);
+
     case "smtp":
     default:
-      return initMailTransporter(getMailConfig());
+      // Build config from provided values or env
+      const smtpConfig: MailConfig = {
+        host: config?.host || process.env.SMTP_HOST || "localhost",
+        port: config?.port || parseInt(process.env.SMTP_PORT || "1025", 10),
+        secure: config?.secure || process.env.SMTP_SECURE === "true",
+        auth: {
+          user: config?.auth?.user || process.env.SMTP_USER || "",
+          pass: config?.auth?.pass || process.env.SMTP_PASS || "",
+        },
+        from: config?.from || process.env.FROM_EMAIL || "noreply@skynode.local",
+      };
+      return initMailTransporter(smtpConfig);
   }
 };

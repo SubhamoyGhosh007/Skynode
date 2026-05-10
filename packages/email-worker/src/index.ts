@@ -1,11 +1,4 @@
-import "dotenv/config";
-
-// Force Gmail settings before importing mail-service
-process.env.MAIL_PROVIDER = "gmail";
-process.env.GMAIL_USER = process.env.GMAIL_USER || "subhamoyghosh2017@gmail.com";
-process.env.GMAIL_APP_PASSWORD = process.env.GMAIL_APP_PASSWORD || "hmiu oyuh xqei vvls";
-process.env.FROM_EMAIL = process.env.FROM_EMAIL || "subhamoyghosh2017@gmail.com";
-
+import { config } from "./config.js";
 import { subscribeToTopic, disconnectConsumer } from "./kafka/consumer.js";
 import { processEmailMessage } from "./services/email.service.js";
 import {
@@ -17,10 +10,24 @@ import {
 import {
   WorkerScheduler
 } from "./worker/scheduler.js"
+import { createTransporter } from "@skynode/mail-service/src/nodemailer.js";
 
-const WORKER_COUNT = parseInt(process.env.WORKER_COUNT || "5", 10);
+const WORKER_COUNT = config.worker.count;
 
 console.log(`Starting email worker with ${WORKER_COUNT} workers...`);
+
+// Explicitly initialize mail transporter with config
+createTransporter({
+  provider: config.mail.provider,
+  auth: {
+    user: config.mail.provider === "gmail"
+      ? config.mail.gmail.user
+      : config.mail.smtp.auth.user,
+    pass: config.mail.provider === "gmail"
+      ? config.mail.gmail.pass
+      : config.mail.smtp.auth.pass,
+  },
+});
 
 // Initialize worker scheduler
 const scheduler = new WorkerScheduler(DEFAULT_ALLOCATION);
