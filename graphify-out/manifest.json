@@ -16,12 +16,12 @@
     "hash": "9b6202ef42b55bb6c92ed23e129dd38c"
   },
   "/mnt/HDD/Projects/Skynode/packages/mail-service/src/nodemailer.ts": {
-    "mtime": 1778397921.6361866,
-    "hash": "5c1fbf7658a62efdff03ea492a820f08"
+    "mtime": 1778411006.1313057,
+    "hash": "dfd299429ed45f81fafcf0870b6cd4a8"
   },
   "/mnt/HDD/Projects/Skynode/packages/mail-service/src/index.ts": {
-    "mtime": 1778397944.9424255,
-    "hash": "51a80faa1ff8a849bc753c764cf828df"
+    "mtime": 1778409982.7067163,
+    "hash": "3b7df3111410363e70e73b8a700c55d0"
   },
   "/mnt/HDD/Projects/Skynode/packages/mail-service/src/templates/welcome.ts": {
     "mtime": 1778397930.16464,
@@ -32,24 +32,24 @@
     "hash": "15ea43090582b44671fe5fd91791d8a5"
   },
   "/mnt/HDD/Projects/Skynode/packages/email-worker/src/index.ts": {
-    "mtime": 1778398069.3940413,
-    "hash": "6c0977d7d68225296a7facbd94304793"
+    "mtime": 1778411571.4678376,
+    "hash": "fda4f4011b5644e8f788c726a3531853"
   },
   "/mnt/HDD/Projects/Skynode/packages/email-worker/src/kafka/consumer.ts": {
-    "mtime": 1778398010.5349123,
-    "hash": "404df38cc99ffd984105a9ce913a971f"
+    "mtime": 1778407919.6588235,
+    "hash": "694adcf82bb92ff5ddf590eec00e0eca"
   },
   "/mnt/HDD/Projects/Skynode/packages/email-worker/src/kafka/producer.ts": {
-    "mtime": 1778398092.4112647,
-    "hash": "d78b990027fa421d513a88c1db33ba0b"
+    "mtime": 1778408871.7001297,
+    "hash": "08d229631f1b07f7786a7690a66fa6a3"
   },
   "/mnt/HDD/Projects/Skynode/packages/email-worker/src/services/email.service.ts": {
-    "mtime": 1778398025.6507158,
-    "hash": "b782695c1ace091560867feafd2e0935"
+    "mtime": 1778410982.2710142,
+    "hash": "3e2e7ee6fcca69de0759c005673f27bb"
   },
   "/mnt/HDD/Projects/Skynode/packages/email-worker/src/worker/priority.ts": {
-    "mtime": 1778398043.182648,
-    "hash": "c7ed4fb44b2697bcbb1a819f66ec066a"
+    "mtime": 1778408280.3650074,
+    "hash": "c00fd505a952daf41a180e7bcec74246"
   },
   "/mnt/HDD/Projects/Skynode/packages/email-worker/src/worker/scheduler.ts": {
     "mtime": 1778398060.2555554,
@@ -96,8 +96,8 @@
     "hash": "9fd3efcc67ba1a926f8cbb1473768a7f"
   },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/controller/auth.controller.non-protected.ts": {
-    "mtime": 1778398210.9475868,
-    "hash": "9ed9020a3ce2761aa461ca13a30f78d9"
+    "mtime": 1778400794.4814858,
+    "hash": "33ad412bf0b23f504d51789e2a277481"
   },
   "/mnt/HDD/Projects/Skynode/packages/panel-api/src/apps/auth/controller/index.ts": {
     "mtime": 1778385523.0598648,
@@ -176,8 +176,8 @@
     "hash": "7c19a7132ac112a45d71f3a93fb47485"
   },
   "/mnt/HDD/Projects/Skynode/docker-compose.yml": {
-    "mtime": 1778397286.5820234,
-    "hash": "544d343e14d85c748e49aa55e373e871"
+    "mtime": 1778409960.6495256,
+    "hash": "4d8fe8bab3fadfe1c1db610e314c394d"
   },
   "/mnt/HDD/Projects/Skynode/README.md": {
     "mtime": 1777985742.6018803,

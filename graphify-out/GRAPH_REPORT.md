@@ -1,16 +1,16 @@
 # Graph Report - Skynode  (2026-05-10)
 
 ## Corpus Check
-- 40 files · ~39,735 words
+- 40 files · ~40,088 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 173 nodes · 174 edges · 47 communities (30 shown, 17 thin omitted)
-- Extraction: 88% EXTRACTED · 12% INFERRED · 0% AMBIGUOUS · INFERRED: 21 edges (avg confidence: 0.78)
+- 178 nodes · 186 edges · 47 communities (30 shown, 17 thin omitted)
+- Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 21 edges (avg confidence: 0.78)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `5cde7cfb`
+- Built from commit: `be6514ac`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -45,12 +45,12 @@
 
 ## God Nodes (most connected - your core abstractions)
 1. `Implementation Plan` - 14 edges
-2. `WorkerScheduler` - 10 edges
-3. `Scaling Roadmap` - 8 edges
-4. `processEmailMessage()` - 7 edges
-5. `User Sign Up Controller` - 7 edges
-6. `ApiError` - 6 edges
-7. `createTransporter()` - 5 edges
+2. `WorkerScheduler` - 11 edges
+3. `createTransporter()` - 10 edges
+4. `Scaling Roadmap` - 8 edges
+5. `processEmailMessage()` - 7 edges
+6. `User Sign Up Controller` - 7 edges
+7. `ApiError` - 6 edges
 8. `ApiResponse` - 5 edges
 9. `User Model` - 5 edges
 10. `Project Folder Structure` - 5 edges
@@ -94,20 +94,20 @@ Cohesion: 0.16
 Nodes (3): ApiError, ApiResponse, asyncHandler()
 
 ### Community 3 - "Community 3"
-Cohesion: 0.23
-Nodes (6): createConsumer(), disconnectConsumer(), subscribeToTopic(), shutdown(), start(), calculateWorkerAllocation()
+Cohesion: 0.29
+Nodes (9): sendEmail(), createTransporter(), getCurrentProvider(), getMailConfig(), initGmailTransporter(), initMailgunTransporter(), initMailTransporter(), initOutlookTransporter() (+1 more)
 
-### Community 5 - "Community 5"
-Cohesion: 0.36
-Nodes (7): processEmailMessage(), sendBillingNotification(), sendEmailVerification(), sendPasswordResetEmail(), sendServerAlert(), sendWelcomeEmail(), getWelcomeEmailTemplate()
+### Community 4 - "Community 4"
+Cohesion: 0.24
+Nodes (6): createConsumer(), disconnectConsumer(), subscribeToTopic(), shutdown(), start(), calculateWorkerAllocation()
 
 ### Community 6 - "Community 6"
 Cohesion: 0.36
-Nodes (9): Analytics Ingestion Service, Billing Service Extraction, Daemon Hub Service, Gateway Pattern for Service Extraction, Phase 1 Single VPS, Phase 2 Horizontal Scaling, Phase 3 Service Extraction, Phase 4 Kubernetes Orchestration (+1 more)
+Nodes (7): processEmailMessage(), sendBillingNotification(), sendEmailVerification(), sendPasswordResetEmail(), sendServerAlert(), sendWelcomeEmail(), getWelcomeEmailTemplate()
 
 ### Community 7 - "Community 7"
-Cohesion: 0.46
-Nodes (4): sendEmail(), createTransporter(), getMailConfig(), initMailTransporter()
+Cohesion: 0.36
+Nodes (9): Analytics Ingestion Service, Billing Service Extraction, Daemon Hub Service, Gateway Pattern for Service Extraction, Phase 1 Single VPS, Phase 2 Horizontal Scaling, Phase 3 Service Extraction, Phase 4 Kubernetes Orchestration (+1 more)
 
 ### Community 8 - "Community 8"
 Cohesion: 0.29
@@ -130,9 +130,9 @@ Nodes (4): connectProducer(), getPartitionForPriority(), publishEmailMessage(), 
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Implementation Plan` connect `Community 1` to `Community 0`, `Community 8`?**
-  _High betweenness centrality (0.055) - this node is a cross-community bridge._
+  _High betweenness centrality (0.052) - this node is a cross-community bridge._
 - **Why does `Tenant Isolation via tenantId` connect `Community 0` to `Community 1`?**
-  _High betweenness centrality (0.035) - this node is a cross-community bridge._
+  _High betweenness centrality (0.033) - this node is a cross-community bridge._
 - **What connects `SkyNode Project Root`, `Multi-Tenant RLS Strategy`, `API Routes Plan` to the rest of the system?**
   _39 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 1` be split into smaller, more focused modules?**

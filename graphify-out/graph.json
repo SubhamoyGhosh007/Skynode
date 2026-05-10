@@ -198,43 +198,88 @@
       "source_file": "mail-service/src/nodemailer.ts",
       "source_location": "L1",
       "id": "mail_service_src_nodemailer_ts",
-      "community": 7,
+      "community": 3,
       "norm_label": "nodemailer.ts"
     },
     {
       "label": "initMailTransporter()",
       "file_type": "code",
       "source_file": "mail-service/src/nodemailer.ts",
-      "source_location": "L6",
+      "source_location": "L8",
       "id": "src_nodemailer_initmailtransporter",
-      "community": 7,
+      "community": 3,
       "norm_label": "initmailtransporter()"
+    },
+    {
+      "label": "initGmailTransporter()",
+      "file_type": "code",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L19",
+      "id": "src_nodemailer_initgmailtransporter",
+      "community": 3,
+      "norm_label": "initgmailtransporter()"
+    },
+    {
+      "label": "initOutlookTransporter()",
+      "file_type": "code",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L42",
+      "id": "src_nodemailer_initoutlooktransporter",
+      "community": 3,
+      "norm_label": "initoutlooktransporter()"
+    },
+    {
+      "label": "initSendGridTransporter()",
+      "file_type": "code",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L63",
+      "id": "src_nodemailer_initsendgridtransporter",
+      "community": 3,
+      "norm_label": "initsendgridtransporter()"
+    },
+    {
+      "label": "initMailgunTransporter()",
+      "file_type": "code",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L83",
+      "id": "src_nodemailer_initmailguntransporter",
+      "community": 3,
+      "norm_label": "initmailguntransporter()"
     },
     {
       "label": "getTransporter()",
       "file_type": "code",
       "source_file": "mail-service/src/nodemailer.ts",
-      "source_location": "L17",
+      "source_location": "L104",
       "id": "src_nodemailer_gettransporter",
-      "community": 7,
+      "community": 3,
       "norm_label": "gettransporter()"
     },
     {
       "label": "getMailConfig()",
       "file_type": "code",
       "source_file": "mail-service/src/nodemailer.ts",
-      "source_location": "L24",
+      "source_location": "L111",
       "id": "src_nodemailer_getmailconfig",
-      "community": 7,
+      "community": 3,
       "norm_label": "getmailconfig()"
+    },
+    {
+      "label": "getCurrentProvider()",
+      "file_type": "code",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L124",
+      "id": "src_nodemailer_getcurrentprovider",
+      "community": 3,
+      "norm_label": "getcurrentprovider()"
     },
     {
       "label": "createTransporter()",
       "file_type": "code",
       "source_file": "mail-service/src/nodemailer.ts",
-      "source_location": "L37",
+      "source_location": "L128",
       "id": "src_nodemailer_createtransporter",
-      "community": 7,
+      "community": 3,
       "norm_label": "createtransporter()"
     },
     {
@@ -243,16 +288,16 @@
       "source_file": "mail-service/src/index.ts",
       "source_location": "L1",
       "id": "mail_service_src_index_ts",
-      "community": 7,
+      "community": 3,
       "norm_label": "index.ts"
     },
     {
       "label": "sendEmail()",
       "file_type": "code",
       "source_file": "mail-service/src/index.ts",
-      "source_location": "L7",
+      "source_location": "L18",
       "id": "src_index_sendemail",
-      "community": 7,
+      "community": 3,
       "norm_label": "sendemail()"
     },
     {
@@ -261,7 +306,7 @@
       "source_file": "mail-service/src/templates/welcome.ts",
       "source_location": "L1",
       "id": "mail_service_src_templates_welcome_ts",
-      "community": 5,
+      "community": 6,
       "norm_label": "welcome.ts"
     },
     {
@@ -270,7 +315,7 @@
       "source_file": "mail-service/src/templates/welcome.ts",
       "source_location": "L6",
       "id": "templates_welcome_getwelcomeemailtemplate",
-      "community": 5,
+      "community": 6,
       "norm_label": "getwelcomeemailtemplate()"
     },
     {
@@ -279,7 +324,7 @@
       "source_file": "mail-service/src/types/mail.types.ts",
       "source_location": "L1",
       "id": "mail_service_src_types_mail_types_ts",
-      "community": 7,
+      "community": 3,
       "norm_label": "mail.types.ts"
     },
     {
@@ -288,25 +333,25 @@
       "source_file": "email-worker/src/index.ts",
       "source_location": "L1",
       "id": "email_worker_src_index_ts",
-      "community": 3,
+      "community": 4,
       "norm_label": "index.ts"
     },
     {
       "label": "shutdown()",
       "file_type": "code",
       "source_file": "email-worker/src/index.ts",
-      "source_location": "L50",
+      "source_location": "L60",
       "id": "src_index_shutdown",
-      "community": 3,
+      "community": 4,
       "norm_label": "shutdown()"
     },
     {
       "label": "start()",
       "file_type": "code",
       "source_file": "email-worker/src/index.ts",
-      "source_location": "L61",
+      "source_location": "L71",
       "id": "src_index_start",
-      "community": 3,
+      "community": 4,
       "norm_label": "start()"
     },
     {
@@ -315,7 +360,7 @@
       "source_file": "email-worker/src/kafka/consumer.ts",
       "source_location": "L1",
       "id": "email_worker_src_kafka_consumer_ts",
-      "community": 3,
+      "community": 4,
       "norm_label": "consumer.ts"
     },
     {
@@ -324,7 +369,7 @@
       "source_file": "email-worker/src/kafka/consumer.ts",
       "source_location": "L17",
       "id": "kafka_consumer_createconsumer",
-      "community": 3,
+      "community": 4,
       "norm_label": "createconsumer()"
     },
     {
@@ -333,7 +378,7 @@
       "source_file": "email-worker/src/kafka/consumer.ts",
       "source_location": "L24",
       "id": "kafka_consumer_subscribetotopic",
-      "community": 3,
+      "community": 4,
       "norm_label": "subscribetotopic()"
     },
     {
@@ -342,7 +387,7 @@
       "source_file": "email-worker/src/kafka/consumer.ts",
       "source_location": "L51",
       "id": "kafka_consumer_disconnectconsumer",
-      "community": 3,
+      "community": 4,
       "norm_label": "disconnectconsumer()"
     },
     {
@@ -351,7 +396,7 @@
       "source_file": "email-worker/src/kafka/consumer.ts",
       "source_location": "L58",
       "id": "kafka_consumer_getconsumer",
-      "community": 3,
+      "community": 4,
       "norm_label": "getconsumer()"
     },
     {
@@ -414,7 +459,7 @@
       "source_file": "email-worker/src/services/email.service.ts",
       "source_location": "L1",
       "id": "email_worker_src_services_email_service_ts",
-      "community": 5,
+      "community": 6,
       "norm_label": "email.service.ts"
     },
     {
@@ -423,7 +468,7 @@
       "source_file": "email-worker/src/services/email.service.ts",
       "source_location": "L4",
       "id": "services_email_service_processemailmessage",
-      "community": 5,
+      "community": 6,
       "norm_label": "processemailmessage()"
     },
     {
@@ -432,43 +477,43 @@
       "source_file": "email-worker/src/services/email.service.ts",
       "source_location": "L28",
       "id": "services_email_service_sendwelcomeemail",
-      "community": 5,
+      "community": 6,
       "norm_label": "sendwelcomeemail()"
     },
     {
       "label": "sendPasswordResetEmail()",
       "file_type": "code",
       "source_file": "email-worker/src/services/email.service.ts",
-      "source_location": "L37",
+      "source_location": "L44",
       "id": "services_email_service_sendpasswordresetemail",
-      "community": 5,
+      "community": 6,
       "norm_label": "sendpasswordresetemail()"
     },
     {
       "label": "sendEmailVerification()",
       "file_type": "code",
       "source_file": "email-worker/src/services/email.service.ts",
-      "source_location": "L51",
+      "source_location": "L58",
       "id": "services_email_service_sendemailverification",
-      "community": 5,
+      "community": 6,
       "norm_label": "sendemailverification()"
     },
     {
       "label": "sendServerAlert()",
       "file_type": "code",
       "source_file": "email-worker/src/services/email.service.ts",
-      "source_location": "L64",
+      "source_location": "L71",
       "id": "services_email_service_sendserveralert",
-      "community": 5,
+      "community": 6,
       "norm_label": "sendserveralert()"
     },
     {
       "label": "sendBillingNotification()",
       "file_type": "code",
       "source_file": "email-worker/src/services/email.service.ts",
-      "source_location": "L76",
+      "source_location": "L83",
       "id": "services_email_service_sendbillingnotification",
-      "community": 5,
+      "community": 6,
       "norm_label": "sendbillingnotification()"
     },
     {
@@ -477,7 +522,7 @@
       "source_file": "email-worker/src/worker/priority.ts",
       "source_location": "L1",
       "id": "email_worker_src_worker_priority_ts",
-      "community": 3,
+      "community": 4,
       "norm_label": "priority.ts"
     },
     {
@@ -486,7 +531,7 @@
       "source_file": "email-worker/src/worker/priority.ts",
       "source_location": "L14",
       "id": "worker_priority_getpartitionforpriority",
-      "community": 3,
+      "community": 4,
       "norm_label": "getpartitionforpriority()"
     },
     {
@@ -495,7 +540,7 @@
       "source_file": "email-worker/src/worker/priority.ts",
       "source_location": "L40",
       "id": "worker_priority_calculateworkerallocation",
-      "community": 3,
+      "community": 4,
       "norm_label": "calculateworkerallocation()"
     },
     {
@@ -504,7 +549,7 @@
       "source_file": "email-worker/src/worker/priority.ts",
       "source_location": "L85",
       "id": "worker_priority_getprioritylabel",
-      "community": 3,
+      "community": 4,
       "norm_label": "getprioritylabel()"
     },
     {
@@ -513,7 +558,7 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L1",
       "id": "email_worker_src_worker_scheduler_ts",
-      "community": 3,
+      "community": 4,
       "norm_label": "scheduler.ts"
     },
     {
@@ -522,7 +567,7 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L5",
       "id": "worker_scheduler_workerscheduler",
-      "community": 4,
+      "community": 5,
       "norm_label": "workerscheduler"
     },
     {
@@ -531,7 +576,7 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L11",
       "id": "worker_scheduler_workerscheduler_constructor",
-      "community": 4,
+      "community": 5,
       "norm_label": ".constructor()"
     },
     {
@@ -540,7 +585,7 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L15",
       "id": "worker_scheduler_workerscheduler_registerworker",
-      "community": 4,
+      "community": 5,
       "norm_label": ".registerworker()"
     },
     {
@@ -549,7 +594,7 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L20",
       "id": "worker_scheduler_workerscheduler_unregisterworker",
-      "community": 4,
+      "community": 5,
       "norm_label": ".unregisterworker()"
     },
     {
@@ -558,7 +603,7 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L24",
       "id": "worker_scheduler_workerscheduler_setrebalancecallback",
-      "community": 4,
+      "community": 5,
       "norm_label": ".setrebalancecallback()"
     },
     {
@@ -567,7 +612,7 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L28",
       "id": "worker_scheduler_workerscheduler_rebalance",
-      "community": 4,
+      "community": 5,
       "norm_label": ".rebalance()"
     },
     {
@@ -576,7 +621,7 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L41",
       "id": "worker_scheduler_workerscheduler_notifyworker",
-      "community": 4,
+      "community": 5,
       "norm_label": ".notifyworker()"
     },
     {
@@ -585,7 +630,7 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L50",
       "id": "worker_scheduler_workerscheduler_startmonitoring",
-      "community": 4,
+      "community": 5,
       "norm_label": ".startmonitoring()"
     },
     {
@@ -594,7 +639,7 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L56",
       "id": "worker_scheduler_workerscheduler_stopmonitoring",
-      "community": 4,
+      "community": 5,
       "norm_label": ".stopmonitoring()"
     },
     {
@@ -603,7 +648,7 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L63",
       "id": "worker_scheduler_workerscheduler_getcurrentallocation",
-      "community": 4,
+      "community": 5,
       "norm_label": ".getcurrentallocation()"
     },
     {
@@ -1061,7 +1106,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Shared database with tenant_id column and PostgreSQL Row-Level Security (RLS) policies for hard tenant boundaries and cost-effectiveness.",
-      "community": 15,
+      "community": 14,
       "norm_label": "multi-tenant rls strategy",
       "id": "arch_tenancy"
     },
@@ -1088,7 +1133,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Every module is a self-contained Express router to allow future extraction into microservices behind an API Gateway with zero business logic changes.",
-      "community": 14,
+      "community": 15,
       "norm_label": "gateway-ready monorepo architecture",
       "id": "arch_gateway"
     },
@@ -1102,7 +1147,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Chosen over Fastify for portability of routers; Express routers are self-contained and easily extractable into standalone services.",
-      "community": 14,
+      "community": 15,
       "norm_label": "express 5",
       "id": "tech_express"
     },
@@ -1143,7 +1188,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 14,
       "norm_label": "neon postgresql",
       "id": "tech_neon"
     },
@@ -1572,7 +1617,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "scaling roadmap",
       "id": "scaling_roadmap_md"
     },
@@ -1780,7 +1825,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "gateway pattern for service extraction",
       "id": "gateway_pattern"
     },
@@ -1793,7 +1838,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "phase 1 single vps",
       "id": "phase1_scaling"
     },
@@ -1806,7 +1851,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "phase 2 horizontal scaling",
       "id": "phase2_scaling"
     },
@@ -1819,7 +1864,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "phase 3 service extraction",
       "id": "phase3_scaling"
     },
@@ -1832,7 +1877,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "phase 4 kubernetes orchestration",
       "id": "phase4_scaling"
     },
@@ -1897,7 +1942,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "billing service extraction",
       "id": "billing_service"
     },
@@ -1910,7 +1955,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "daemon hub service",
       "id": "daemon_hub"
     },
@@ -1923,7 +1968,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 7,
       "norm_label": "analytics ingestion service",
       "id": "analytics_service"
     },
@@ -2014,9 +2059,9 @@
       "source_file": "/run/media/subhamoy/HDD/Projects/Skynode/packages/dashboard/src/main.tsx",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "run_media_subhamoy_hdd_projects_skynode_packages_dashboard_src_main_tsx",
-      "target": "run_media_subhamoy_hdd_projects_skynode_packages_dashboard_src_app_tsx",
-      "confidence_score": 1.0
+      "target": "run_media_subhamoy_hdd_projects_skynode_packages_dashboard_src_app_tsx"
     },
     {
       "relation": "contains",
@@ -2024,9 +2069,9 @@
       "source_file": "/run/media/subhamoy/HDD/Projects/Skynode/packages/dashboard/src/App.tsx",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "run_media_subhamoy_hdd_projects_skynode_packages_dashboard_src_app_tsx",
-      "target": "src_app_app",
-      "confidence_score": 1.0
+      "target": "src_app_app"
     },
     {
       "relation": "contains",
@@ -2045,9 +2090,9 @@
       "source_file": "mail-service/src/nodemailer.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mail_service_src_nodemailer_ts",
-      "target": "mail_service_src_types_mail_types_ts",
-      "confidence_score": 1.0
+      "target": "mail_service_src_types_mail_types_ts"
     },
     {
       "relation": "contains",
@@ -2055,8 +2100,48 @@
       "source_file": "mail-service/src/nodemailer.ts",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mail_service_src_nodemailer_ts",
-      "target": "src_nodemailer_initmailtransporter",
+      "target": "src_nodemailer_initmailtransporter"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "mail_service_src_nodemailer_ts",
+      "target": "src_nodemailer_initgmailtransporter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L42",
+      "weight": 1.0,
+      "source": "mail_service_src_nodemailer_ts",
+      "target": "src_nodemailer_initoutlooktransporter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L63",
+      "weight": 1.0,
+      "source": "mail_service_src_nodemailer_ts",
+      "target": "src_nodemailer_initsendgridtransporter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L83",
+      "weight": 1.0,
+      "source": "mail_service_src_nodemailer_ts",
+      "target": "src_nodemailer_initmailguntransporter",
       "confidence_score": 1.0
     },
     {
@@ -2065,9 +2150,9 @@
       "source_file": "mail-service/src/nodemailer.ts",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mail_service_src_nodemailer_ts",
-      "target": "src_nodemailer_gettransporter",
-      "confidence_score": 1.0
+      "target": "src_nodemailer_gettransporter"
     },
     {
       "relation": "contains",
@@ -2075,8 +2160,18 @@
       "source_file": "mail-service/src/nodemailer.ts",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mail_service_src_nodemailer_ts",
-      "target": "src_nodemailer_getmailconfig",
+      "target": "src_nodemailer_getmailconfig"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L124",
+      "weight": 1.0,
+      "source": "mail_service_src_nodemailer_ts",
+      "target": "src_nodemailer_getcurrentprovider",
       "confidence_score": 1.0
     },
     {
@@ -2085,9 +2180,9 @@
       "source_file": "mail-service/src/nodemailer.ts",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mail_service_src_nodemailer_ts",
-      "target": "src_nodemailer_createtransporter",
-      "confidence_score": 1.0
+      "target": "src_nodemailer_createtransporter"
     },
     {
       "relation": "imports_from",
@@ -2096,9 +2191,9 @@
       "source_file": "mail-service/src/index.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mail_service_src_index_ts",
-      "target": "mail_service_src_nodemailer_ts",
-      "confidence_score": 1.0
+      "target": "mail_service_src_nodemailer_ts"
     },
     {
       "relation": "calls",
@@ -2107,8 +2202,52 @@
       "source_file": "mail-service/src/nodemailer.ts",
       "source_location": "L39",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_nodemailer_createtransporter",
-      "target": "src_nodemailer_initmailtransporter",
+      "target": "src_nodemailer_initmailtransporter"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L134",
+      "weight": 1.0,
+      "source": "src_nodemailer_createtransporter",
+      "target": "src_nodemailer_initgmailtransporter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L136",
+      "weight": 1.0,
+      "source": "src_nodemailer_createtransporter",
+      "target": "src_nodemailer_initoutlooktransporter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L138",
+      "weight": 1.0,
+      "source": "src_nodemailer_createtransporter",
+      "target": "src_nodemailer_initsendgridtransporter",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L140",
+      "weight": 1.0,
+      "source": "src_nodemailer_createtransporter",
+      "target": "src_nodemailer_initmailguntransporter",
       "confidence_score": 1.0
     },
     {
@@ -2118,9 +2257,9 @@
       "source_file": "mail-service/src/nodemailer.ts",
       "source_location": "L38",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "src_nodemailer_createtransporter",
-      "target": "src_nodemailer_getmailconfig",
-      "confidence_score": 1.0
+      "target": "src_nodemailer_getmailconfig"
     },
     {
       "relation": "imports",
@@ -2129,9 +2268,9 @@
       "source_file": "mail-service/src/index.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mail_service_src_index_ts",
-      "target": "src_nodemailer_getmailconfig",
-      "confidence_score": 1.0
+      "target": "src_nodemailer_getmailconfig"
     },
     {
       "relation": "calls",
@@ -2145,15 +2284,26 @@
       "target": "src_nodemailer_getmailconfig"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L129",
+      "weight": 1.0,
+      "source": "src_nodemailer_createtransporter",
+      "target": "src_nodemailer_getcurrentprovider",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
       "source_file": "mail-service/src/index.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mail_service_src_index_ts",
-      "target": "src_nodemailer_createtransporter",
-      "confidence_score": 1.0
+      "target": "src_nodemailer_createtransporter"
     },
     {
       "relation": "calls",
@@ -2172,9 +2322,9 @@
       "source_file": "mail-service/src/index.ts",
       "source_location": "L7",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mail_service_src_index_ts",
-      "target": "src_index_sendemail",
-      "confidence_score": 1.0
+      "target": "src_index_sendemail"
     },
     {
       "relation": "contains",
@@ -2182,9 +2332,9 @@
       "source_file": "mail-service/src/templates/welcome.ts",
       "source_location": "L6",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "mail_service_src_templates_welcome_ts",
-      "target": "templates_welcome_getwelcomeemailtemplate",
-      "confidence_score": 1.0
+      "target": "templates_welcome_getwelcomeemailtemplate"
     },
     {
       "relation": "calls",
@@ -2204,9 +2354,9 @@
       "source_file": "email-worker/src/index.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_index_ts",
-      "target": "email_worker_src_kafka_consumer_ts",
-      "confidence_score": 1.0
+      "target": "email_worker_src_kafka_consumer_ts"
     },
     {
       "relation": "imports",
@@ -2215,9 +2365,9 @@
       "source_file": "email-worker/src/index.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_index_ts",
-      "target": "kafka_consumer_subscribetotopic",
-      "confidence_score": 1.0
+      "target": "kafka_consumer_subscribetotopic"
     },
     {
       "relation": "imports",
@@ -2226,9 +2376,9 @@
       "source_file": "email-worker/src/index.ts",
       "source_location": "L2",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_index_ts",
-      "target": "kafka_consumer_disconnectconsumer",
-      "confidence_score": 1.0
+      "target": "kafka_consumer_disconnectconsumer"
     },
     {
       "relation": "imports_from",
@@ -2237,9 +2387,9 @@
       "source_file": "email-worker/src/index.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_index_ts",
-      "target": "email_worker_src_services_email_service_ts",
-      "confidence_score": 1.0
+      "target": "email_worker_src_services_email_service_ts"
     },
     {
       "relation": "imports",
@@ -2248,9 +2398,9 @@
       "source_file": "email-worker/src/index.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_index_ts",
-      "target": "services_email_service_processemailmessage",
-      "confidence_score": 1.0
+      "target": "services_email_service_processemailmessage"
     },
     {
       "relation": "imports_from",
@@ -2259,9 +2409,9 @@
       "source_file": "email-worker/src/index.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_index_ts",
-      "target": "email_worker_src_worker_priority_ts",
-      "confidence_score": 1.0
+      "target": "email_worker_src_worker_priority_ts"
     },
     {
       "relation": "imports",
@@ -2270,8 +2420,30 @@
       "source_file": "email-worker/src/index.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_index_ts",
-      "target": "worker_priority_calculateworkerallocation",
+      "target": "worker_priority_calculateworkerallocation"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "email_worker_src_index_ts",
+      "target": "email_worker_src_worker_scheduler_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "email_worker_src_index_ts",
+      "target": "worker_scheduler_workerscheduler",
       "confidence_score": 1.0
     },
     {
@@ -2280,9 +2452,9 @@
       "source_file": "email-worker/src/index.ts",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_index_ts",
-      "target": "src_index_shutdown",
-      "confidence_score": 1.0
+      "target": "src_index_shutdown"
     },
     {
       "relation": "contains",
@@ -2290,9 +2462,9 @@
       "source_file": "email-worker/src/index.ts",
       "source_location": "L61",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_index_ts",
-      "target": "src_index_start",
-      "confidence_score": 1.0
+      "target": "src_index_start"
     },
     {
       "relation": "calls",
@@ -2322,9 +2494,9 @@
       "source_file": "email-worker/src/kafka/consumer.ts",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_kafka_consumer_ts",
-      "target": "kafka_consumer_createconsumer",
-      "confidence_score": 1.0
+      "target": "kafka_consumer_createconsumer"
     },
     {
       "relation": "contains",
@@ -2332,9 +2504,9 @@
       "source_file": "email-worker/src/kafka/consumer.ts",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_kafka_consumer_ts",
-      "target": "kafka_consumer_subscribetotopic",
-      "confidence_score": 1.0
+      "target": "kafka_consumer_subscribetotopic"
     },
     {
       "relation": "contains",
@@ -2342,9 +2514,9 @@
       "source_file": "email-worker/src/kafka/consumer.ts",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_kafka_consumer_ts",
-      "target": "kafka_consumer_disconnectconsumer",
-      "confidence_score": 1.0
+      "target": "kafka_consumer_disconnectconsumer"
     },
     {
       "relation": "contains",
@@ -2352,9 +2524,9 @@
       "source_file": "email-worker/src/kafka/consumer.ts",
       "source_location": "L58",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_kafka_consumer_ts",
-      "target": "kafka_consumer_getconsumer",
-      "confidence_score": 1.0
+      "target": "kafka_consumer_getconsumer"
     },
     {
       "relation": "calls",
@@ -2363,9 +2535,9 @@
       "source_file": "email-worker/src/kafka/consumer.ts",
       "source_location": "L26",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "kafka_consumer_subscribetotopic",
-      "target": "kafka_consumer_createconsumer",
-      "confidence_score": 1.0
+      "target": "kafka_consumer_createconsumer"
     },
     {
       "relation": "contains",
@@ -2373,9 +2545,9 @@
       "source_file": "email-worker/src/kafka/producer.ts",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_kafka_producer_ts",
-      "target": "kafka_producer_connectproducer",
-      "confidence_score": 1.0
+      "target": "kafka_producer_connectproducer"
     },
     {
       "relation": "contains",
@@ -2383,9 +2555,9 @@
       "source_file": "email-worker/src/kafka/producer.ts",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_kafka_producer_ts",
-      "target": "kafka_producer_publishemailmessage",
-      "confidence_score": 1.0
+      "target": "kafka_producer_publishemailmessage"
     },
     {
       "relation": "contains",
@@ -2393,9 +2565,9 @@
       "source_file": "email-worker/src/kafka/producer.ts",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_kafka_producer_ts",
-      "target": "kafka_producer_getpartitionforpriority",
-      "confidence_score": 1.0
+      "target": "kafka_producer_getpartitionforpriority"
     },
     {
       "relation": "contains",
@@ -2403,9 +2575,9 @@
       "source_file": "email-worker/src/kafka/producer.ts",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_kafka_producer_ts",
-      "target": "kafka_producer_disconnectproducer",
-      "confidence_score": 1.0
+      "target": "kafka_producer_disconnectproducer"
     },
     {
       "relation": "contains",
@@ -2413,9 +2585,9 @@
       "source_file": "email-worker/src/kafka/producer.ts",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_kafka_producer_ts",
-      "target": "kafka_producer_publishwelcomeemail",
-      "confidence_score": 1.0
+      "target": "kafka_producer_publishwelcomeemail"
     },
     {
       "relation": "calls",
@@ -2424,9 +2596,9 @@
       "source_file": "email-worker/src/kafka/producer.ts",
       "source_location": "L25",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "kafka_producer_publishemailmessage",
-      "target": "kafka_producer_connectproducer",
-      "confidence_score": 1.0
+      "target": "kafka_producer_connectproducer"
     },
     {
       "relation": "calls",
@@ -2435,9 +2607,9 @@
       "source_file": "email-worker/src/kafka/producer.ts",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "kafka_producer_publishemailmessage",
-      "target": "kafka_producer_getpartitionforpriority",
-      "confidence_score": 1.0
+      "target": "kafka_producer_getpartitionforpriority"
     },
     {
       "relation": "calls",
@@ -2446,9 +2618,9 @@
       "source_file": "email-worker/src/kafka/producer.ts",
       "source_location": "L78",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "kafka_producer_publishwelcomeemail",
-      "target": "kafka_producer_publishemailmessage",
-      "confidence_score": 1.0
+      "target": "kafka_producer_publishemailmessage"
     },
     {
       "relation": "contains",
@@ -2456,9 +2628,9 @@
       "source_file": "email-worker/src/services/email.service.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_services_email_service_ts",
-      "target": "services_email_service_processemailmessage",
-      "confidence_score": 1.0
+      "target": "services_email_service_processemailmessage"
     },
     {
       "relation": "contains",
@@ -2466,9 +2638,9 @@
       "source_file": "email-worker/src/services/email.service.ts",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_services_email_service_ts",
-      "target": "services_email_service_sendwelcomeemail",
-      "confidence_score": 1.0
+      "target": "services_email_service_sendwelcomeemail"
     },
     {
       "relation": "contains",
@@ -2476,9 +2648,9 @@
       "source_file": "email-worker/src/services/email.service.ts",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_services_email_service_ts",
-      "target": "services_email_service_sendpasswordresetemail",
-      "confidence_score": 1.0
+      "target": "services_email_service_sendpasswordresetemail"
     },
     {
       "relation": "contains",
@@ -2486,9 +2658,9 @@
       "source_file": "email-worker/src/services/email.service.ts",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_services_email_service_ts",
-      "target": "services_email_service_sendemailverification",
-      "confidence_score": 1.0
+      "target": "services_email_service_sendemailverification"
     },
     {
       "relation": "contains",
@@ -2496,9 +2668,9 @@
       "source_file": "email-worker/src/services/email.service.ts",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_services_email_service_ts",
-      "target": "services_email_service_sendserveralert",
-      "confidence_score": 1.0
+      "target": "services_email_service_sendserveralert"
     },
     {
       "relation": "contains",
@@ -2506,9 +2678,9 @@
       "source_file": "email-worker/src/services/email.service.ts",
       "source_location": "L76",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_services_email_service_ts",
-      "target": "services_email_service_sendbillingnotification",
-      "confidence_score": 1.0
+      "target": "services_email_service_sendbillingnotification"
     },
     {
       "relation": "calls",
@@ -2517,9 +2689,9 @@
       "source_file": "email-worker/src/services/email.service.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_email_service_processemailmessage",
-      "target": "services_email_service_sendwelcomeemail",
-      "confidence_score": 1.0
+      "target": "services_email_service_sendwelcomeemail"
     },
     {
       "relation": "calls",
@@ -2528,9 +2700,9 @@
       "source_file": "email-worker/src/services/email.service.ts",
       "source_location": "L12",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_email_service_processemailmessage",
-      "target": "services_email_service_sendpasswordresetemail",
-      "confidence_score": 1.0
+      "target": "services_email_service_sendpasswordresetemail"
     },
     {
       "relation": "calls",
@@ -2539,9 +2711,9 @@
       "source_file": "email-worker/src/services/email.service.ts",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_email_service_processemailmessage",
-      "target": "services_email_service_sendemailverification",
-      "confidence_score": 1.0
+      "target": "services_email_service_sendemailverification"
     },
     {
       "relation": "calls",
@@ -2550,9 +2722,9 @@
       "source_file": "email-worker/src/services/email.service.ts",
       "source_location": "L18",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_email_service_processemailmessage",
-      "target": "services_email_service_sendserveralert",
-      "confidence_score": 1.0
+      "target": "services_email_service_sendserveralert"
     },
     {
       "relation": "calls",
@@ -2561,9 +2733,9 @@
       "source_file": "email-worker/src/services/email.service.ts",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "services_email_service_processemailmessage",
-      "target": "services_email_service_sendbillingnotification",
-      "confidence_score": 1.0
+      "target": "services_email_service_sendbillingnotification"
     },
     {
       "relation": "contains",
@@ -2571,9 +2743,9 @@
       "source_file": "email-worker/src/worker/priority.ts",
       "source_location": "L14",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_worker_priority_ts",
-      "target": "worker_priority_getpartitionforpriority",
-      "confidence_score": 1.0
+      "target": "worker_priority_getpartitionforpriority"
     },
     {
       "relation": "contains",
@@ -2581,9 +2753,9 @@
       "source_file": "email-worker/src/worker/priority.ts",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_worker_priority_ts",
-      "target": "worker_priority_calculateworkerallocation",
-      "confidence_score": 1.0
+      "target": "worker_priority_calculateworkerallocation"
     },
     {
       "relation": "contains",
@@ -2591,9 +2763,9 @@
       "source_file": "email-worker/src/worker/priority.ts",
       "source_location": "L85",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_worker_priority_ts",
-      "target": "worker_priority_getprioritylabel",
-      "confidence_score": 1.0
+      "target": "worker_priority_getprioritylabel"
     },
     {
       "relation": "imports_from",
@@ -2602,9 +2774,9 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_worker_scheduler_ts",
-      "target": "email_worker_src_worker_priority_ts",
-      "confidence_score": 1.0
+      "target": "email_worker_src_worker_priority_ts"
     },
     {
       "relation": "contains",
@@ -2612,9 +2784,9 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "email_worker_src_worker_scheduler_ts",
-      "target": "worker_scheduler_workerscheduler",
-      "confidence_score": 1.0
+      "target": "worker_scheduler_workerscheduler"
     },
     {
       "relation": "method",
@@ -2622,9 +2794,9 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L11",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_scheduler_workerscheduler",
-      "target": "worker_scheduler_workerscheduler_constructor",
-      "confidence_score": 1.0
+      "target": "worker_scheduler_workerscheduler_constructor"
     },
     {
       "relation": "method",
@@ -2632,9 +2804,9 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L15",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_scheduler_workerscheduler",
-      "target": "worker_scheduler_workerscheduler_registerworker",
-      "confidence_score": 1.0
+      "target": "worker_scheduler_workerscheduler_registerworker"
     },
     {
       "relation": "method",
@@ -2642,9 +2814,9 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L20",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_scheduler_workerscheduler",
-      "target": "worker_scheduler_workerscheduler_unregisterworker",
-      "confidence_score": 1.0
+      "target": "worker_scheduler_workerscheduler_unregisterworker"
     },
     {
       "relation": "method",
@@ -2652,9 +2824,9 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_scheduler_workerscheduler",
-      "target": "worker_scheduler_workerscheduler_setrebalancecallback",
-      "confidence_score": 1.0
+      "target": "worker_scheduler_workerscheduler_setrebalancecallback"
     },
     {
       "relation": "method",
@@ -2662,9 +2834,9 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L28",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_scheduler_workerscheduler",
-      "target": "worker_scheduler_workerscheduler_rebalance",
-      "confidence_score": 1.0
+      "target": "worker_scheduler_workerscheduler_rebalance"
     },
     {
       "relation": "method",
@@ -2672,9 +2844,9 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L41",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_scheduler_workerscheduler",
-      "target": "worker_scheduler_workerscheduler_notifyworker",
-      "confidence_score": 1.0
+      "target": "worker_scheduler_workerscheduler_notifyworker"
     },
     {
       "relation": "method",
@@ -2682,9 +2854,9 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_scheduler_workerscheduler",
-      "target": "worker_scheduler_workerscheduler_startmonitoring",
-      "confidence_score": 1.0
+      "target": "worker_scheduler_workerscheduler_startmonitoring"
     },
     {
       "relation": "method",
@@ -2692,9 +2864,9 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_scheduler_workerscheduler",
-      "target": "worker_scheduler_workerscheduler_stopmonitoring",
-      "confidence_score": 1.0
+      "target": "worker_scheduler_workerscheduler_stopmonitoring"
     },
     {
       "relation": "method",
@@ -2702,9 +2874,9 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_scheduler_workerscheduler",
-      "target": "worker_scheduler_workerscheduler_getcurrentallocation",
-      "confidence_score": 1.0
+      "target": "worker_scheduler_workerscheduler_getcurrentallocation"
     },
     {
       "relation": "calls",
@@ -2713,9 +2885,9 @@
       "source_file": "email-worker/src/worker/scheduler.ts",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "worker_scheduler_workerscheduler_registerworker",
-      "target": "worker_scheduler_workerscheduler_notifyworker",
-      "confidence_score": 1.0
+      "target": "worker_scheduler_workerscheduler_notifyworker"
     },
     {
       "relation": "imports",
@@ -2735,9 +2907,9 @@
       "source_file": "panel-api/src/apps/auth/middlewares/auth.middleware.ts",
       "source_location": "L3",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_apps_auth_middlewares_auth_middleware_ts",
-      "target": "utils_apierror_apierror",
-      "confidence_score": 1.0
+      "target": "utils_apierror_apierror"
     },
     {
       "relation": "imports",
@@ -2746,9 +2918,9 @@
       "source_file": "panel-api/src/apps/auth/middlewares/auth.middleware.ts",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_apps_auth_middlewares_auth_middleware_ts",
-      "target": "utils_asynchandler_asynchandler",
-      "confidence_score": 1.0
+      "target": "utils_asynchandler_asynchandler"
     },
     {
       "relation": "imports",
@@ -2779,9 +2951,9 @@
       "source_file": "panel-api/src/apps/auth/controller/auth.controller.non-protected.ts",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_apps_auth_controller_auth_controller_non_protected_ts",
-      "target": "utils_apierror_apierror",
-      "confidence_score": 1.0
+      "target": "utils_apierror_apierror"
     },
     {
       "relation": "contains",
@@ -2809,9 +2981,9 @@
       "source_file": "panel-api/src/apps/auth/configs/jwt.config.ts",
       "source_location": "L21",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_apps_auth_configs_jwt_config_ts",
-      "target": "configs_jwt_config_generateaccesstoken",
-      "confidence_score": 1.0
+      "target": "configs_jwt_config_generateaccesstoken"
     },
     {
       "relation": "contains",
@@ -2819,9 +2991,9 @@
       "source_file": "panel-api/src/apps/auth/configs/jwt.config.ts",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_apps_auth_configs_jwt_config_ts",
-      "target": "configs_jwt_config_generaterefreshtoken",
-      "confidence_score": 1.0
+      "target": "configs_jwt_config_generaterefreshtoken"
     },
     {
       "relation": "contains",
@@ -2829,9 +3001,9 @@
       "source_file": "panel-api/src/apps/auth/configs/jwt.config.ts",
       "source_location": "L33",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_apps_auth_configs_jwt_config_ts",
-      "target": "configs_jwt_config_verifyaccesstoken",
-      "confidence_score": 1.0
+      "target": "configs_jwt_config_verifyaccesstoken"
     },
     {
       "relation": "contains",
@@ -2839,9 +3011,9 @@
       "source_file": "panel-api/src/apps/auth/configs/jwt.config.ts",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_apps_auth_configs_jwt_config_ts",
-      "target": "configs_jwt_config_verifyrefreshtoken",
-      "confidence_score": 1.0
+      "target": "configs_jwt_config_verifyrefreshtoken"
     },
     {
       "relation": "imports",
@@ -2963,9 +3135,9 @@
       "source_file": "panel-api/src/utils/kafka/email.producer.ts",
       "source_location": "L27",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_utils_kafka_email_producer_ts",
-      "target": "kafka_email_producer_connectproducer",
-      "confidence_score": 1.0
+      "target": "kafka_email_producer_connectproducer"
     },
     {
       "relation": "contains",
@@ -2973,9 +3145,9 @@
       "source_file": "panel-api/src/utils/kafka/email.producer.ts",
       "source_location": "L42",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_utils_kafka_email_producer_ts",
-      "target": "kafka_email_producer_publishemailmessage",
-      "confidence_score": 1.0
+      "target": "kafka_email_producer_publishemailmessage"
     },
     {
       "relation": "contains",
@@ -2983,9 +3155,9 @@
       "source_file": "panel-api/src/utils/kafka/email.producer.ts",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_utils_kafka_email_producer_ts",
-      "target": "kafka_email_producer_getpartitionforpriority",
-      "confidence_score": 1.0
+      "target": "kafka_email_producer_getpartitionforpriority"
     },
     {
       "relation": "contains",
@@ -2993,9 +3165,9 @@
       "source_file": "panel-api/src/utils/kafka/email.producer.ts",
       "source_location": "L85",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_utils_kafka_email_producer_ts",
-      "target": "kafka_email_producer_publishwelcomeemail",
-      "confidence_score": 1.0
+      "target": "kafka_email_producer_publishwelcomeemail"
     },
     {
       "relation": "contains",
@@ -3003,9 +3175,9 @@
       "source_file": "panel-api/src/utils/kafka/email.producer.ts",
       "source_location": "L103",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "panel_api_src_utils_kafka_email_producer_ts",
-      "target": "kafka_email_producer_disconnectproducer",
-      "confidence_score": 1.0
+      "target": "kafka_email_producer_disconnectproducer"
     },
     {
       "relation": "calls",
@@ -3014,9 +3186,9 @@
       "source_file": "panel-api/src/utils/kafka/email.producer.ts",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "kafka_email_producer_publishemailmessage",
-      "target": "kafka_email_producer_connectproducer",
-      "confidence_score": 1.0
+      "target": "kafka_email_producer_connectproducer"
     },
     {
       "relation": "calls",
@@ -3025,9 +3197,9 @@
       "source_file": "panel-api/src/utils/kafka/email.producer.ts",
       "source_location": "L54",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "kafka_email_producer_publishemailmessage",
-      "target": "kafka_email_producer_getpartitionforpriority",
-      "confidence_score": 1.0
+      "target": "kafka_email_producer_getpartitionforpriority"
     },
     {
       "relation": "calls",
@@ -3036,9 +3208,9 @@
       "source_file": "panel-api/src/utils/kafka/email.producer.ts",
       "source_location": "L100",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "kafka_email_producer_publishwelcomeemail",
-      "target": "kafka_email_producer_publishemailmessage",
-      "confidence_score": 1.0
+      "target": "kafka_email_producer_publishemailmessage"
     },
     {
       "relation": "imports_from",
@@ -3935,5 +4107,5 @@
       "source_file": "docker-compose.yml"
     }
   ],
-  "built_at_commit": "5cde7cfb1344b3573185574977a83a17e5be10f4"
+  "built_at_commit": "be6514ac43b215325b9bc25bc435f3126ca2a2f0"
 }
