@@ -205,7 +205,7 @@
       "label": "initMailTransporter()",
       "file_type": "code",
       "source_file": "mail-service/src/nodemailer.ts",
-      "source_location": "L8",
+      "source_location": "L20",
       "id": "src_nodemailer_initmailtransporter",
       "community": 3,
       "norm_label": "initmailtransporter()"
@@ -214,7 +214,7 @@
       "label": "initGmailTransporter()",
       "file_type": "code",
       "source_file": "mail-service/src/nodemailer.ts",
-      "source_location": "L19",
+      "source_location": "L32",
       "id": "src_nodemailer_initgmailtransporter",
       "community": 3,
       "norm_label": "initgmailtransporter()"
@@ -223,7 +223,7 @@
       "label": "initOutlookTransporter()",
       "file_type": "code",
       "source_file": "mail-service/src/nodemailer.ts",
-      "source_location": "L42",
+      "source_location": "L52",
       "id": "src_nodemailer_initoutlooktransporter",
       "community": 3,
       "norm_label": "initoutlooktransporter()"
@@ -232,7 +232,7 @@
       "label": "initSendGridTransporter()",
       "file_type": "code",
       "source_file": "mail-service/src/nodemailer.ts",
-      "source_location": "L63",
+      "source_location": "L70",
       "id": "src_nodemailer_initsendgridtransporter",
       "community": 3,
       "norm_label": "initsendgridtransporter()"
@@ -241,7 +241,7 @@
       "label": "initMailgunTransporter()",
       "file_type": "code",
       "source_file": "mail-service/src/nodemailer.ts",
-      "source_location": "L83",
+      "source_location": "L88",
       "id": "src_nodemailer_initmailguntransporter",
       "community": 3,
       "norm_label": "initmailguntransporter()"
@@ -250,7 +250,7 @@
       "label": "getTransporter()",
       "file_type": "code",
       "source_file": "mail-service/src/nodemailer.ts",
-      "source_location": "L104",
+      "source_location": "L106",
       "id": "src_nodemailer_gettransporter",
       "community": 3,
       "norm_label": "gettransporter()"
@@ -259,7 +259,7 @@
       "label": "getMailConfig()",
       "file_type": "code",
       "source_file": "mail-service/src/nodemailer.ts",
-      "source_location": "L111",
+      "source_location": "L113",
       "id": "src_nodemailer_getmailconfig",
       "community": 3,
       "norm_label": "getmailconfig()"
@@ -268,7 +268,7 @@
       "label": "getCurrentProvider()",
       "file_type": "code",
       "source_file": "mail-service/src/nodemailer.ts",
-      "source_location": "L124",
+      "source_location": "L126",
       "id": "src_nodemailer_getcurrentprovider",
       "community": 3,
       "norm_label": "getcurrentprovider()"
@@ -277,7 +277,7 @@
       "label": "createTransporter()",
       "file_type": "code",
       "source_file": "mail-service/src/nodemailer.ts",
-      "source_location": "L128",
+      "source_location": "L130",
       "id": "src_nodemailer_createtransporter",
       "community": 3,
       "norm_label": "createtransporter()"
@@ -295,10 +295,19 @@
       "label": "sendEmail()",
       "file_type": "code",
       "source_file": "mail-service/src/index.ts",
-      "source_location": "L18",
+      "source_location": "L35",
       "id": "src_index_sendemail",
       "community": 3,
       "norm_label": "sendemail()"
+    },
+    {
+      "label": "index.ts",
+      "file_type": "code",
+      "source_file": "mail-service/src/config/index.ts",
+      "source_location": "L1",
+      "id": "mail_service_src_config_index_ts",
+      "community": 3,
+      "norm_label": "index.ts"
     },
     {
       "label": "welcome.ts",
@@ -328,6 +337,15 @@
       "norm_label": "mail.types.ts"
     },
     {
+      "label": "config.ts",
+      "file_type": "code",
+      "source_file": "email-worker/src/config.ts",
+      "source_location": "L1",
+      "id": "email_worker_src_config_ts",
+      "community": 4,
+      "norm_label": "config.ts"
+    },
+    {
       "label": "index.ts",
       "file_type": "code",
       "source_file": "email-worker/src/index.ts",
@@ -340,7 +358,7 @@
       "label": "shutdown()",
       "file_type": "code",
       "source_file": "email-worker/src/index.ts",
-      "source_location": "L60",
+      "source_location": "L67",
       "id": "src_index_shutdown",
       "community": 4,
       "norm_label": "shutdown()"
@@ -349,7 +367,7 @@
       "label": "start()",
       "file_type": "code",
       "source_file": "email-worker/src/index.ts",
-      "source_location": "L71",
+      "source_location": "L78",
       "id": "src_index_start",
       "community": 4,
       "norm_label": "start()"
@@ -367,7 +385,7 @@
       "label": "createConsumer()",
       "file_type": "code",
       "source_file": "email-worker/src/kafka/consumer.ts",
-      "source_location": "L17",
+      "source_location": "L18",
       "id": "kafka_consumer_createconsumer",
       "community": 4,
       "norm_label": "createconsumer()"
@@ -376,7 +394,7 @@
       "label": "subscribeToTopic()",
       "file_type": "code",
       "source_file": "email-worker/src/kafka/consumer.ts",
-      "source_location": "L24",
+      "source_location": "L25",
       "id": "kafka_consumer_subscribetotopic",
       "community": 4,
       "norm_label": "subscribetotopic()"
@@ -385,7 +403,7 @@
       "label": "disconnectConsumer()",
       "file_type": "code",
       "source_file": "email-worker/src/kafka/consumer.ts",
-      "source_location": "L51",
+      "source_location": "L52",
       "id": "kafka_consumer_disconnectconsumer",
       "community": 4,
       "norm_label": "disconnectconsumer()"
@@ -394,7 +412,7 @@
       "label": "getConsumer()",
       "file_type": "code",
       "source_file": "email-worker/src/kafka/consumer.ts",
-      "source_location": "L58",
+      "source_location": "L59",
       "id": "kafka_consumer_getconsumer",
       "community": 4,
       "norm_label": "getconsumer()"
@@ -412,7 +430,7 @@
       "label": "connectProducer()",
       "file_type": "code",
       "source_file": "email-worker/src/kafka/producer.ts",
-      "source_location": "L14",
+      "source_location": "L15",
       "id": "kafka_producer_connectproducer",
       "community": 9,
       "norm_label": "connectproducer()"
@@ -421,7 +439,7 @@
       "label": "publishEmailMessage()",
       "file_type": "code",
       "source_file": "email-worker/src/kafka/producer.ts",
-      "source_location": "L23",
+      "source_location": "L24",
       "id": "kafka_producer_publishemailmessage",
       "community": 9,
       "norm_label": "publishemailmessage()"
@@ -430,7 +448,7 @@
       "label": "getPartitionForPriority()",
       "file_type": "code",
       "source_file": "email-worker/src/kafka/producer.ts",
-      "source_location": "L44",
+      "source_location": "L45",
       "id": "kafka_producer_getpartitionforpriority",
       "community": 9,
       "norm_label": "getpartitionforpriority()"
@@ -439,7 +457,7 @@
       "label": "disconnectProducer()",
       "file_type": "code",
       "source_file": "email-worker/src/kafka/producer.ts",
-      "source_location": "L56",
+      "source_location": "L57",
       "id": "kafka_producer_disconnectproducer",
       "community": 9,
       "norm_label": "disconnectproducer()"
@@ -448,7 +466,7 @@
       "label": "publishWelcomeEmail()",
       "file_type": "code",
       "source_file": "email-worker/src/kafka/producer.ts",
-      "source_location": "L63",
+      "source_location": "L64",
       "id": "kafka_producer_publishwelcomeemail",
       "community": 9,
       "norm_label": "publishwelcomeemail()"
@@ -1106,7 +1124,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Shared database with tenant_id column and PostgreSQL Row-Level Security (RLS) policies for hard tenant boundaries and cost-effectiveness.",
-      "community": 14,
+      "community": 15,
       "norm_label": "multi-tenant rls strategy",
       "id": "arch_tenancy"
     },
@@ -1133,7 +1151,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Every module is a self-contained Express router to allow future extraction into microservices behind an API Gateway with zero business logic changes.",
-      "community": 15,
+      "community": 14,
       "norm_label": "gateway-ready monorepo architecture",
       "id": "arch_gateway"
     },
@@ -1147,7 +1165,7 @@
       "author": null,
       "contributor": null,
       "rationale": "Chosen over Fastify for portability of routers; Express routers are self-contained and easily extractable into standalone services.",
-      "community": 15,
+      "community": 14,
       "norm_label": "express 5",
       "id": "tech_express"
     },
@@ -1188,7 +1206,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "norm_label": "neon postgresql",
       "id": "tech_neon"
     },
@@ -1279,7 +1297,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "express application",
       "id": "express_app"
     },
@@ -1292,7 +1310,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "panel api server entry",
       "id": "panel_api_server"
     },
@@ -1318,7 +1336,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "tenant model",
       "id": "tenant_model"
     },
@@ -1331,7 +1349,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "tenant branding model",
       "id": "tenant_branding_model"
     },
@@ -1344,7 +1362,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "user model",
       "id": "user_model"
     },
@@ -1357,7 +1375,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "iuser interface",
       "id": "iuser_interface"
     },
@@ -1370,7 +1388,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "user zod schema",
       "id": "user_zod_schema"
     },
@@ -1383,7 +1401,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "user sign up controller",
       "id": "user_signup"
     },
@@ -1396,7 +1414,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "user sign in controller",
       "id": "user_signin"
     },
@@ -1409,7 +1427,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "user sign out controller",
       "id": "user_signout"
     },
@@ -1422,7 +1440,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "auth routes",
       "id": "auth_routes"
     },
@@ -1435,7 +1453,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "auth controller index",
       "id": "auth_controller_index"
     },
@@ -1448,7 +1466,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "database connector",
       "id": "database_connector"
     },
@@ -1461,7 +1479,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "validate schema utility",
       "id": "validate_schema"
     },
@@ -1474,7 +1492,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "async handler middleware",
       "id": "async_handler"
     },
@@ -1487,7 +1505,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "api response class",
       "id": "api_response"
     },
@@ -1500,7 +1518,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "api error class",
       "id": "api_error"
     },
@@ -1513,7 +1531,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "multi-tenancy pattern",
       "id": "multi_tenancy_pattern"
     },
@@ -1539,7 +1557,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 1,
       "norm_label": "role-based access control",
       "id": "role_based_access"
     },
@@ -1578,7 +1596,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "docker compose configuration",
       "id": "docker_compose_yml"
     },
@@ -1604,7 +1622,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "dashboard readme",
       "id": "dashboard_readme_md"
     },
@@ -1630,7 +1648,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "database schema design",
       "id": "database_schema_md"
     },
@@ -1643,7 +1661,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "ui pages and design prompts",
       "id": "pages_and_prompts_md"
     },
@@ -1656,7 +1674,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "implementation plan",
       "id": "implementation_plan_md"
     },
@@ -1669,7 +1687,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "feature build checklist",
       "id": "feature_checklist_md"
     },
@@ -1708,7 +1726,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "skynode multi-tenant saas platform",
       "id": "skynode_project"
     },
@@ -1721,7 +1739,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "express 5 api framework",
       "id": "express_framework"
     },
@@ -1734,7 +1752,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "node.js 22 lts runtime",
       "id": "nodejs_runtime"
     },
@@ -1747,7 +1765,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "react 19 + vite 6 frontend",
       "id": "react_frontend"
     },
@@ -1760,7 +1778,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "postgresql 16 database",
       "id": "postgresql_db"
     },
@@ -1773,7 +1791,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "redis 7 cache and pub-sub",
       "id": "redis_cache"
     },
@@ -1786,7 +1804,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "mongodb database service",
       "id": "mongodb_service"
     },
@@ -1799,7 +1817,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "drizzle orm",
       "id": "drizzle_orm"
     },
@@ -1890,7 +1908,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "jwt authentication with refresh tokens",
       "id": "jwt_auth"
     },
@@ -1903,7 +1921,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "razorpay payment gateway integration",
       "id": "razorpay_payments"
     },
@@ -1916,7 +1934,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "commission calculation engine",
       "id": "commission_engine"
     },
@@ -1929,7 +1947,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "express router portability",
       "id": "express_router_portability"
     },
@@ -1981,7 +1999,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "react compiler",
       "id": "react_compiler"
     },
@@ -1994,7 +2012,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 1,
+      "community": 0,
       "norm_label": "vite react swc plugin",
       "id": "vite_swc"
     },
@@ -2196,6 +2214,17 @@
       "target": "mail_service_src_nodemailer_ts"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/config/index.ts",
+      "source_location": "L6",
+      "weight": 1.0,
+      "source": "mail_service_src_config_index_ts",
+      "target": "mail_service_src_nodemailer_ts",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "context": "call",
       "confidence": "EXTRACTED",
@@ -2251,17 +2280,6 @@
       "target": "src_nodemailer_initmailguntransporter"
     },
     {
-      "relation": "calls",
-      "context": "call",
-      "confidence": "EXTRACTED",
-      "source_file": "mail-service/src/nodemailer.ts",
-      "source_location": "L38",
-      "weight": 1.0,
-      "confidence_score": 1.0,
-      "source": "src_nodemailer_createtransporter",
-      "target": "src_nodemailer_getmailconfig"
-    },
-    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -2281,6 +2299,17 @@
       "source_location": "L9",
       "weight": 1.0,
       "source": "src_index_sendemail",
+      "target": "src_nodemailer_getmailconfig"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/nodemailer.ts",
+      "source_location": "L38",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "src_nodemailer_createtransporter",
       "target": "src_nodemailer_getmailconfig"
     },
     {
@@ -2317,6 +2346,17 @@
       "target": "src_nodemailer_createtransporter"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "mail-service/src/index.ts",
+      "source_location": "L20",
+      "weight": 1.0,
+      "source": "mail_service_src_index_ts",
+      "target": "mail_service_src_config_index_ts",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "mail-service/src/index.ts",
@@ -2346,6 +2386,39 @@
       "weight": 1.0,
       "source": "services_email_service_sendwelcomeemail",
       "target": "templates_welcome_getwelcomeemailtemplate"
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/index.ts",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "email_worker_src_index_ts",
+      "target": "email_worker_src_config_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/kafka/consumer.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "email_worker_src_kafka_consumer_ts",
+      "target": "email_worker_src_config_ts",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "email-worker/src/kafka/producer.ts",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "email_worker_src_kafka_producer_ts",
+      "target": "email_worker_src_config_ts",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports_from",
@@ -4107,5 +4180,5 @@
       "source_file": "docker-compose.yml"
     }
   ],
-  "built_at_commit": "1689b5d4c764fbadc0032431e3ca46294aa4126a"
+  "built_at_commit": "8e4f30626a0d8481d26c31f0cbf3459b8a35dfe6"
 }

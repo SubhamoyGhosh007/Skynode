@@ -1,11 +1,9 @@
-
 export { config, default } from "./config/index.js";
+
+// Re-export nodemailer functions
 export {
   initMailTransporter,
   initGmailTransporter,
-  initOutlookTransporter,
-  initSendGridTransporter,
-  initMailgunTransporter,
   getTransporter,
   getMailConfig,
   getCurrentProvider,
@@ -13,10 +11,20 @@ export {
   type MailProvider,
   type MailServiceConfig
 } from "./nodemailer.js";
+
+// Future exports (uncomment when implementing)
+// export { initOutlookTransporter } from "./nodemailer.js";
+// export { initSendGridTransporter } from "./nodemailer.js";
+// export { initMailgunTransporter } from "./nodemailer.js";
+
+// Re-export templates
 export { getWelcomeEmailTemplate } from "./templates/welcome.js";
+
+// Re-export types
 export type { EmailMessage, EmailPriority, EmailType, SendEmailOptions, MailConfig } from "./types/mail.types.js";
 
-import { createTransporter, getMailConfig } from "./nodemailer.js";
+// Core email service - this is what's actually used
+import { createTransporter } from "./nodemailer.js";
 import { config } from "./config/index.js";
 
 // Initialize transporter on module load using config
@@ -33,10 +41,8 @@ const transporter = createTransporter({
 });
 
 const sendEmail = async (to: string, subject: string, html: string, text?: string) => {
-  const mailConfig = getMailConfig();
-
   const info = await transporter.sendMail({
-    from: mailConfig.from,
+    from: config.mail.from,
     to,
     subject,
     html,
@@ -52,4 +58,4 @@ export const EmailService = {
 };
 
 console.log("Mail service initialized");
-console.log("Config: ", config);
+console.log("Config:", config);

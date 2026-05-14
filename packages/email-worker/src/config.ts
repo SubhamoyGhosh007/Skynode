@@ -1,4 +1,10 @@
-import "dotenv/config";
+import dotenv from "dotenv"
+dotenv.config({
+  path: `./.env.${process.env.NODE_ENV || "development"}.local`
+})
+
+// Priority type
+type WorkerPriority = "LOW" | "MEDIUM" | "HIGH" | "ALL";
 
 export const config = {
   kafka: {
@@ -8,6 +14,7 @@ export const config = {
   },
   worker: {
     count: parseInt(process.env.WORKER_COUNT || "5", 10),
+    priority: (process.env.WORKER_PRIORITY as WorkerPriority) || "ALL",
   },
   mail: {
     provider: (process.env.MAIL_PROVIDER || "smtp") as "gmail" | "smtp" | "outlook" | "sendgrid" | "mailgun",

@@ -53,7 +53,7 @@ export const userSignUp =  asyncHandler(async(req: Request, res: Response) => {
       "LOW"
     );
 
-    // Todo: Sign In the user or redirect them to another path.
+    // TODO: Sign In the user or redirect them to another path.
 
     // Sending Response
     res

@@ -1,16 +1,16 @@
 # Graph Report - Skynode  (2026-05-10)
 
 ## Corpus Check
-- 40 files · ~40,088 words
+- 42 files · ~40,537 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 178 nodes · 186 edges · 47 communities (30 shown, 17 thin omitted)
+- 180 nodes · 191 edges · 47 communities (30 shown, 17 thin omitted)
 - Extraction: 89% EXTRACTED · 11% INFERRED · 0% AMBIGUOUS · INFERRED: 21 edges (avg confidence: 0.78)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `1689b5d4`
+- Built from commit: `8e4f3062`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -82,23 +82,23 @@
 ## Communities (47 total, 17 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.15
-Nodes (20): API Error Class, API Response Class, Async Handler Middleware, Auth Controller Index, Auth Routes, Database Connector, Express Application, IUser Interface (+12 more)
+Cohesion: 0.1
+Nodes (21): Commission Calculation Engine, Dashboard README, Database Schema Design, Docker Compose Configuration, Drizzle ORM, Express 5 API Framework, Express Router Portability, Feature Build Checklist (+13 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.11
-Nodes (20): Commission Calculation Engine, Dashboard README, Database Schema Design, Docker Compose Configuration, Drizzle ORM, Express 5 API Framework, Express Router Portability, Feature Build Checklist (+12 more)
+Cohesion: 0.16
+Nodes (19): API Error Class, API Response Class, Async Handler Middleware, Auth Controller Index, Auth Routes, Database Connector, Express Application, IUser Interface (+11 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.16
 Nodes (3): ApiError, ApiResponse, asyncHandler()
 
 ### Community 3 - "Community 3"
-Cohesion: 0.29
+Cohesion: 0.27
 Nodes (9): sendEmail(), createTransporter(), getCurrentProvider(), getMailConfig(), initGmailTransporter(), initMailgunTransporter(), initMailTransporter(), initOutlookTransporter() (+1 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.24
+Cohesion: 0.23
 Nodes (6): createConsumer(), disconnectConsumer(), subscribeToTopic(), shutdown(), start(), calculateWorkerAllocation()
 
 ### Community 6 - "Community 6"
@@ -129,11 +129,13 @@ Nodes (4): connectProducer(), getPartitionForPriority(), publishEmailMessage(), 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Implementation Plan` connect `Community 1` to `Community 0`, `Community 8`?**
-  _High betweenness centrality (0.052) - this node is a cross-community bridge._
+- **Why does `Implementation Plan` connect `Community 0` to `Community 8`?**
+  _High betweenness centrality (0.051) - this node is a cross-community bridge._
 - **Why does `Tenant Isolation via tenantId` connect `Community 0` to `Community 1`?**
-  _High betweenness centrality (0.033) - this node is a cross-community bridge._
+  _High betweenness centrality (0.032) - this node is a cross-community bridge._
+- **Why does `User Sign Up Controller` connect `Community 1` to `Community 0`?**
+  _High betweenness centrality (0.032) - this node is a cross-community bridge._
 - **What connects `SkyNode Project Root`, `Multi-Tenant RLS Strategy`, `API Routes Plan` to the rest of the system?**
   _39 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.11 - nodes in this community are weakly interconnected._
+- **Should `Community 0` be split into smaller, more focused modules?**
+  _Cohesion score 0.1 - nodes in this community are weakly interconnected._

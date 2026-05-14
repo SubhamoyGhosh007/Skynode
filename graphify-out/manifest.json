@@ -16,12 +16,16 @@
     "hash": "9b6202ef42b55bb6c92ed23e129dd38c"
   },
   "/mnt/HDD/Projects/Skynode/packages/mail-service/src/nodemailer.ts": {
-    "mtime": 1778411006.1313057,
-    "hash": "dfd299429ed45f81fafcf0870b6cd4a8"
+    "mtime": 1778413918.4734719,
+    "hash": "d0850e898e82909434d1c8be99dd4741"
   },
   "/mnt/HDD/Projects/Skynode/packages/mail-service/src/index.ts": {
-    "mtime": 1778409982.7067163,
-    "hash": "3b7df3111410363e70e73b8a700c55d0"
+    "mtime": 1778414764.0990982,
+    "hash": "1b11a95c3164032ce9a492ea112a24c0"
+  },
+  "/mnt/HDD/Projects/Skynode/packages/mail-service/src/config/index.ts": {
+    "mtime": 1778414819.2780755,
+    "hash": "4416a0c5e9d9dd028f5a3a73ce589a67"
   },
   "/mnt/HDD/Projects/Skynode/packages/mail-service/src/templates/welcome.ts": {
     "mtime": 1778397930.16464,
@@ -31,17 +35,21 @@
     "mtime": 1778397915.659869,
     "hash": "15ea43090582b44671fe5fd91791d8a5"
   },
+  "/mnt/HDD/Projects/Skynode/packages/email-worker/src/config.ts": {
+    "mtime": 1778413213.614441,
+    "hash": "69c3432a18293c7e95dcbd35e29834c1"
+  },
   "/mnt/HDD/Projects/Skynode/packages/email-worker/src/index.ts": {
-    "mtime": 1778411571.4678376,
-    "hash": "fda4f4011b5644e8f788c726a3531853"
+    "mtime": 1778414013.4005938,
+    "hash": "47e40beb7604dd8be2e1b103413849e5"
   },
   "/mnt/HDD/Projects/Skynode/packages/email-worker/src/kafka/consumer.ts": {
-    "mtime": 1778407919.6588235,
-    "hash": "694adcf82bb92ff5ddf590eec00e0eca"
+    "mtime": 1778413213.6237214,
+    "hash": "4208c0ade94925974e5701f75e0ec3d2"
   },
   "/mnt/HDD/Projects/Skynode/packages/email-worker/src/kafka/producer.ts": {
-    "mtime": 1778408871.7001297,
-    "hash": "08d229631f1b07f7786a7690a66fa6a3"
+    "mtime": 1778413213.6237214,
+    "hash": "baaf0828177375ca62d4e2ab91c7a1eb"
   },
   "/mnt/HDD/Projects/Skynode/packages/email-worker/src/services/email.service.ts": {
     "mtime": 1778410982.2710142,
