@@ -1,7 +1,7 @@
 # Graph Report - Skynode  (2026-05-14)
 
 ## Corpus Check
-- 60 files · ~41,299 words
+- 60 files · ~41,305 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `13c7409f`
+- Built from commit: `36c8c9ec`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -220,7 +220,7 @@ Nodes (15): 14. MISSING ADMIN MODALS, code:block92 (Design an "Edit Nest" modal.
 
 ### Community 23 - "Community 23"
 Cohesion: 0.15
-Nodes (12): 10. Logging System, 1. Project Overview, 4. Database Schema (Key Tables), 9. Data Collection & AI Readiness, Analytics Events Table, code:mermaid (erDiagram), code:block7 (Server Container → stdout/stderr), Detailed Reference Documents (+4 more)
+Nodes (12): 1. Project Overview, 4. Database Schema (Key Tables), 9. Data Collection & AI Readiness, Analytics Events Table, Automated Tests, code:mermaid (erDiagram), Detailed Reference Documents, Manual Verification (+4 more)
 
 ### Community 24 - "Community 24"
 Cohesion: 0.18
@@ -280,11 +280,11 @@ Nodes (8): Phase 4: Server Features (Steps 22–28), Step 22 — Server File Man
 
 ### Community 38 - "Community 38"
 Cohesion: 0.29
-Nodes (7): 12. MISSING SERVER DETAIL TABS — BUYER, code:block84 (Design the Schedules tab on a server detail page for tenant ), code:block85 (Design the Settings tab on a server detail page for tenant a), code:block86 (Design the Logs tab on a server detail page for tenant admin), Tab B-T1 — Server Schedules Tab (`/dashboard/servers/:id` → Schedules tab), Tab B-T2 — Server Settings Tab (`/dashboard/servers/:id` → Settings tab), Tab B-T3 — Server Logs Tab (`/dashboard/servers/:id` → Logs tab)
+Nodes (7): 22. CHART COMPONENTS (`components/charts/`), code:block146 (Design a LineChart component for SkyNode. Dark theme.), code:block147 (Design a DonutChart component for SkyNode. Dark theme.), code:block148 (Design a BarChart component for SkyNode. Dark theme.), Component — BarChart, Component — DonutChart, Component — LineChart
 
 ### Community 39 - "Community 39"
 Cohesion: 0.29
-Nodes (7): 22. CHART COMPONENTS (`components/charts/`), code:block146 (Design a LineChart component for SkyNode. Dark theme.), code:block147 (Design a DonutChart component for SkyNode. Dark theme.), code:block148 (Design a BarChart component for SkyNode. Dark theme.), Component — BarChart, Component — DonutChart, Component — LineChart
+Nodes (7): 12. MISSING SERVER DETAIL TABS — BUYER, code:block84 (Design the Schedules tab on a server detail page for tenant ), code:block85 (Design the Settings tab on a server detail page for tenant a), code:block86 (Design the Logs tab on a server detail page for tenant admin), Tab B-T1 — Server Schedules Tab (`/dashboard/servers/:id` → Schedules tab), Tab B-T2 — Server Settings Tab (`/dashboard/servers/:id` → Settings tab), Tab B-T3 — Server Logs Tab (`/dashboard/servers/:id` → Logs tab)
 
 ### Community 40 - "Community 40"
 Cohesion: 0.29
@@ -296,11 +296,11 @@ Nodes (7): 12. Phased Rollout Plan, Phase 1 — Foundation (Weeks 1–3), Phase 
 
 ### Community 42 - "Community 42"
 Cohesion: 0.29
-Nodes (7): Phase 2: Admin & Tenant Management (Steps 9–14), Step 10 — Master Admin: Nest & Egg Management, Step 11 — Master Admin: Regional Discounts, Step 12 — Master Admin: System Settings, Step 13 — Tenant: Branding & White-Label, Step 14 — Tenant: Egg Selection & Hosting Plans, Step 9 — Master Admin: Tenant CRUD
+Nodes (7): Phase 5: Billing & Commerce (Steps 29–34), Step 29 — Razorpay Integration Setup, Step 30 — Buyer Subscription System, Step 31 — End-Customer Payment Flow, Step 32 — Commission Engine, Step 33 — Revenue Dashboard (Admin), Step 34 — Tenant Billing Dashboard
 
 ### Community 43 - "Community 43"
 Cohesion: 0.29
-Nodes (7): Phase 5: Billing & Commerce (Steps 29–34), Step 29 — Razorpay Integration Setup, Step 30 — Buyer Subscription System, Step 31 — End-Customer Payment Flow, Step 32 — Commission Engine, Step 33 — Revenue Dashboard (Admin), Step 34 — Tenant Billing Dashboard
+Nodes (7): Phase 2: Admin & Tenant Management (Steps 9–14), Step 10 — Master Admin: Nest & Egg Management, Step 11 — Master Admin: Regional Discounts, Step 12 — Master Admin: System Settings, Step 13 — Tenant: Branding & White-Label, Step 14 — Tenant: Egg Selection & Hosting Plans, Step 9 — Master Admin: Tenant CRUD
 
 ### Community 44 - "Community 44"
 Cohesion: 0.33
@@ -332,19 +332,19 @@ Nodes (4): 8. Commission & Billing Logic, code:block5 (For each end-customer ser
 
 ### Community 53 - "Community 53"
 Cohesion: 0.5
-Nodes (4): 11. Monorepo Structure (Gateway-Ready), code:block8 (skynode/), code:block9 (# To extract billing into its own service:), Service Extraction Pattern (Phase 3+)
+Nodes (4): 7. Nest & Egg System, code:jsonc ({), Egg JSON Schema, Supported Games/Applications (Initial Set — matching Pterodactyl)
 
 ### Community 54 - "Community 54"
 Cohesion: 0.5
-Nodes (4): 7. Nest & Egg System, code:jsonc ({), Egg JSON Schema, Supported Games/Applications (Initial Set — matching Pterodactyl)
+Nodes (4): 11. Monorepo Structure (Gateway-Ready), code:block8 (skynode/), code:block9 (# To extract billing into its own service:), Service Extraction Pattern (Phase 3+)
 
 ### Community 56 - "Community 56"
 Cohesion: 0.67
-Nodes (3): Automated Tests, Manual Verification, Verification Plan
+Nodes (3): 3. System Architecture, code:mermaid (graph TB), Key Architectural Decisions
 
 ### Community 57 - "Community 57"
 Cohesion: 0.67
-Nodes (3): 3. System Architecture, code:mermaid (graph TB), Key Architectural Decisions
+Nodes (3): 10. Logging System, code:block7 (Server Container → stdout/stderr), Log Architecture
 
 ## Knowledge Gaps
 - **396 isolated node(s):** `MailServiceConfig`, `transporter`, `EmailService`, `WorkerPriority`, `PARTITION_PRIORITY_MAP` (+391 more)

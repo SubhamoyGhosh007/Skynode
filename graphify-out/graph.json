@@ -394,7 +394,7 @@
       "label": "config",
       "file_type": "code",
       "source_file": "packages/auto-scaler/src/config.ts",
-      "source_location": "L4",
+      "source_location": "L8",
       "id": "src_config_config",
       "community": 0,
       "norm_label": "config"
@@ -412,7 +412,7 @@
       "label": "shutdown()",
       "file_type": "code",
       "source_file": "packages/auto-scaler/src/index.ts",
-      "source_location": "L101",
+      "source_location": "L100",
       "id": "src_index_shutdown",
       "community": 0,
       "norm_label": "shutdown()"
@@ -421,7 +421,7 @@
       "label": "start()",
       "file_type": "code",
       "source_file": "packages/auto-scaler/src/index.ts",
-      "source_location": "L88",
+      "source_location": "L87",
       "id": "src_index_start",
       "community": 0,
       "norm_label": "start()"
@@ -1051,7 +1051,7 @@
       "label": "calculateTargetWorkers()",
       "file_type": "code",
       "source_file": "packages/auto-scaler/src/index.ts",
-      "source_location": "L14",
+      "source_location": "L13",
       "id": "src_index_calculatetargetworkers",
       "community": 10,
       "norm_label": "calculatetargetworkers()"
@@ -1060,7 +1060,7 @@
       "label": "runScalingLoop()",
       "file_type": "code",
       "source_file": "packages/auto-scaler/src/index.ts",
-      "source_location": "L54",
+      "source_location": "L53",
       "id": "src_index_runscalingloop",
       "community": 10,
       "norm_label": "runscalingloop()"
@@ -4284,7 +4284,7 @@
       "source_file": "docs/pages_and_prompts.md",
       "source_location": "L1380",
       "id": "docs_pages_and_prompts_12_missing_server_detail_tabs_buyer",
-      "community": 38,
+      "community": 39,
       "norm_label": "12. missing server detail tabs \u2014 buyer"
     },
     {
@@ -4293,7 +4293,7 @@
       "source_file": "docs/pages_and_prompts.md",
       "source_location": "L1382",
       "id": "docs_pages_and_prompts_tab_b_t1_server_schedules_tab_dashboard_servers_id_schedules_tab",
-      "community": 38,
+      "community": 39,
       "norm_label": "tab b-t1 \u2014 server schedules tab (`/dashboard/servers/:id` \u2192 schedules tab)"
     },
     {
@@ -4302,7 +4302,7 @@
       "source_file": "docs/pages_and_prompts.md",
       "source_location": "L1384",
       "id": "docs_pages_and_prompts_codeblock_84",
-      "community": 38,
+      "community": 39,
       "norm_label": "code:block84 (design the schedules tab on a server detail page for tenant )"
     },
     {
@@ -4311,7 +4311,7 @@
       "source_file": "docs/pages_and_prompts.md",
       "source_location": "L1401",
       "id": "docs_pages_and_prompts_tab_b_t2_server_settings_tab_dashboard_servers_id_settings_tab",
-      "community": 38,
+      "community": 39,
       "norm_label": "tab b-t2 \u2014 server settings tab (`/dashboard/servers/:id` \u2192 settings tab)"
     },
     {
@@ -4320,7 +4320,7 @@
       "source_file": "docs/pages_and_prompts.md",
       "source_location": "L1403",
       "id": "docs_pages_and_prompts_codeblock_85",
-      "community": 38,
+      "community": 39,
       "norm_label": "code:block85 (design the settings tab on a server detail page for tenant a)"
     },
     {
@@ -4329,7 +4329,7 @@
       "source_file": "docs/pages_and_prompts.md",
       "source_location": "L1433",
       "id": "docs_pages_and_prompts_tab_b_t3_server_logs_tab_dashboard_servers_id_logs_tab",
-      "community": 38,
+      "community": 39,
       "norm_label": "tab b-t3 \u2014 server logs tab (`/dashboard/servers/:id` \u2192 logs tab)"
     },
     {
@@ -4338,7 +4338,7 @@
       "source_file": "docs/pages_and_prompts.md",
       "source_location": "L1435",
       "id": "docs_pages_and_prompts_codeblock_86",
-      "community": 38,
+      "community": 39,
       "norm_label": "code:block86 (design the logs tab on a server detail page for tenant admin)"
     },
     {
@@ -5490,7 +5490,7 @@
       "source_file": "docs/pages_and_prompts.md",
       "source_location": "L2511",
       "id": "docs_pages_and_prompts_22_chart_components_components_charts",
-      "community": 39,
+      "community": 38,
       "norm_label": "22. chart components (`components/charts/`)"
     },
     {
@@ -5499,7 +5499,7 @@
       "source_file": "docs/pages_and_prompts.md",
       "source_location": "L2513",
       "id": "docs_pages_and_prompts_component_linechart",
-      "community": 39,
+      "community": 38,
       "norm_label": "component \u2014 linechart"
     },
     {
@@ -5508,7 +5508,7 @@
       "source_file": "docs/pages_and_prompts.md",
       "source_location": "L2515",
       "id": "docs_pages_and_prompts_codeblock_146",
-      "community": 39,
+      "community": 38,
       "norm_label": "code:block146 (design a linechart component for skynode. dark theme.)"
     },
     {
@@ -5517,7 +5517,7 @@
       "source_file": "docs/pages_and_prompts.md",
       "source_location": "L2536",
       "id": "docs_pages_and_prompts_component_donutchart",
-      "community": 39,
+      "community": 38,
       "norm_label": "component \u2014 donutchart"
     },
     {
@@ -5526,7 +5526,7 @@
       "source_file": "docs/pages_and_prompts.md",
       "source_location": "L2538",
       "id": "docs_pages_and_prompts_codeblock_147",
-      "community": 39,
+      "community": 38,
       "norm_label": "code:block147 (design a donutchart component for skynode. dark theme.)"
     },
     {
@@ -5535,7 +5535,7 @@
       "source_file": "docs/pages_and_prompts.md",
       "source_location": "L2556",
       "id": "docs_pages_and_prompts_component_barchart",
-      "community": 39,
+      "community": 38,
       "norm_label": "component \u2014 barchart"
     },
     {
@@ -5544,7 +5544,7 @@
       "source_file": "docs/pages_and_prompts.md",
       "source_location": "L2558",
       "id": "docs_pages_and_prompts_codeblock_148",
-      "community": 39,
+      "community": 38,
       "norm_label": "code:block148 (design a barchart component for skynode. dark theme.)"
     },
     {
@@ -5886,7 +5886,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L113",
       "id": "docs_implementation_plan_3_system_architecture",
-      "community": 57,
+      "community": 56,
       "norm_label": "3. system architecture"
     },
     {
@@ -5895,7 +5895,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L115",
       "id": "docs_implementation_plan_codeblock_2",
-      "community": 57,
+      "community": 56,
       "norm_label": "code:mermaid (graph tb)"
     },
     {
@@ -5904,7 +5904,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L157",
       "id": "docs_implementation_plan_key_architectural_decisions",
-      "community": 57,
+      "community": 56,
       "norm_label": "key architectural decisions"
     },
     {
@@ -6030,7 +6030,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L442",
       "id": "docs_implementation_plan_7_nest_egg_system",
-      "community": 54,
+      "community": 53,
       "norm_label": "7. nest & egg system"
     },
     {
@@ -6039,7 +6039,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L446",
       "id": "docs_implementation_plan_egg_json_schema",
-      "community": 54,
+      "community": 53,
       "norm_label": "egg json schema"
     },
     {
@@ -6048,7 +6048,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L448",
       "id": "docs_implementation_plan_codeblock_4",
-      "community": 54,
+      "community": 53,
       "norm_label": "code:jsonc ({)"
     },
     {
@@ -6057,7 +6057,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L485",
       "id": "docs_implementation_plan_supported_games_applications_initial_set_matching_pterodactyl",
-      "community": 54,
+      "community": 53,
       "norm_label": "supported games/applications (initial set \u2014 matching pterodactyl)"
     },
     {
@@ -6120,7 +6120,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L556",
       "id": "docs_implementation_plan_10_logging_system",
-      "community": 23,
+      "community": 57,
       "norm_label": "10. logging system"
     },
     {
@@ -6129,7 +6129,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L560",
       "id": "docs_implementation_plan_log_architecture",
-      "community": 23,
+      "community": 57,
       "norm_label": "log architecture"
     },
     {
@@ -6138,7 +6138,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L562",
       "id": "docs_implementation_plan_codeblock_7",
-      "community": 23,
+      "community": 57,
       "norm_label": "code:block7 (server container \u2192 stdout/stderr)"
     },
     {
@@ -6147,7 +6147,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L580",
       "id": "docs_implementation_plan_11_monorepo_structure_gateway_ready",
-      "community": 53,
+      "community": 54,
       "norm_label": "11. monorepo structure (gateway-ready)"
     },
     {
@@ -6156,7 +6156,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L582",
       "id": "docs_implementation_plan_codeblock_8",
-      "community": 53,
+      "community": 54,
       "norm_label": "code:block8 (skynode/)"
     },
     {
@@ -6165,7 +6165,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L635",
       "id": "docs_implementation_plan_service_extraction_pattern_phase_3",
-      "community": 53,
+      "community": 54,
       "norm_label": "service extraction pattern (phase 3+)"
     },
     {
@@ -6174,7 +6174,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L637",
       "id": "docs_implementation_plan_codeblock_9",
-      "community": 53,
+      "community": 54,
       "norm_label": "code:block9 (# to extract billing into its own service:)"
     },
     {
@@ -6264,7 +6264,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L719",
       "id": "docs_implementation_plan_verification_plan",
-      "community": 56,
+      "community": 23,
       "norm_label": "verification plan"
     },
     {
@@ -6273,7 +6273,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L721",
       "id": "docs_implementation_plan_automated_tests",
-      "community": 56,
+      "community": 23,
       "norm_label": "automated tests"
     },
     {
@@ -6282,7 +6282,7 @@
       "source_file": "docs/implementation_plan.md",
       "source_location": "L726",
       "id": "docs_implementation_plan_manual_verification",
-      "community": 56,
+      "community": 23,
       "norm_label": "manual verification"
     },
     {
@@ -6390,7 +6390,7 @@
       "source_file": "docs/feature_checklist.md",
       "source_location": "L110",
       "id": "docs_feature_checklist_phase_2_admin_tenant_management_steps_9_14",
-      "community": 42,
+      "community": 43,
       "norm_label": "phase 2: admin & tenant management (steps 9\u201314)"
     },
     {
@@ -6399,7 +6399,7 @@
       "source_file": "docs/feature_checklist.md",
       "source_location": "L112",
       "id": "docs_feature_checklist_step_9_master_admin_tenant_crud",
-      "community": 42,
+      "community": 43,
       "norm_label": "step 9 \u2014 master admin: tenant crud"
     },
     {
@@ -6408,7 +6408,7 @@
       "source_file": "docs/feature_checklist.md",
       "source_location": "L124",
       "id": "docs_feature_checklist_step_10_master_admin_nest_egg_management",
-      "community": 42,
+      "community": 43,
       "norm_label": "step 10 \u2014 master admin: nest & egg management"
     },
     {
@@ -6417,7 +6417,7 @@
       "source_file": "docs/feature_checklist.md",
       "source_location": "L134",
       "id": "docs_feature_checklist_step_11_master_admin_regional_discounts",
-      "community": 42,
+      "community": 43,
       "norm_label": "step 11 \u2014 master admin: regional discounts"
     },
     {
@@ -6426,7 +6426,7 @@
       "source_file": "docs/feature_checklist.md",
       "source_location": "L139",
       "id": "docs_feature_checklist_step_12_master_admin_system_settings",
-      "community": 42,
+      "community": 43,
       "norm_label": "step 12 \u2014 master admin: system settings"
     },
     {
@@ -6435,7 +6435,7 @@
       "source_file": "docs/feature_checklist.md",
       "source_location": "L144",
       "id": "docs_feature_checklist_step_13_tenant_branding_white_label",
-      "community": 42,
+      "community": 43,
       "norm_label": "step 13 \u2014 tenant: branding & white-label"
     },
     {
@@ -6444,7 +6444,7 @@
       "source_file": "docs/feature_checklist.md",
       "source_location": "L152",
       "id": "docs_feature_checklist_step_14_tenant_egg_selection_hosting_plans",
-      "community": 42,
+      "community": 43,
       "norm_label": "step 14 \u2014 tenant: egg selection & hosting plans"
     },
     {
@@ -6597,7 +6597,7 @@
       "source_file": "docs/feature_checklist.md",
       "source_location": "L293",
       "id": "docs_feature_checklist_phase_5_billing_commerce_steps_29_34",
-      "community": 43,
+      "community": 42,
       "norm_label": "phase 5: billing & commerce (steps 29\u201334)"
     },
     {
@@ -6606,7 +6606,7 @@
       "source_file": "docs/feature_checklist.md",
       "source_location": "L295",
       "id": "docs_feature_checklist_step_29_razorpay_integration_setup",
-      "community": 43,
+      "community": 42,
       "norm_label": "step 29 \u2014 razorpay integration setup"
     },
     {
@@ -6615,7 +6615,7 @@
       "source_file": "docs/feature_checklist.md",
       "source_location": "L302",
       "id": "docs_feature_checklist_step_30_buyer_subscription_system",
-      "community": 43,
+      "community": 42,
       "norm_label": "step 30 \u2014 buyer subscription system"
     },
     {
@@ -6624,7 +6624,7 @@
       "source_file": "docs/feature_checklist.md",
       "source_location": "L312",
       "id": "docs_feature_checklist_step_31_end_customer_payment_flow",
-      "community": 43,
+      "community": 42,
       "norm_label": "step 31 \u2014 end-customer payment flow"
     },
     {
@@ -6633,7 +6633,7 @@
       "source_file": "docs/feature_checklist.md",
       "source_location": "L319",
       "id": "docs_feature_checklist_step_32_commission_engine",
-      "community": 43,
+      "community": 42,
       "norm_label": "step 32 \u2014 commission engine"
     },
     {
@@ -6642,7 +6642,7 @@
       "source_file": "docs/feature_checklist.md",
       "source_location": "L326",
       "id": "docs_feature_checklist_step_33_revenue_dashboard_admin",
-      "community": 43,
+      "community": 42,
       "norm_label": "step 33 \u2014 revenue dashboard (admin)"
     },
     {
@@ -6651,7 +6651,7 @@
       "source_file": "docs/feature_checklist.md",
       "source_location": "L333",
       "id": "docs_feature_checklist_step_34_tenant_billing_dashboard",
-      "community": 43,
+      "community": 42,
       "norm_label": "step 34 \u2014 tenant billing dashboard"
     },
     {
@@ -18223,5 +18223,5 @@
       "source_file": "docker-compose.yml"
     }
   ],
-  "built_at_commit": "13c7409fc0b3686d232b5891b8fbc7be8395102a"
+  "built_at_commit": "36c8c9ecce0f9c1feeb6979c6bfc75bd9a4194ef"
 }
