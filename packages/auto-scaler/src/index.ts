@@ -1,4 +1,3 @@
-import "dotenv/config";
 import config from "./config.js";
 import { getLagByPriority, disconnect as disconnectKafka } from "./services/kafka-lag.js";
 import {

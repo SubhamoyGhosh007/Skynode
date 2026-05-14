@@ -10,7 +10,7 @@
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `60c625d6`
+- Built from commit: `13c7409f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -260,11 +260,11 @@ Nodes (9): 16. MISSING CUSTOMER PANEL MODALS, code:block111 (Design a delete bac
 
 ### Community 33 - "Community 33"
 Cohesion: 0.22
-Nodes (9): Phase 1: Foundation (Steps 1–8), Step 1 — Monorepo & Tooling Setup, Step 2 — Shared Package, Step 3 — Database Schema & Migrations, Step 4 — Express API Boilerplate, Step 5 — Authentication System, Step 6 — RBAC & Tenant Context, Step 7 — React + Vite Dashboard Boilerplate (+1 more)
+Nodes (9): Phase 6: Monitoring, Analytics & Polish (Steps 35–42), Step 35 — Backup System, Step 36 — Prometheus Metrics (Daemon), Step 37 — Analytics Event Collection, Step 38 — Admin Analytics Dashboard, Step 39 — Tenant Statistics Dashboard, Step 40 — Admin Overview Dashboard, Step 41 — Security & Testing (+1 more)
 
 ### Community 34 - "Community 34"
 Cohesion: 0.22
-Nodes (9): Phase 6: Monitoring, Analytics & Polish (Steps 35–42), Step 35 — Backup System, Step 36 — Prometheus Metrics (Daemon), Step 37 — Analytics Event Collection, Step 38 — Admin Analytics Dashboard, Step 39 — Tenant Statistics Dashboard, Step 40 — Admin Overview Dashboard, Step 41 — Security & Testing (+1 more)
+Nodes (9): Phase 1: Foundation (Steps 1–8), Step 1 — Monorepo & Tooling Setup, Step 2 — Shared Package, Step 3 — Database Schema & Migrations, Step 4 — Express API Boilerplate, Step 5 — Authentication System, Step 6 — RBAC & Tenant Context, Step 7 — React + Vite Dashboard Boilerplate (+1 more)
 
 ### Community 35 - "Community 35"
 Cohesion: 0.36
@@ -272,11 +272,11 @@ Nodes (9): Analytics Ingestion Service, Billing Service Extraction, Daemon Hub S
 
 ### Community 36 - "Community 36"
 Cohesion: 0.25
-Nodes (8): Phase 4: Server Features (Steps 22–28), Step 22 — Server File Manager (SFTP), Step 23 — Server Logging System, Step 24 — Server Environment Variables, Step 25 — Server Schedules (Cron Tasks), Step 26 — Customer API Keys, Step 27 — Tenant Customer Management, Step 28 — Customer Panel (End Customer Pages)
+Nodes (8): Phase 3: Node & Daemon (Steps 15–21), Step 15 — Daemon Scaffold, Step 16 — Daemon ↔ Panel Handshake, Step 17 — Node Management (Tenant), Step 18 — Docker Container Lifecycle, Step 19 — Server Creation, Step 20 — Server Power Actions, Step 21 — Console WebSocket Streaming
 
 ### Community 37 - "Community 37"
 Cohesion: 0.25
-Nodes (8): Phase 3: Node & Daemon (Steps 15–21), Step 15 — Daemon Scaffold, Step 16 — Daemon ↔ Panel Handshake, Step 17 — Node Management (Tenant), Step 18 — Docker Container Lifecycle, Step 19 — Server Creation, Step 20 — Server Power Actions, Step 21 — Console WebSocket Streaming
+Nodes (8): Phase 4: Server Features (Steps 22–28), Step 22 — Server File Manager (SFTP), Step 23 — Server Logging System, Step 24 — Server Environment Variables, Step 25 — Server Schedules (Cron Tasks), Step 26 — Customer API Keys, Step 27 — Tenant Customer Management, Step 28 — Customer Panel (End Customer Pages)
 
 ### Community 38 - "Community 38"
 Cohesion: 0.29
@@ -296,11 +296,11 @@ Nodes (7): 12. Phased Rollout Plan, Phase 1 — Foundation (Weeks 1–3), Phase 
 
 ### Community 42 - "Community 42"
 Cohesion: 0.29
-Nodes (7): Phase 5: Billing & Commerce (Steps 29–34), Step 29 — Razorpay Integration Setup, Step 30 — Buyer Subscription System, Step 31 — End-Customer Payment Flow, Step 32 — Commission Engine, Step 33 — Revenue Dashboard (Admin), Step 34 — Tenant Billing Dashboard
+Nodes (7): Phase 2: Admin & Tenant Management (Steps 9–14), Step 10 — Master Admin: Nest & Egg Management, Step 11 — Master Admin: Regional Discounts, Step 12 — Master Admin: System Settings, Step 13 — Tenant: Branding & White-Label, Step 14 — Tenant: Egg Selection & Hosting Plans, Step 9 — Master Admin: Tenant CRUD
 
 ### Community 43 - "Community 43"
 Cohesion: 0.29
-Nodes (7): Phase 2: Admin & Tenant Management (Steps 9–14), Step 10 — Master Admin: Nest & Egg Management, Step 11 — Master Admin: Regional Discounts, Step 12 — Master Admin: System Settings, Step 13 — Tenant: Branding & White-Label, Step 14 — Tenant: Egg Selection & Hosting Plans, Step 9 — Master Admin: Tenant CRUD
+Nodes (7): Phase 5: Billing & Commerce (Steps 29–34), Step 29 — Razorpay Integration Setup, Step 30 — Buyer Subscription System, Step 31 — End-Customer Payment Flow, Step 32 — Commission Engine, Step 33 — Revenue Dashboard (Admin), Step 34 — Tenant Billing Dashboard
 
 ### Community 44 - "Community 44"
 Cohesion: 0.33
@@ -328,7 +328,7 @@ Nodes (5): 6.1 Public / Marketing, 6.2 Master Admin Dashboard, 6.3 Buyer (Tenant
 
 ### Community 52 - "Community 52"
 Cohesion: 0.5
-Nodes (4): 7. Nest & Egg System, code:jsonc ({), Egg JSON Schema, Supported Games/Applications (Initial Set — matching Pterodactyl)
+Nodes (4): 8. Commission & Billing Logic, code:block5 (For each end-customer server sale:), code:mermaid (sequenceDiagram), Razorpay Integration Flow
 
 ### Community 53 - "Community 53"
 Cohesion: 0.5
@@ -336,7 +336,7 @@ Nodes (4): 11. Monorepo Structure (Gateway-Ready), code:block8 (skynode/), code:
 
 ### Community 54 - "Community 54"
 Cohesion: 0.5
-Nodes (4): 8. Commission & Billing Logic, code:block5 (For each end-customer server sale:), code:mermaid (sequenceDiagram), Razorpay Integration Flow
+Nodes (4): 7. Nest & Egg System, code:jsonc ({), Egg JSON Schema, Supported Games/Applications (Initial Set — matching Pterodactyl)
 
 ### Community 56 - "Community 56"
 Cohesion: 0.67

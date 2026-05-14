@@ -1,5 +1,9 @@
-import "dotenv/config";
+import dotenv from "dotenv";
 import type { ScalingThresholds, WorkerPriority } from "./types/scale.types.js";
+
+dotenv.config({
+  path: `.env.${process.env.NODE_ENV || "development"}.local`,
+});
 
 export const config = {
   kafka: {

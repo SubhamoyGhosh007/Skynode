@@ -8,7 +8,8 @@
     "daemon": "pnpm --filter @skynode/daemon dev",
     "dev": "pnpm -r --parallel dev",
     "mail": "pnpm --filter @skynode/mail-service dev",
-    "mail_worker": "pnpm --filter @skynode/email-worker dev"
+    "mail_worker": "pnpm --filter @skynode/email-worker dev",
+    "auto_scaler": "pnpm --filter @skynode/auto-scaler dev"
   },
   "devDependencies": {
     "@types/node": "^25.6.0",
